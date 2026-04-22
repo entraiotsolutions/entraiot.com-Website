@@ -1,12 +1,12 @@
 import Link from "next/link";
-import { 
-  Truck, 
-  Factory, 
-  Hotel, 
-  Zap, 
-  Building2, 
-  Heart, 
-  ShoppingCart, 
+import {
+  Truck,
+  Factory,
+  Hotel,
+  Zap,
+  Building2,
+  Heart,
+  ShoppingCart,
   Leaf,
   ArrowRight,
   TrendingUp,
@@ -163,10 +163,10 @@ export default function Industries() {
       </div>
 
       {/* Cursor Connector Overlay */}
-      <CursorConnector 
-        maxDistance={250} 
-        lineColor="#6366f1" 
-        lineOpacity={0.4} 
+      <CursorConnector
+        maxDistance={250}
+        lineColor="#6366f1"
+        lineOpacity={0.4}
         lineWidth={1.5}
         className="absolute inset-0"
       />
@@ -182,7 +182,7 @@ export default function Industries() {
             Transforming <span className="bg-gradient-to-r from-primary to-green-600 bg-clip-text text-transparent">Industries</span> with IoT Intelligence
           </h2>
           <p className="text-xl md:text-2xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
-            From logistics to healthcare, our <span className="text-primary font-semibold">IoT solutions</span> are designed to meet 
+            From logistics to healthcare, our <span className="text-primary font-semibold">IoT solutions</span> are designed to meet
             the unique challenges and opportunities of diverse industries.
           </p>
         </div>
@@ -191,58 +191,53 @@ export default function Industries() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-20">
           {industries.map((industry, index) => {
             const Icon = industry.icon;
-            // Determine animation direction based on position
-            const getDirection = () => {
-              const row = Math.floor(index / 4);
-              const col = index % 4;
-              // Alternate directions for visual interest
-              if (row === 0) {
-                if (col === 0) return "left";
-                if (col === 1) return "up";
-                if (col === 2) return "up";
-                return "right";
-              } else {
-                if (col === 0) return "left";
-                if (col === 1) return "down";
-                if (col === 2) return "down";
-                return "right";
-              }
-            };
-            
             return (
               <ScrollAnimation
                 key={index}
-                direction={getDirection()}
-                delay={0.2 + index * 0.1}
-                duration={0.6}
-                once={false}
+                direction="up"
+                delay={0.1 + index * 0.05}
+                duration={0.4}
+                once={true}
               >
-                <Link href={industry.href}>
-                  <Card className={`group card-hover card-glow ${industry.bgColor} border-2 ${industry.borderColor} h-full backdrop-blur-sm cursor-pointer transition-all duration-300 hover:shadow-xl hover:scale-[1.02]`}>
-                    <CardHeader className="space-y-4">
-                      <div className={`w-16 h-16 ${industry.iconBg} rounded-2xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300 shadow-lg`}>
-                        <Icon className={`h-8 w-8 ${industry.color}`} />
-                      </div>
-                      <div className="flex items-center justify-between">
-                        <CardTitle className="text-lg font-bold text-foreground group-hover:text-primary transition-colors">
+                <Link href={industry.href} className="block h-full outline-none">
+                  <Card className={`group ${industry.bgColor} border ${industry.borderColor} h-[340px] shadow-sm hover:shadow-lg transition-all duration-500 rounded-3xl overflow-hidden relative cursor-pointer`}>
+                    
+                    {/* DEFAULT STATE: Massive Centered Topic */}
+                    <div className="absolute inset-0 p-6 flex flex-col items-center justify-center transition-all duration-500 group-hover:-translate-y-12 group-hover:opacity-0 group-hover:scale-95 z-10 opacity-100 translate-y-0 scale-100">
+                        <div className={`w-28 h-28 ${industry.iconBg} rounded-[2rem] flex items-center justify-center mb-6 shadow-sm`}>
+                          <Icon className={`h-14 w-14 animate-icon-dance ${industry.color}`} style={{ animationDelay: `${index * 0.2}s` }} />
+                        </div>
+                        <CardTitle className="text-2xl font-extrabold text-foreground tracking-tight text-center">
                           {industry.title}
                         </CardTitle>
-                        <ArrowRight className="h-5 w-5 text-muted-foreground group-hover:text-primary group-hover:translate-x-1 transition-all duration-300 opacity-0 group-hover:opacity-100" />
+                    </div>
+
+                    {/* HOVER STATE: Information Reveal Overlay */}
+                    <div className="absolute inset-0 p-6 flex flex-col transition-all duration-500 translate-y-12 opacity-0 scale-105 group-hover:translate-y-0 group-hover:opacity-100 group-hover:scale-100 z-20 bg-white/95 dark:bg-black/95 backdrop-blur-xl">
+                      <div className="flex items-center space-x-4 mb-5 border-b pb-4 border-border/40">
+                        <div className={`w-12 h-12 flex-shrink-0 ${industry.iconBg} rounded-xl flex items-center justify-center`}>
+                          <Icon className={`h-6 w-6 ${industry.color}`} />
+                        </div>
+                        <CardTitle className="text-[1.15rem] font-bold text-foreground tracking-tight">
+                          {industry.title}
+                        </CardTitle>
                       </div>
-                    </CardHeader>
-                    <CardContent className="space-y-4">
-                      <p className="text-muted-foreground text-sm leading-relaxed">
-                        {industry.description}
-                      </p>
-                      <ul className="space-y-2">
-                        {industry.benefits.map((benefit, benefitIndex) => (
-                          <li key={benefitIndex} className="flex items-center space-x-2 text-xs">
-                            <TrendingUp className="h-3 w-3 text-primary flex-shrink-0" />
-                            <span className="text-muted-foreground">{benefit}</span>
-                          </li>
-                        ))}
-                      </ul>
-                    </CardContent>
+                      
+                      <div className="flex-1 overflow-visible">
+                        <p className="text-muted-foreground text-[13.5px] leading-relaxed mb-4">
+                          {industry.description}
+                        </p>
+                        <ul className="space-y-2.5">
+                          {industry.benefits.map((benefit, benefitIndex) => (
+                            <li key={benefitIndex} className="flex items-start space-x-2 text-[12.5px]">
+                              <TrendingUp className={`h-3.5 w-3.5 flex-shrink-0 mt-0.5 opacity-80 ${industry.color}`} />
+                              <span className="text-muted-foreground font-semibold leading-tight">{benefit}</span>
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+                    </div>
+
                   </Card>
                 </Link>
               </ScrollAnimation>
@@ -264,10 +259,10 @@ export default function Industries() {
               Proven Results Across <span className="bg-gradient-to-r from-primary to-green-600 bg-clip-text text-transparent">Industries</span>
             </h3>
             <p className="text-xl text-muted-foreground mb-12 max-w-3xl mx-auto leading-relaxed">
-              Our IoT solutions have consistently delivered measurable improvements 
+              Our IoT solutions have consistently delivered measurable improvements
               in efficiency, cost reduction and operational excellence.
             </p>
-            
+
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div className="text-center space-y-2">
                 <div className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-primary to-blue-600 bg-clip-text text-transparent">
@@ -312,11 +307,11 @@ export default function Industries() {
                   Ready to <span className="bg-gradient-to-r from-primary to-green-600 bg-clip-text text-transparent">Revolutionize</span> Your Industry?
                 </h3>
                 <p className="text-xl text-muted-foreground leading-relaxed">
-                  Let&apos;s discuss how our IoT solutions can address your specific industry 
+                  Let&apos;s discuss how our IoT solutions can address your specific industry
                   challenges and unlock new opportunities for growth.
                 </p>
               </div>
-              
+
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button size="lg" className="group gradient-primary text-primary-foreground hover:opacity-90 transition-opacity">
                   <Link href="/contact" className="flex items-center">
@@ -330,7 +325,7 @@ export default function Industries() {
                   </Link>
                 </Button>
               </div>
-              
+
               <div className="text-center">
                 <p className="text-sm text-muted-foreground mb-4">
                   See how we&apos;ve helped companies in your industry succeed
@@ -341,7 +336,7 @@ export default function Industries() {
                   </Link>
                 </Button>
               </div>
-              
+
               <div className="flex items-center justify-center space-x-8 pt-6 border-t border-border/50">
                 <div className="text-center">
                   <div className="text-2xl font-bold text-foreground">
