@@ -165,35 +165,52 @@ export default function Solutions() {
         </div>
         {/* Enhanced Solutions Grid */}
         <ScrollStagger staggerDelay={0.15} childDelay={0.8}>
-          <div className="grid grid-cols-1 md:grid-cols-2 **lg:grid-cols-[repeat(3,minmax(0,1fr))]** gap-6 mb-20">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-20 auto-rows-[minmax(280px,auto)]">
             {solutions.map((solution, index) => {
               const Icon = solution.icon;
+              // Jomor style Bento Box logic: Alternating wide and square cards to create a sleek asymmetric layout perfectly filling a 3-col grid
+              const isWide = index === 0 || index === 3 || index === 4;
+              const bentoClass = isWide ? "md:col-span-2 lg:col-span-2" : "col-span-1 md:col-span-1 lg:col-span-1";
+
               return (
-                <div key={index} id={solution.id || undefined} className="h-full scroll-mt-20">
+                <div key={index} id={solution.id || undefined} className={`h-full scroll-mt-20 ${bentoClass}`}>
                   <GlowEffect color={solution.glowColor} intensity={0}>
-                    <div className="h-full rounded-3xl p-0.5 border border-border/20 bg-background/40 backdrop-blur-sm overflow-hidden">
+                    <div className="h-full rounded-[2rem] p-0.5 border border-border/20 bg-background/40 backdrop-blur-sm overflow-hidden group/bento">
                       <RippleEffect color={solution.glowColor}>
-                        <Card className={`group card-glow ${solution.bgColor} border ${solution.borderColor} hover:border-opacity-30 hover:shadow-sm backdrop-blur-sm transition-all duration-300 h-full flex flex-col`}>
-                          <CardHeader className="space-y-6">
-                            <Magnetic strength={0.15}>
-                              <FloatingElement intensity={5} speed={3}>
-                                <div className={`w-16 h-16 ${solution.iconBg} rounded-2xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300 shadow-lg`}>
-                                  <Icon className={`h-8 w-8 ${solution.color}`} />
-                                </div>
-                              </FloatingElement>
-                            </Magnetic>
-                            <CardTitle className="text-xl font-bold text-foreground group-hover:text-primary transition-colors">
+                        <Card className={`group/card ${solution.bgColor} border-0 shadow-lg hover:shadow-2xl hover:-translate-y-1 backdrop-blur-sm transition-all duration-500 h-full flex flex-col overflow-hidden relative rounded-[calc(2rem-2px)]`}>
+                          
+                          {/* Webflow/Jomor style oversized background watermark icon */}
+                          <div className="absolute -right-8 -bottom-8 opacity-[0.03] group-hover/card:scale-125 group-hover/card:-rotate-12 group-hover/card:opacity-[0.06] transition-all duration-700 ease-out pointer-events-none z-0">
+                            <Icon className={`w-64 h-64 ${solution.color}`} />
+                          </div>
+
+                          <CardHeader className={`space-y-6 relative z-10 ${isWide ? 'p-8 md:p-10' : 'p-8'}`}>
+                            <div className="flex flex-col sm:flex-row sm:items-start justify-between gap-6">
+                              <Magnetic strength={0.15}>
+                                <FloatingElement intensity={5} speed={3}>
+                                  <div className={`w-14 h-14 ${solution.iconBg} rounded-2xl flex items-center justify-center group-hover/card:scale-110 group-hover/card:-rotate-6 transition-transform duration-500 shadow-md border border-white/10`}>
+                                    <Icon className={`h-7 w-7 ${solution.color}`} />
+                                  </div>
+                                </FloatingElement>
+                              </Magnetic>
+                            </div>
+                            <CardTitle className="text-2xl font-bold text-foreground tracking-tight group-hover/card:text-primary transition-colors">
                               {solution.title}
                             </CardTitle>
                           </CardHeader>
-                          <CardContent className="space-y-4">
-                            {/* NEW CHANGE: Increased minimum height to prevent card height differences */}
-                            <p className="text-muted-foreground leading-relaxed **min-h-[160px]**">{solution.description}</p>
-                            <ul className="space-y-2">
+                          
+                          <CardContent className={`space-y-6 relative z-10 flex-1 flex flex-col ${isWide ? 'px-8 md:px-10 pb-8 md:pb-10' : 'px-8 pb-8'}`}>
+                            <p className="text-muted-foreground leading-relaxed text-[15px] flex-1">
+                              {solution.description}
+                            </p>
+                            
+                            <ul className={`grid gap-3 pt-4 border-t ${solution.borderColor} ${isWide ? 'grid-cols-1 sm:grid-cols-2' : 'grid-cols-1'}`}>
                               {solution.features.map((feature, featureIndex) => (
-                                <li key={featureIndex} className="flex items-center space-x-3 text-sm">
-                                  <CheckCircle className="h-4 w-4 text-primary flex-shrink-0" />
-                                  <span className="text-muted-foreground">{feature}</span>
+                                <li key={featureIndex} className="flex items-center space-x-3 text-[14px] font-medium">
+                                  <div className={`w-5 h-5 rounded-full ${solution.iconBg} flex items-center justify-center flex-shrink-0`}>
+                                    <CheckCircle className={`h-3 w-3 ${solution.color}`} />
+                                  </div>
+                                  <span className="text-foreground/80 group-hover/card:text-foreground transition-colors">{feature}</span>
                                 </li>
                               ))}
                             </ul>
