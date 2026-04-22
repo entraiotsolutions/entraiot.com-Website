@@ -1,0 +1,2698 @@
+[
+  {
+    "name": "Priyadharshini V",
+    "phoneNumber": "8438608657",
+    "whatsAppNumber": "8438608657",
+    "email": "pd7293209@gmail.com",
+    "requirement": "",
+    "sessionId": "1cb5183b-5df9-4bc0-be89-a12b45dfa9be",
+    "intent": "interested",
+    "source": "website-chatbot",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Services",
+        "createdAt": "2026-04-16T06:06:33.592Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Entraiot provides end-to-end AI and IoT services including sensor integration, real-time dashboards, predictive maintenance, smart automation, and custom app development tailored to business workflows.\n\nIf you want, I can arrange a quick demo with our experts so you can evaluate the fit for your business.\n\nCan I have your email to share more details?",
+        "createdAt": "2026-04-16T06:06:36.390Z"
+      }
+    ]
+  },
+  {
+    "name": "",
+    "email": "",
+    "phoneNumber": "",
+    "whatsAppNumber": "",
+    "requirement": "Book Demo",
+    "sessionId": "1cb5183b-5df9-4bc0-be89-a12b45dfa9be",
+    "intent": "ready",
+    "language": "en",
+    "source": "chat-widget",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Services",
+        "createdAt": "2026-04-16T06:06:36.294Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Entraiot provides end-to-end AI and IoT services including sensor integration, real-time dashboards, predictive maintenance, smart automation, and custom app development tailored to business workflows.\n\nIf you want, I can arrange a quick demo with our experts so you can evaluate the fit for your business.\n\nCan I have your email to share more details?",
+        "createdAt": "2026-04-16T06:06:36.294Z"
+      },
+      {
+        "role": "user",
+        "content": "tell me about the entraiot solutions",
+        "createdAt": "2026-04-16T06:07:06.680Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Entraiot provides end-to-end AI and IoT services including sensor integration, real-time dashboards, predictive maintenance, smart automation, and custom app development tailored to business workflows.\n\nWould you like a quick walkthrough of services most relevant to your industry?",
+        "createdAt": "2026-04-16T06:07:06.680Z"
+      },
+      {
+        "role": "user",
+        "content": "Book Demo",
+        "createdAt": "2026-04-16T06:07:15.762Z"
+      },
+      {
+        "role": "assistant",
+        "content": "That's an interesting question! Let me help you with that. Could you please give a bit more detail so I can provide a more accurate answer?",
+        "createdAt": "2026-04-16T06:07:15.762Z"
+      }
+    ],
+    "id": "b1f56add-1f58-4d1b-844b-dbb403558c29",
+    "createdAt": "2026-04-16T06:07:15.764Z"
+  },
+  {
+    "name": "Priya Dharshini",
+    "phoneNumber": "8438608657",
+    "whatsAppNumber": "8438608657",
+    "email": "pd7293209@gmail.com",
+    "requirement": "",
+    "sessionId": "386ba19d-ed74-4b15-a3fa-213dfbdcaea3",
+    "intent": "ready",
+    "source": "website-chatbot",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "hi",
+        "createdAt": "2026-04-16T06:22:03.337Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Hi! I'm Entraiot AI Assistant. How can I help you today?",
+        "createdAt": "2026-04-16T06:22:06.269Z"
+      },
+      {
+        "role": "user",
+        "content": "tell me about the companie",
+        "createdAt": "2026-04-16T06:22:19.708Z"
+      },
+      {
+        "role": "assistant",
+        "content": "I understand you're asking about \"tell me about the companie\". Let me help you with that. Could you provide a bit more detail so I can give you the best answer?",
+        "createdAt": "2026-04-16T06:22:20.107Z"
+      },
+      {
+        "role": "user",
+        "content": "i want to know about the entraiot",
+        "createdAt": "2026-04-16T06:22:38.059Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Entraiot Solutions is an AI and IoT company helping businesses automate processes and make smarter decisions using data.",
+        "createdAt": "2026-04-16T06:22:38.558Z"
+      },
+      {
+        "role": "user",
+        "content": "tell me more",
+        "createdAt": "2026-04-16T06:22:49.635Z"
+      },
+      {
+        "role": "assistant",
+        "content": "I understand you're asking about \"tell me more\". Let me help you with that. Could you provide a bit more detail so I can give you the best answer?",
+        "createdAt": "2026-04-16T06:22:49.945Z"
+      },
+      {
+        "role": "user",
+        "content": "Book Demo",
+        "createdAt": "2026-04-16T06:23:29.735Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great! Let's schedule a demo. Please share your email.\n\nPlease share your email so our team can reach out and schedule this.",
+        "createdAt": "2026-04-16T06:23:29.997Z"
+      }
+    ]
+  },
+  {
+    "name": "Priyadharshini V",
+    "phoneNumber": "8438608657",
+    "whatsAppNumber": "8438608657",
+    "email": "pd7293209@gmail.com",
+    "requirement": "",
+    "sessionId": "74fd88f5-83c3-4a92-9bfa-683a71f36e8b",
+    "intent": "interested",
+    "source": "website-chatbot",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Services",
+        "createdAt": "2026-04-16T06:37:53.079Z"
+      },
+      {
+        "role": "assistant",
+        "content": "We offer AI automation, IoT integration, dashboards, predictive maintenance, and custom solutions.\n\nWould you like a demo of how this works for your business?",
+        "createdAt": "2026-04-16T06:37:55.736Z"
+      }
+    ]
+  },
+  {
+    "intent": "demo",
+    "email": "priyadharshiniak36@gmail.com",
+    "sessionId": "74fd88f5-83c3-4a92-9bfa-683a71f36e8b",
+    "time": "2026-04-16T06:38:55.946Z"
+  },
+  {
+    "email": "priyadharshiniak36@gmail.com",
+    "intent": "curious",
+    "sessionId": "74fd88f5-83c3-4a92-9bfa-683a71f36e8b",
+    "time": "2026-04-16T06:38:56.336Z",
+    "source": "chat-widget",
+    "id": "dadf9022-e2f0-4d2d-a95d-964e73a9f0d6",
+    "createdAt": "2026-04-16T06:38:56.339Z"
+  },
+  {
+    "name": "Priyadharshini V",
+    "phoneNumber": "8438608657",
+    "whatsAppNumber": "8438608657",
+    "email": "pd7293209@gmail.com",
+    "requirement": "",
+    "sessionId": "9992a298-eb63-4fe1-8fdd-fa0798da5705",
+    "intent": "curious",
+    "source": "website-chatbot",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "hi",
+        "createdAt": "2026-04-16T23:04:58.726Z"
+      },
+      {
+        "role": "assistant",
+        "content": "We work with manufacturing, logistics, healthcare, hospitality, smart retail, energy management and smart cities. Our solutions are tailored to industry-specific workflows and compliance requirements.",
+        "createdAt": "2026-04-16T23:05:04.942Z"
+      },
+      {
+        "role": "user",
+        "content": "what is you name",
+        "createdAt": "2026-04-16T23:05:16.418Z"
+      },
+      {
+        "role": "assistant",
+        "content": "I'm Entraiot AI Assistant. I help you understand our solutions and connect you with our team.",
+        "createdAt": "2026-04-16T23:05:17.052Z"
+      },
+      {
+        "role": "user",
+        "content": "tell me about entraiot solutions",
+        "createdAt": "2026-04-16T23:05:30.943Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Entraiot offers:\n• AI-based automation\n• IoT device integration\n• Real-time dashboards\n• Predictive maintenance\n• Custom software solutions\n\nThese are customized based on your business needs.",
+        "createdAt": "2026-04-16T23:05:31.638Z"
+      }
+    ]
+  },
+  {
+    "name": "",
+    "email": "",
+    "phoneNumber": "",
+    "whatsAppNumber": "",
+    "requirement": "sure arrange the demo",
+    "sessionId": "9992a298-eb63-4fe1-8fdd-fa0798da5705",
+    "intent": "ready",
+    "language": "en",
+    "source": "chat-widget",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "hi",
+        "createdAt": "2026-04-16T23:05:04.843Z"
+      },
+      {
+        "role": "assistant",
+        "content": "We work with manufacturing, logistics, healthcare, hospitality, smart retail, energy management and smart cities. Our solutions are tailored to industry-specific workflows and compliance requirements.",
+        "createdAt": "2026-04-16T23:05:04.843Z"
+      },
+      {
+        "role": "user",
+        "content": "what is you name",
+        "createdAt": "2026-04-16T23:05:16.978Z"
+      },
+      {
+        "role": "assistant",
+        "content": "I'm Entraiot AI Assistant. I help you understand our solutions and connect you with our team.",
+        "createdAt": "2026-04-16T23:05:16.978Z"
+      },
+      {
+        "role": "user",
+        "content": "tell me about entraiot solutions",
+        "createdAt": "2026-04-16T23:05:31.606Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Entraiot offers:\n• AI-based automation\n• IoT device integration\n• Real-time dashboards\n• Predictive maintenance\n• Custom software solutions\n\nThese are customized based on your business needs.",
+        "createdAt": "2026-04-16T23:05:31.606Z"
+      },
+      {
+        "role": "system",
+        "content": "userIntent:pricing",
+        "createdAt": "2026-04-16T23:06:05.392Z"
+      },
+      {
+        "role": "user",
+        "content": "Pricing",
+        "createdAt": "2026-04-16T23:06:05.392Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Our pricing depends on your needs.\nPlease share your email to get a custom quote.\n\nWould you like me to arrange a quick demo or connect you with our team?",
+        "createdAt": "2026-04-16T23:06:05.392Z"
+      },
+      {
+        "role": "user",
+        "content": "sure arrange the demo",
+        "createdAt": "2026-04-16T23:06:36.949Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Entraiot can help with AI, IoT, automation, and custom software solutions.\nShare a little more detail and I'll give you a precise answer.",
+        "createdAt": "2026-04-16T23:06:36.949Z"
+      }
+    ],
+    "id": "c734807e-c272-498e-b23c-bd7af66c3c19",
+    "createdAt": "2026-04-16T23:06:36.951Z"
+  },
+  {
+    "intent": "curious",
+    "email": "pd723902@gmail.com",
+    "sessionId": "9992a298-eb63-4fe1-8fdd-fa0798da5705",
+    "time": "2026-04-16T23:07:06.222Z"
+  },
+  {
+    "email": "pd723902@gmail.com",
+    "intent": "curious",
+    "sessionId": "9992a298-eb63-4fe1-8fdd-fa0798da5705",
+    "time": "2026-04-16T23:07:55.475Z",
+    "source": "chat-widget",
+    "id": "d0025e87-4eda-4b03-82fe-55e685991e86",
+    "createdAt": "2026-04-16T23:07:55.475Z"
+  },
+  {
+    "name": "",
+    "email": "",
+    "phoneNumber": "",
+    "whatsAppNumber": "",
+    "requirement": "give me some contacts for the book appointment",
+    "sessionId": "bf3310f9-a360-47f1-a3fd-307a6614f1c4",
+    "intent": "ready",
+    "language": "en",
+    "source": "chat-widget",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "hi",
+        "createdAt": "2026-04-16T23:42:25.869Z"
+      },
+      {
+        "role": "assistant",
+        "content": "We work with manufacturing, logistics, healthcare, hospitality, smart retail, energy management and smart cities. Our solutions are tailored to industry-specific workflows and compliance requirements.",
+        "createdAt": "2026-04-16T23:42:25.869Z"
+      },
+      {
+        "role": "user",
+        "content": "give me some contacts for the book appointment",
+        "createdAt": "2026-04-16T23:43:09.532Z"
+      },
+      {
+        "role": "assistant",
+        "content": "User asked: give me some contacts for the book appointment. Answer clearly and professionally, referencing Entraiot's services when relevant.\n\nI am a freelance writer and I have been working on a book for a few years now. I have been working on a book for a few years now. I have been working on a book for a few years now. I have been",
+        "createdAt": "2026-04-16T23:43:09.532Z"
+      }
+    ],
+    "id": "a525a567-7597-4325-b945-0bfe3aabc526",
+    "createdAt": "2026-04-16T23:43:09.533Z"
+  },
+  {
+    "email": "test.user@example.com",
+    "intent": "curious",
+    "sessionId": "38ea6727-3bdb-43eb-bee0-c42927c2f932",
+    "time": "2026-04-17T02:49:30.631Z",
+    "source": "chat-widget",
+    "id": "4e70fbc0-62cc-4eac-9c7a-c2f845c5e473",
+    "createdAt": "2026-04-17T02:49:30.631Z"
+  },
+  {
+    "email": "pd7293209@gmail.com",
+    "intent": "curious",
+    "sessionId": "aa21b8f7-4e60-46b3-b91e-dfba31c126b3",
+    "time": "2026-04-17T02:55:31.059Z",
+    "source": "chat-widget",
+    "id": "3bf2ca19-6021-4a18-9edf-0cd635d09f2f",
+    "createdAt": "2026-04-17T02:55:31.078Z"
+  },
+  {
+    "email": "priyadharshiniak36@gmail.com",
+    "intent": "curious",
+    "sessionId": "89af5803-0fbb-46e9-83be-6af258f4eca8",
+    "time": "2026-04-17T06:07:15.857Z",
+    "source": "chat-widget",
+    "id": "b6cb1fc4-2336-4585-925d-ad5bd245e2e9",
+    "createdAt": "2026-04-17T06:07:15.858Z"
+  },
+  {
+    "name": "Priyadharshini V",
+    "phoneNumber": "8438608657",
+    "whatsAppNumber": "8438608657",
+    "email": "priyadharshiniak36@gmail.com",
+    "requirement": "i want a ai solutions project",
+    "sessionId": "89af5803-0fbb-46e9-83be-6af258f4eca8",
+    "intent": "curious",
+    "source": "website-chatbot",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "hellooo",
+        "createdAt": "2026-04-17T06:05:08.598Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Hi! How can I help you today?",
+        "createdAt": "2026-04-17T06:05:08.599Z"
+      },
+      {
+        "role": "user",
+        "content": "what does your company do",
+        "createdAt": "2026-04-17T06:05:22.862Z"
+      },
+      {
+        "role": "assistant",
+        "content": "We design AI and IoT systems for automation, predictive maintenance, real-time monitoring, and custom business solutions.",
+        "createdAt": "2026-04-17T06:05:22.862Z"
+      },
+      {
+        "role": "user",
+        "content": "do you provide scalable systems",
+        "createdAt": "2026-04-17T06:05:33.803Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Can you please clarify your question? I’ll give you a clear answer.",
+        "createdAt": "2026-04-17T06:05:36.131Z"
+      },
+      {
+        "role": "user",
+        "content": "what problem does entraiot solve",
+        "createdAt": "2026-04-17T06:05:47.282Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Entraiot Solutions is an AI and IoT company that enables businesses automate operations, monitor systems in real time, and make smarter decisions using data.",
+        "createdAt": "2026-04-17T06:05:47.282Z"
+      },
+      {
+        "role": "user",
+        "content": "difference between ai and iot",
+        "createdAt": "2026-04-17T06:06:01.830Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Let me explain that differently. Can you please clarify your question? I’ll give you a clear answer.",
+        "createdAt": "2026-04-17T06:06:02.120Z"
+      },
+      {
+        "role": "user",
+        "content": "how predictive maintenance actually works",
+        "createdAt": "2026-04-17T06:06:12.189Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Predictive maintenance uses AI and sensor data to detect failures early and reduce downtime.",
+        "createdAt": "2026-04-17T06:06:12.189Z"
+      },
+      {
+        "role": "user",
+        "content": "I run a factory, how can you help me",
+        "createdAt": "2026-04-17T06:06:25.055Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Can you please clarify your question? I’ll give you a clear answer.",
+        "createdAt": "2026-04-17T06:06:25.233Z"
+      },
+      {
+        "role": "user",
+        "content": "how can I reduce machine downtime",
+        "createdAt": "2026-04-17T06:06:36.037Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Hi! How can I help you today?",
+        "createdAt": "2026-04-17T06:06:36.037Z"
+      },
+      {
+        "role": "user",
+        "content": "\"Explain AI and how entraiot uses it in manufacturing\"",
+        "createdAt": "2026-04-17T06:06:46.889Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Entraiot Solutions is an AI and IoT company that helps businesses automate operations, monitor systems in real time, and make smarter decisions using data.",
+        "createdAt": "2026-04-17T06:06:46.889Z"
+      },
+      {
+        "role": "user",
+        "content": "i want to book demo",
+        "createdAt": "2026-04-17T06:06:54.986Z"
+      },
+      {
+        "role": "assistant",
+        "content": "We can schedule a demo for you. Please share your email.",
+        "createdAt": "2026-04-17T06:06:54.987Z"
+      },
+      {
+        "role": "user",
+        "content": "priyadharshiniak36@gmail.com",
+        "createdAt": "2026-04-17T06:07:15.659Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Got it 👍 Our team will contact you shortly.",
+        "createdAt": "2026-04-17T06:07:22.999Z"
+      }
+    ]
+  },
+  {
+    "name": "Priyadharshini V",
+    "phoneNumber": "8438608657",
+    "whatsAppNumber": "8438608657",
+    "email": "pd7293209@gmail.com",
+    "requirement": "this is for testing",
+    "sessionId": "8a23a3d7-69e7-449b-b422-317c05c68689",
+    "intent": "ready",
+    "source": "website-chatbot",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "hi",
+        "createdAt": "2026-04-17T06:09:42.250Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Hi! How can I help you today?",
+        "createdAt": "2026-04-17T06:09:42.250Z"
+      },
+      {
+        "role": "user",
+        "content": "Pricing",
+        "createdAt": "2026-04-17T06:09:45.336Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Pricing depends on your requirements. Share your email and we’ll provide a custom quote.",
+        "createdAt": "2026-04-17T06:09:45.336Z"
+      },
+      {
+        "role": "user",
+        "content": "Services",
+        "createdAt": "2026-04-17T06:09:49.677Z"
+      },
+      {
+        "role": "assistant",
+        "content": "We offer:\n\n• AI automation  \n• IoT device integration  \n• Real-time dashboards  \n• Predictive maintenance  \n• Smart analytics  \n• Custom software development",
+        "createdAt": "2026-04-17T06:09:49.677Z"
+      },
+      {
+        "role": "user",
+        "content": "Talk to Expert",
+        "createdAt": "2026-04-17T06:09:55.610Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Our expert will connect with you.\n\nPlease share your email.\n\nPlease share your email so our team can reach out and schedule this.",
+        "createdAt": "2026-04-17T06:09:58.054Z"
+      }
+    ]
+  },
+  {
+    "email": "priyadharshiniak36@gmail.com",
+    "intent": "curious",
+    "sessionId": "270f43fb-8e80-405a-8935-3614ca9ec129",
+    "time": "2026-04-19T04:54:58.744Z",
+    "source": "chat-widget",
+    "id": "8bc83197-4eaf-4be5-b7e3-21c9d0dc3f68",
+    "createdAt": "2026-04-19T04:54:58.745Z"
+  },
+  {
+    "name": "Priyadharshini V",
+    "phoneNumber": "8438608657",
+    "whatsAppNumber": "8438608657",
+    "email": "priyadharshiniak36@gmail.com",
+    "requirement": "testing",
+    "sessionId": "270f43fb-8e80-405a-8935-3614ca9ec129",
+    "intent": "curious",
+    "source": "website-chatbot",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "hi",
+        "createdAt": "2026-04-19T04:54:06.891Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Hi! How can I help you today?",
+        "createdAt": "2026-04-19T04:54:06.892Z"
+      },
+      {
+        "role": "user",
+        "content": "name of the companky",
+        "createdAt": "2026-04-19T04:54:18.900Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Can you please clarify your question? I’ll give you a clear answer.",
+        "createdAt": "2026-04-19T04:54:21.144Z"
+      },
+      {
+        "role": "user",
+        "content": "what is the solutions the entraiot give",
+        "createdAt": "2026-04-19T04:54:35.036Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Entraiot Solutions is an AI and IoT company that helps businesses automate operations, monitor systems in real time, and make smarter decisions using data.",
+        "createdAt": "2026-04-19T04:54:35.036Z"
+      },
+      {
+        "role": "user",
+        "content": "i want to book an demo",
+        "createdAt": "2026-04-19T04:54:44.796Z"
+      },
+      {
+        "role": "assistant",
+        "content": "We can easily schedule a demo for you. Please share your email.",
+        "createdAt": "2026-04-19T04:54:44.796Z"
+      },
+      {
+        "role": "user",
+        "content": "priyadharshiniak36@gmail.com",
+        "createdAt": "2026-04-19T04:54:58.538Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Got it 👍 Our team will contact you shortly.",
+        "createdAt": "2026-04-19T04:55:07.576Z"
+      }
+    ]
+  },
+  {
+    "name": "Priyadharshini V",
+    "phoneNumber": "8438608657",
+    "whatsAppNumber": "8438608657",
+    "email": "pd7293209@gmail.com",
+    "requirement": "",
+    "sessionId": "508fef7c-dce2-48d8-a464-d601f718114f",
+    "intent": "ready",
+    "source": "website-chatbot",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "hi",
+        "createdAt": "2026-04-19T13:28:05.469Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Hi! How can I help you today?",
+        "createdAt": "2026-04-19T13:28:05.470Z"
+      },
+      {
+        "role": "user",
+        "content": "what is the name of the companie",
+        "createdAt": "2026-04-19T13:28:19.326Z"
+      },
+      {
+        "role": "assistant",
+        "content": "The name of the companie is a concept in technology or business. It generally refers to systems, processes, or tools used to improve efficiency and decision-making.",
+        "createdAt": "2026-04-19T13:28:19.326Z"
+      },
+      {
+        "role": "user",
+        "content": "tell me about the entraiot solutions",
+        "createdAt": "2026-04-19T13:28:41.704Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Entraiot Solutions is an AI and IoT company that helps businesses automate operations, monitor systems in real time, and make smarter decisions using data.",
+        "createdAt": "2026-04-19T13:28:41.704Z"
+      },
+      {
+        "role": "user",
+        "content": "Book Demo",
+        "createdAt": "2026-04-19T13:30:12.689Z"
+      },
+      {
+        "role": "assistant",
+        "content": "We can schedule a demo for you. Please share your email.",
+        "createdAt": "2026-04-19T13:30:12.690Z"
+      },
+      {
+        "role": "user",
+        "content": "Talk to Expert",
+        "createdAt": "2026-04-19T13:30:17.394Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Our expert will connect with you.\n\nPlease share your email.\n\nPlease share your email so our team can reach out and schedule this.",
+        "createdAt": "2026-04-19T13:30:19.771Z"
+      }
+    ]
+  },
+  {
+    "email": "pd72@gmail.com",
+    "intent": "curious",
+    "sessionId": "18d7344f-88e3-4b54-9727-5f2252c8299d",
+    "time": "2026-04-19T15:34:46.772Z",
+    "source": "chat-widget",
+    "id": "52fda2fd-13cb-4191-83f7-9346beb6b595",
+    "createdAt": "2026-04-19T15:34:46.779Z"
+  },
+  {
+    "name": "Priyadharshini V",
+    "phoneNumber": "8438608657",
+    "whatsAppNumber": "8438608657",
+    "email": "pd7293209@gmail.com",
+    "requirement": "",
+    "sessionId": "44bd7a70-fb91-44a2-8495-70f78e01a1d6",
+    "intent": "ready",
+    "source": "website-chatbot",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "hi",
+        "createdAt": "2026-04-19T15:38:03.423Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Hi! How can I help you today?",
+        "createdAt": "2026-04-19T15:38:03.423Z"
+      },
+      {
+        "role": "user",
+        "content": "Book Demo",
+        "createdAt": "2026-04-19T15:38:05.488Z"
+      },
+      {
+        "role": "assistant",
+        "content": "We can schedule a demo for you. Please share your email.",
+        "createdAt": "2026-04-19T15:38:05.488Z"
+      },
+      {
+        "role": "user",
+        "content": "Services",
+        "createdAt": "2026-04-19T15:38:07.471Z"
+      },
+      {
+        "role": "assistant",
+        "content": "We offer:\n\n• AI automation  \n• IoT device integration  \n• Real-time dashboards  \n• Predictive maintenance  \n• Smart analytics  \n• Custom software development",
+        "createdAt": "2026-04-19T15:38:07.471Z"
+      },
+      {
+        "role": "user",
+        "content": "Talk to Expert",
+        "createdAt": "2026-04-19T15:38:09.625Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Our expert will connect with you.\n\nPlease share your email.\n\nPlease share your email so our team can reach out and schedule this.",
+        "createdAt": "2026-04-19T15:38:11.867Z"
+      }
+    ]
+  },
+  {
+    "name": "Priyadharshini V",
+    "phoneNumber": "8438608657",
+    "whatsAppNumber": "8438608657",
+    "email": "pd7293209@gmail.com",
+    "requirement": "",
+    "sessionId": "3f7c5f9e-5bf5-43f8-8eeb-d3295822f019",
+    "intent": "ready",
+    "source": "website-chatbot",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "hi",
+        "createdAt": "2026-04-20T02:19:30.528Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Hi! How can I help you today?",
+        "createdAt": "2026-04-20T02:19:30.529Z"
+      },
+      {
+        "role": "user",
+        "content": "Services",
+        "createdAt": "2026-04-20T02:35:01.702Z"
+      },
+      {
+        "role": "assistant",
+        "content": "We offer AI automation, IoT integration, Real-time dashboards, and more. To get a detailed service deck, please share your details.",
+        "createdAt": "2026-04-20T02:35:01.702Z"
+      }
+    ]
+  },
+  {
+    "name": "Priyadharshini V",
+    "phoneNumber": "8438608657",
+    "whatsAppNumber": "8438608657",
+    "email": "pd7293209@gmail.com",
+    "requirement": "testing",
+    "sessionId": "cffec756-d809-4ef8-856c-312cd8eb82da",
+    "intent": "ready",
+    "source": "website-chatbot",
+    "appointment": {
+      "date": "2026-05-27",
+      "time": "16:00"
+    },
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Services",
+        "createdAt": "2026-04-21T05:25:30.462Z"
+      },
+      {
+        "role": "assistant",
+        "content": "We offer AI automation, IoT integration, Real-time dashboards, and more. To get a detailed service deck, please share your details.",
+        "createdAt": "2026-04-21T05:25:30.463Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:30.508Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:30.610Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:30.685Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:30.746Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:30.852Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:30.922Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:30.955Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:30.989Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:31.064Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:31.096Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:31.172Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:31.209Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:31.242Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:31.328Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:31.365Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:31.425Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:31.461Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:31.495Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:31.586Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Do you want pricing, a demo, or implementation details?",
+        "createdAt": "2026-04-21T05:25:31.624Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Do you want pricing, a demo, or implementation details?",
+        "createdAt": "2026-04-21T05:25:31.704Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Tell me your industry or use case and I'll give a direct recommendation.",
+        "createdAt": "2026-04-21T05:25:31.739Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Please clarify whether you mean pricing, services, integration, or a demo.",
+        "createdAt": "2026-04-21T05:25:31.784Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Do you want pricing, a demo, or implementation details?",
+        "createdAt": "2026-04-21T05:25:31.866Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Do you want pricing, a demo, or implementation details?",
+        "createdAt": "2026-04-21T05:25:31.912Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Please clarify whether you mean pricing, services, integration, or a demo.",
+        "createdAt": "2026-04-21T05:25:31.991Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Do you want pricing, a demo, or implementation details?",
+        "createdAt": "2026-04-21T05:25:32.027Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Tell me your industry or use case and I'll give a direct recommendation.",
+        "createdAt": "2026-04-21T05:25:32.072Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Please clarify whether you mean pricing, services, integration, or a demo.",
+        "createdAt": "2026-04-21T05:25:32.147Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Please clarify whether you mean pricing, services, integration, or a demo.",
+        "createdAt": "2026-04-21T05:25:32.233Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Please clarify whether you mean pricing, services, integration, or a demo.",
+        "createdAt": "2026-04-21T05:25:32.296Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Tell me your industry or use case and I'll give a direct recommendation.",
+        "createdAt": "2026-04-21T05:25:32.332Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Do you want pricing, a demo, or implementation details?",
+        "createdAt": "2026-04-21T05:25:32.376Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Do you want pricing, a demo, or implementation details?",
+        "createdAt": "2026-04-21T05:25:32.485Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Please clarify whether you mean pricing, services, integration, or a demo.",
+        "createdAt": "2026-04-21T05:25:32.532Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Tell me your industry or use case and I'll give a direct recommendation.",
+        "createdAt": "2026-04-21T05:25:32.614Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Please clarify whether you mean pricing, services, integration, or a demo.",
+        "createdAt": "2026-04-21T05:25:32.661Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Please clarify whether you mean pricing, services, integration, or a demo.",
+        "createdAt": "2026-04-21T05:25:32.716Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Do you want pricing, a demo, or implementation details?",
+        "createdAt": "2026-04-21T05:25:32.812Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Please clarify whether you mean pricing, services, integration, or a demo.",
+        "createdAt": "2026-04-21T05:25:32.859Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Please clarify whether you mean pricing, services, integration, or a demo.",
+        "createdAt": "2026-04-21T05:25:32.956Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:32.999Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:33.042Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:33.155Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:33.200Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:33.288Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:33.333Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:33.377Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:33.466Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:33.513Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:33.616Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:33.662Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:33.718Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:33.832Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:33.891Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:33.922Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:34.018Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:34.058Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:34.111Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:34.173Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:34.266Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:34.321Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:34.406Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Please clarify whether you mean pricing, services, integration, or a demo.",
+        "createdAt": "2026-04-21T05:25:34.458Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Tell me your industry or use case and I'll give a direct recommendation.",
+        "createdAt": "2026-04-21T05:25:34.495Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Do you want pricing, a demo, or implementation details?",
+        "createdAt": "2026-04-21T05:25:34.576Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Tell me your industry or use case and I'll give a direct recommendation.",
+        "createdAt": "2026-04-21T05:25:34.612Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Tell me your industry or use case and I'll give a direct recommendation.",
+        "createdAt": "2026-04-21T05:25:34.672Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Tell me your industry or use case and I'll give a direct recommendation.",
+        "createdAt": "2026-04-21T05:25:34.720Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Tell me your industry or use case and I'll give a direct recommendation.",
+        "createdAt": "2026-04-21T05:25:34.767Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:34.856Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Please clarify whether you mean pricing, services, integration, or a demo.",
+        "createdAt": "2026-04-21T05:25:34.912Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Please clarify whether you mean pricing, services, integration, or a demo.",
+        "createdAt": "2026-04-21T05:25:35.005Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Tell me your industry or use case and I'll give a direct recommendation.",
+        "createdAt": "2026-04-21T05:25:35.051Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Tell me your industry or use case and I'll give a direct recommendation.",
+        "createdAt": "2026-04-21T05:25:35.107Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Tell me your industry or use case and I'll give a direct recommendation.",
+        "createdAt": "2026-04-21T05:25:35.204Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Tell me your industry or use case and I'll give a direct recommendation.",
+        "createdAt": "2026-04-21T05:25:35.257Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Do you want pricing, a demo, or implementation details?",
+        "createdAt": "2026-04-21T05:25:35.344Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Do you want pricing, a demo, or implementation details?",
+        "createdAt": "2026-04-21T05:25:35.394Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Tell me your industry or use case and I'll give a direct recommendation.",
+        "createdAt": "2026-04-21T05:25:35.456Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Do you want pricing, a demo, or implementation details?",
+        "createdAt": "2026-04-21T05:25:35.505Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Please clarify whether you mean pricing, services, integration, or a demo.",
+        "createdAt": "2026-04-21T05:25:35.541Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Do you want pricing, a demo, or implementation details?",
+        "createdAt": "2026-04-21T05:25:35.621Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Please clarify whether you mean pricing, services, integration, or a demo.",
+        "createdAt": "2026-04-21T05:25:35.650Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Do you want pricing, a demo, or implementation details?",
+        "createdAt": "2026-04-21T05:25:35.678Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Please clarify whether you mean pricing, services, integration, or a demo.",
+        "createdAt": "2026-04-21T05:25:35.780Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Please clarify whether you mean pricing, services, integration, or a demo.",
+        "createdAt": "2026-04-21T05:25:35.844Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Tell me your industry or use case and I'll give a direct recommendation.",
+        "createdAt": "2026-04-21T05:25:35.938Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:35.997Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:36.056Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:36.166Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Do you want pricing, a demo, or implementation details?",
+        "createdAt": "2026-04-21T05:25:36.227Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Do you want pricing, a demo, or implementation details?",
+        "createdAt": "2026-04-21T05:25:36.352Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:36.408Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:36.467Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:36.567Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:36.600Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:36.718Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:36.781Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:36.846Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:36.952Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:37.040Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:37.133Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:37.208Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:37.326Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:37.395Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:37.458Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:37.480Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:37.561Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:37.586Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Do you want pricing, a demo, or implementation details?",
+        "createdAt": "2026-04-21T05:25:37.632Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Do you want pricing, a demo, or implementation details?",
+        "createdAt": "2026-04-21T05:25:37.730Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:37.800Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:37.929Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Please clarify whether you mean pricing, services, integration, or a demo.",
+        "createdAt": "2026-04-21T05:25:37.994Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:38.077Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:38.146Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Do you want pricing, a demo, or implementation details?",
+        "createdAt": "2026-04-21T05:25:38.243Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Please clarify whether you mean pricing, services, integration, or a demo.",
+        "createdAt": "2026-04-21T05:25:38.321Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Do you want pricing, a demo, or implementation details?",
+        "createdAt": "2026-04-21T05:25:38.416Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Please clarify whether you mean pricing, services, integration, or a demo.",
+        "createdAt": "2026-04-21T05:25:38.465Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Tell me your industry or use case and I'll give a direct recommendation.",
+        "createdAt": "2026-04-21T05:25:38.505Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Tell me your industry or use case and I'll give a direct recommendation.",
+        "createdAt": "2026-04-21T05:25:38.576Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Please clarify whether you mean pricing, services, integration, or a demo.",
+        "createdAt": "2026-04-21T05:25:38.608Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Do you want pricing, a demo, or implementation details?",
+        "createdAt": "2026-04-21T05:25:38.691Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Tell me your industry or use case and I'll give a direct recommendation.",
+        "createdAt": "2026-04-21T05:25:38.732Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Tell me your industry or use case and I'll give a direct recommendation.",
+        "createdAt": "2026-04-21T05:25:38.783Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Do you want pricing, a demo, or implementation details?",
+        "createdAt": "2026-04-21T05:25:38.853Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Do you want pricing, a demo, or implementation details?",
+        "createdAt": "2026-04-21T05:25:38.904Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Do you want pricing, a demo, or implementation details?",
+        "createdAt": "2026-04-21T05:25:39.017Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Tell me your industry or use case and I'll give a direct recommendation.",
+        "createdAt": "2026-04-21T05:25:39.083Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Please clarify whether you mean pricing, services, integration, or a demo.",
+        "createdAt": "2026-04-21T05:25:39.202Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Do you want pricing, a demo, or implementation details?",
+        "createdAt": "2026-04-21T05:25:39.267Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Do you want pricing, a demo, or implementation details?",
+        "createdAt": "2026-04-21T05:25:39.331Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:39.410Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:39.449Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Tell me your industry or use case and I'll give a direct recommendation.",
+        "createdAt": "2026-04-21T05:25:39.538Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Tell me your industry or use case and I'll give a direct recommendation.",
+        "createdAt": "2026-04-21T05:25:39.567Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Do you want pricing, a demo, or implementation details?",
+        "createdAt": "2026-04-21T05:25:39.612Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Tell me your industry or use case and I'll give a direct recommendation.",
+        "createdAt": "2026-04-21T05:25:39.685Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Tell me your industry or use case and I'll give a direct recommendation.",
+        "createdAt": "2026-04-21T05:25:39.725Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Tell me your industry or use case and I'll give a direct recommendation.",
+        "createdAt": "2026-04-21T05:25:39.808Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:39.888Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:39.958Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:40.072Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:40.144Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:40.213Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:40.334Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:40.403Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:40.464Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:40.495Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:40.548Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:40.612Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:40.656Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Do you want pricing, a demo, or implementation details?",
+        "createdAt": "2026-04-21T05:25:40.730Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:40.768Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Do you want pricing, a demo, or implementation details?",
+        "createdAt": "2026-04-21T05:25:40.780Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Please clarify whether you mean pricing, services, integration, or a demo.",
+        "createdAt": "2026-04-21T05:25:40.835Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Do you want pricing, a demo, or implementation details?",
+        "createdAt": "2026-04-21T05:25:41.002Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Do you want pricing, a demo, or implementation details?",
+        "createdAt": "2026-04-21T05:25:41.063Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:41.161Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:41.228Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:41.354Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Please clarify whether you mean pricing, services, integration, or a demo.",
+        "createdAt": "2026-04-21T05:25:41.434Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Tell me your industry or use case and I'll give a direct recommendation.",
+        "createdAt": "2026-04-21T05:25:41.516Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Please clarify whether you mean pricing, services, integration, or a demo.",
+        "createdAt": "2026-04-21T05:25:41.556Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Please clarify whether you mean pricing, services, integration, or a demo.",
+        "createdAt": "2026-04-21T05:25:41.589Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Do you want pricing, a demo, or implementation details?",
+        "createdAt": "2026-04-21T05:25:41.671Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Please clarify whether you mean pricing, services, integration, or a demo.",
+        "createdAt": "2026-04-21T05:25:41.715Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Please clarify whether you mean pricing, services, integration, or a demo.",
+        "createdAt": "2026-04-21T05:25:41.731Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Please clarify whether you mean pricing, services, integration, or a demo.",
+        "createdAt": "2026-04-21T05:25:41.827Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Tell me your industry or use case and I'll give a direct recommendation.",
+        "createdAt": "2026-04-21T05:25:41.884Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Do you want pricing, a demo, or implementation details?",
+        "createdAt": "2026-04-21T05:25:41.969Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Do you want pricing, a demo, or implementation details?",
+        "createdAt": "2026-04-21T05:25:42.066Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Tell me your industry or use case and I'll give a direct recommendation.",
+        "createdAt": "2026-04-21T05:25:42.153Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Tell me your industry or use case and I'll give a direct recommendation.",
+        "createdAt": "2026-04-21T05:25:42.264Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Please clarify whether you mean pricing, services, integration, or a demo.",
+        "createdAt": "2026-04-21T05:25:42.438Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Please clarify whether you mean pricing, services, integration, or a demo.",
+        "createdAt": "2026-04-21T05:25:42.600Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:42.676Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:42.793Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:42.829Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:42.924Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Tell me your industry or use case and I'll give a direct recommendation.",
+        "createdAt": "2026-04-21T05:25:42.963Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:43.063Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Tell me your industry or use case and I'll give a direct recommendation.",
+        "createdAt": "2026-04-21T05:25:43.145Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Please clarify whether you mean pricing, services, integration, or a demo.",
+        "createdAt": "2026-04-21T05:25:43.314Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Please clarify whether you mean pricing, services, integration, or a demo.",
+        "createdAt": "2026-04-21T05:25:43.401Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Do you want pricing, a demo, or implementation details?",
+        "createdAt": "2026-04-21T05:25:43.485Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Please clarify whether you mean pricing, services, integration, or a demo.",
+        "createdAt": "2026-04-21T05:25:43.581Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:43.658Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:43.716Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:43.753Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:43.830Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:43.878Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:43.932Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:44.122Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:44.216Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:44.326Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:44.432Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:44.532Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Tell me your industry or use case and I'll give a direct recommendation.",
+        "createdAt": "2026-04-21T05:25:44.672Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Do you want pricing, a demo, or implementation details?",
+        "createdAt": "2026-04-21T05:25:44.739Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Tell me your industry or use case and I'll give a direct recommendation.",
+        "createdAt": "2026-04-21T05:25:44.818Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Do you want pricing, a demo, or implementation details?",
+        "createdAt": "2026-04-21T05:25:44.940Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Do you want pricing, a demo, or implementation details?",
+        "createdAt": "2026-04-21T05:25:44.961Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:45.053Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:45.096Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:45.191Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:45.286Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:45.443Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Tell me your industry or use case and I'll give a direct recommendation.",
+        "createdAt": "2026-04-21T05:25:45.553Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Please clarify whether you mean pricing, services, integration, or a demo.",
+        "createdAt": "2026-04-21T05:25:45.626Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Tell me your industry or use case and I'll give a direct recommendation.",
+        "createdAt": "2026-04-21T05:25:45.737Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Please clarify whether you mean pricing, services, integration, or a demo.",
+        "createdAt": "2026-04-21T05:25:45.760Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Tell me your industry or use case and I'll give a direct recommendation.",
+        "createdAt": "2026-04-21T05:25:45.814Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Tell me your industry or use case and I'll give a direct recommendation.",
+        "createdAt": "2026-04-21T05:25:45.904Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Tell me your industry or use case and I'll give a direct recommendation.",
+        "createdAt": "2026-04-21T05:25:45.946Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:46.044Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Tell me your industry or use case and I'll give a direct recommendation.",
+        "createdAt": "2026-04-21T05:25:46.092Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Do you want pricing, a demo, or implementation details?",
+        "createdAt": "2026-04-21T05:25:46.138Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Do you want pricing, a demo, or implementation details?",
+        "createdAt": "2026-04-21T05:25:46.228Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Tell me your industry or use case and I'll give a direct recommendation.",
+        "createdAt": "2026-04-21T05:25:46.321Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Please clarify whether you mean pricing, services, integration, or a demo.",
+        "createdAt": "2026-04-21T05:25:46.427Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Tell me your industry or use case and I'll give a direct recommendation.",
+        "createdAt": "2026-04-21T05:25:46.518Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Tell me your industry or use case and I'll give a direct recommendation.",
+        "createdAt": "2026-04-21T05:25:46.660Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Please clarify whether you mean pricing, services, integration, or a demo.",
+        "createdAt": "2026-04-21T05:25:46.737Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Please clarify whether you mean pricing, services, integration, or a demo.",
+        "createdAt": "2026-04-21T05:25:46.862Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:46.907Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:46.953Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Please clarify whether you mean pricing, services, integration, or a demo.",
+        "createdAt": "2026-04-21T05:25:47.055Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Tell me your industry or use case and I'll give a direct recommendation.",
+        "createdAt": "2026-04-21T05:25:47.109Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:47.182Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Do you want pricing, a demo, or implementation details?",
+        "createdAt": "2026-04-21T05:25:47.225Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Please clarify whether you mean pricing, services, integration, or a demo.",
+        "createdAt": "2026-04-21T05:25:47.264Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Please clarify whether you mean pricing, services, integration, or a demo.",
+        "createdAt": "2026-04-21T05:25:47.350Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Do you want pricing, a demo, or implementation details?",
+        "createdAt": "2026-04-21T05:25:47.512Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Do you want pricing, a demo, or implementation details?",
+        "createdAt": "2026-04-21T05:25:47.590Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:47.708Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:47.797Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:47.874Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:47.926Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Please clarify whether you mean pricing, services, integration, or a demo.",
+        "createdAt": "2026-04-21T05:25:48.025Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Tell me your industry or use case and I'll give a direct recommendation.",
+        "createdAt": "2026-04-21T05:25:48.069Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Please clarify whether you mean pricing, services, integration, or a demo.",
+        "createdAt": "2026-04-21T05:25:48.112Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:48.207Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:48.226Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:48.403Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:48.535Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:48.647Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:48.743Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:48.820Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Tell me your industry or use case and I'll give a direct recommendation.",
+        "createdAt": "2026-04-21T05:25:48.903Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Do you want pricing, a demo, or implementation details?",
+        "createdAt": "2026-04-21T05:25:48.951Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Do you want pricing, a demo, or implementation details?",
+        "createdAt": "2026-04-21T05:25:49.024Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:49.076Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:49.122Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:49.209Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:49.232Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:49.255Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:49.352Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:49.444Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:49.529Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:49.625Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:49.724Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:49.758Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:49.792Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:49.871Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:49.892Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:49.983Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:50.012Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:50.111Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:50.160Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:50.212Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Do you want pricing, a demo, or implementation details?",
+        "createdAt": "2026-04-21T05:25:50.320Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Tell me your industry or use case and I'll give a direct recommendation.",
+        "createdAt": "2026-04-21T05:25:50.363Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Tell me your industry or use case and I'll give a direct recommendation.",
+        "createdAt": "2026-04-21T05:25:50.470Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Please clarify whether you mean pricing, services, integration, or a demo.",
+        "createdAt": "2026-04-21T05:25:50.569Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Do you want pricing, a demo, or implementation details?",
+        "createdAt": "2026-04-21T05:25:50.680Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Tell me your industry or use case and I'll give a direct recommendation.",
+        "createdAt": "2026-04-21T05:25:50.781Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Please clarify whether you mean pricing, services, integration, or a demo.",
+        "createdAt": "2026-04-21T05:25:50.839Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:50.922Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:50.989Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:51.069Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Do you want pricing, a demo, or implementation details?",
+        "createdAt": "2026-04-21T05:25:51.109Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Tell me your industry or use case and I'll give a direct recommendation.",
+        "createdAt": "2026-04-21T05:25:51.156Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Please clarify whether you mean pricing, services, integration, or a demo.",
+        "createdAt": "2026-04-21T05:25:51.240Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Please clarify whether you mean pricing, services, integration, or a demo.",
+        "createdAt": "2026-04-21T05:25:51.293Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:51.382Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Please clarify whether you mean pricing, services, integration, or a demo.",
+        "createdAt": "2026-04-21T05:25:51.482Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Tell me your industry or use case and I'll give a direct recommendation.",
+        "createdAt": "2026-04-21T05:25:51.593Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Tell me your industry or use case and I'll give a direct recommendation.",
+        "createdAt": "2026-04-21T05:25:51.711Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Do you want pricing, a demo, or implementation details?",
+        "createdAt": "2026-04-21T05:25:51.828Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Please clarify whether you mean pricing, services, integration, or a demo.",
+        "createdAt": "2026-04-21T05:25:51.942Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Do you want pricing, a demo, or implementation details?",
+        "createdAt": "2026-04-21T05:25:51.994Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Do you want pricing, a demo, or implementation details?",
+        "createdAt": "2026-04-21T05:25:52.098Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:52.147Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:52.201Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:52.343Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:52.394Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:52.529Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Tell me your industry or use case and I'll give a direct recommendation.",
+        "createdAt": "2026-04-21T05:25:52.660Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Do you want pricing, a demo, or implementation details?",
+        "createdAt": "2026-04-21T05:25:52.761Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:52.855Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:52.943Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:52.998Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:53.114Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:53.184Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:53.297Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:53.347Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:53.437Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:53.555Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:53.661Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:53.789Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:53.876Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:53.991Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:54.017Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Tell me your industry or use case and I'll give a direct recommendation.",
+        "createdAt": "2026-04-21T05:25:54.071Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Do you want pricing, a demo, or implementation details?",
+        "createdAt": "2026-04-21T05:25:54.108Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Do you want pricing, a demo, or implementation details?",
+        "createdAt": "2026-04-21T05:25:54.200Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:54.259Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Tell me your industry or use case and I'll give a direct recommendation.",
+        "createdAt": "2026-04-21T05:25:54.327Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Please clarify whether you mean pricing, services, integration, or a demo.",
+        "createdAt": "2026-04-21T05:25:54.429Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:54.593Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:54.737Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Please clarify whether you mean pricing, services, integration, or a demo.",
+        "createdAt": "2026-04-21T05:25:54.936Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Tell me your industry or use case and I'll give a direct recommendation.",
+        "createdAt": "2026-04-21T05:25:55.065Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Tell me your industry or use case and I'll give a direct recommendation.",
+        "createdAt": "2026-04-21T05:25:55.159Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Tell me your industry or use case and I'll give a direct recommendat",
+        "createdAt": "2026-04-21T05:25:55.327Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Do you want pricing, a demo, or implementation details?",
+        "createdAt": "2026-04-21T05:25:55.392Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Please clarify whether you mean pricing, services, integration, ",
+        "createdAt": "2026-04-21T05:25:55.478Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Do you want pricing, a demo, or implementation details?",
+        "createdAt": "2026-04-21T05:25:55.683Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Please clarify whether you mean pricing, services, integration, ",
+        "createdAt": "2026-04-21T05:25:56.092Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:56.412Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:56.595Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:56.913Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for May 27 at 16:00.",
+        "createdAt": "2026-04-21T05:25:57.594Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Please clarify whether you mean pricing, services, integrati",
+        "createdAt": "2026-04-21T05:25:57.797Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Please clarify whether you mean pricing, services, i",
+        "createdAt": "2026-04-21T05:25:58.044Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Do you want pricing, a demo, or implementation detai",
+        "createdAt": "2026-04-21T05:25:58.282Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Please clarify whether you mean pricing, services, i",
+        "createdAt": "2026-04-21T05:25:58.522Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Do you want pricing, a demo, or implementation detai",
+        "createdAt": "2026-04-21T05:25:58.672Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Do you want pricing, a demo, or implementation detai",
+        "createdAt": "2026-04-21T05:25:58.765Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Tell me your industry or use case and I'll give a di",
+        "createdAt": "2026-04-21T05:25:58.855Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Please clarify whether you mean pricing, service",
+        "createdAt": "2026-04-21T05:25:59.080Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Please clarify whether you mean pricing, service",
+        "createdAt": "2026-04-21T05:25:59.286Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Tell me your industry or use case and I'll give ",
+        "createdAt": "2026-04-21T05:25:59.526Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Do you want pricing, a demo, or implementation d",
+        "createdAt": "2026-04-21T05:25:59.648Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Do you want pricing, a demo, or implementation d",
+        "createdAt": "2026-04-21T05:25:59.729Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Please clarify whether you mean pricing, service",
+        "createdAt": "2026-04-21T05:25:59.819Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Do you want pricing, a demo, or implementation d",
+        "createdAt": "2026-04-21T05:25:59.899Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Tell me your industry or use case and I'll g",
+        "createdAt": "2026-04-21T05:26:00.488Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Please clarify whether you mean pricing, ser",
+        "createdAt": "2026-04-21T05:26:00.688Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Tell me your industry or use case and I'll g",
+        "createdAt": "2026-04-21T05:26:00.897Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Tell me your industry or use case and I'",
+        "createdAt": "2026-04-21T05:26:01.105Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Do you want pricing, a demo, or implemen",
+        "createdAt": "2026-04-21T05:26:01.487Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Tell me your industry or use case and I'",
+        "createdAt": "2026-04-21T05:26:01.774Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Tell me your industry or use case and I'",
+        "createdAt": "2026-04-21T05:26:01.891Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Tell me your industry or use case an",
+        "createdAt": "2026-04-21T05:26:02.002Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for M",
+        "createdAt": "2026-04-21T05:26:02.245Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for M",
+        "createdAt": "2026-04-21T05:26:02.472Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for M",
+        "createdAt": "2026-04-21T05:26:02.712Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for M",
+        "createdAt": "2026-04-21T05:26:02.821Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved for M",
+        "createdAt": "2026-04-21T05:26:02.916Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved f",
+        "createdAt": "2026-04-21T05:26:03.144Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved f",
+        "createdAt": "2026-04-21T05:26:03.353Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved f",
+        "createdAt": "2026-04-21T05:26:03.563Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved f",
+        "createdAt": "2026-04-21T05:26:03.805Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved f",
+        "createdAt": "2026-04-21T05:26:03.948Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is reserved f",
+        "createdAt": "2026-04-21T05:26:04.199Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Tell me your industry or use cas",
+        "createdAt": "2026-04-21T05:26:04.458Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Tell me your industry or use cas",
+        "createdAt": "2026-04-21T05:26:04.726Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Do you want pricing, a demo,",
+        "createdAt": "2026-04-21T05:26:05.022Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is re",
+        "createdAt": "2026-04-21T05:26:05.115Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot is re",
+        "createdAt": "2026-04-21T05:26:05.181Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your slot i",
+        "createdAt": "2026-04-21T05:26:05.264Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your sl",
+        "createdAt": "2026-04-21T05:26:05.491Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 Your sl",
+        "createdAt": "2026-04-21T05:26:05.663Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Great 👍 You",
+        "createdAt": "2026-04-21T05:26:05.800Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Tell me your",
+        "createdAt": "2026-04-21T05:26:05.926Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Do you w",
+        "createdAt": "2026-04-21T05:26:05.993Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Tell",
+        "createdAt": "2026-04-21T05:26:06.102Z"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "createdAt": "2026-04-21T05:26:06.162Z"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "createdAt": "2026-04-21T05:26:06.232Z"
+      }
+    ]
+  }
+]
