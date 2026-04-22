@@ -188,7 +188,7 @@ export default function Footer() {
         <div className="py-6 border-t border-border">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <div className="text-sm text-muted-foreground">
-              © 2025 Entraiot Solutions Private Limited. All rights reserved.
+              &copy; {new Date().getFullYear()} Entraiot Solutions Private Limited. All rights reserved.
             </div>
             <div className="flex items-center space-x-6 mr-16 md:mr-20">
               <span
