@@ -19,57 +19,17 @@ export function SlideFromSide({
 }: SlideFromSideProps) {
   const ref = useRef<HTMLDivElement>(null);
   // More lenient viewport detection - trigger earlier and with less visibility needed
-  const isInView = useInView(ref, { once: false, amount: 0, margin: "400px" });
+  const isInView = useInView(ref, { once: true, amount: 0, margin: "200px" });
   const controls = useAnimation();
   
-  // Use a fixed large distance
-  const distance = 2000;
+  // Use a short, snappy distance so it pops in immediately without traveling offscreen
+  const distance = 50;
 
   useEffect(() => {
-    let timer: NodeJS.Timeout | null = null;
-    
     if (isInView) {
       controls.start("visible");
-    } else {
-      // Reset to hidden when out of view, but with a delay to prevent flickering
-      timer = setTimeout(() => {
-        controls.start("hidden");
-      }, 200);
     }
-    
-    // Always return a cleanup function
-    return () => {
-      if (timer) {
-        clearTimeout(timer);
-      }
-    };
   }, [isInView, controls]);
-
-  // Continuous scroll check for better detection
-  useEffect(() => {
-    const checkVisibility = () => {
-      if (ref.current) {
-        const rect = ref.current.getBoundingClientRect();
-        const viewportHeight = window.innerHeight;
-        const isInViewport = rect.top < viewportHeight + 400 && rect.bottom > -400;
-        
-        if (isInViewport && !isInView) {
-          controls.start("visible");
-        }
-      }
-    };
-    
-    // Check on mount and on scroll
-    checkVisibility();
-    window.addEventListener("scroll", checkVisibility, { passive: true });
-    window.addEventListener("resize", checkVisibility, { passive: true });
-    
-    return () => {
-      window.removeEventListener("scroll", checkVisibility);
-      window.removeEventListener("resize", checkVisibility);
-    };
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
 
   return (
     <motion.div
@@ -85,9 +45,9 @@ export function SlideFromSide({
           opacity: 1,
           x: 0,
           transition: {
-            duration: 0.6,
-            delay: delay,
-            ease: [0.16, 1, 0.3, 1] as const, // Smooth ease-out curve
+            duration: 0.25, // Snappier duration
+            delay: delay * 0.3, // Greatly reduce explicitly passed delays so UI doesn't artificially stall
+            ease: "easeOut", // Standard fast ease
           },
         },
       }}

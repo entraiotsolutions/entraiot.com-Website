@@ -40,7 +40,7 @@ export function ScrollAnimation({
   duration = 0.3,
   direction = "up",
   distance = 50,
-  once = false,
+  once = true,
 }: ScrollAnimationProps) {
   const ref = useRef(null);
   const isInView = useInView(ref, { once, amount: 0.2 });
@@ -68,9 +68,9 @@ export function ScrollAnimation({
       x: 0,
       scale: 1,
       transition: {
-        duration: shouldReduceMotion ? 0 : duration,
-        delay: shouldReduceMotion ? 0 : delay,
-        ease: [0.16, 1, 0.3, 1] as const, // Smooth ease-out curve
+        duration: shouldReduceMotion ? 0 : 0.25,
+        delay: shouldReduceMotion ? 0 : delay * 0.3, // Strongly cap explicit delays
+        ease: "easeOut", // Snappy ease out
       },
     },
   };
@@ -102,7 +102,7 @@ export function ScrollStagger({
   className = "",
   staggerDelay = 0.05,
   childDelay = 0,
-  once = false,
+  once = true,
 }: ScrollStaggerProps) {
   const ref = useRef(null);
   const isInView = useInView(ref, { once, amount: 0.2 });
@@ -124,8 +124,8 @@ export function ScrollStagger({
       opacity: 1,
       y: 0,
       transition: {
-        duration: 0.3,
-        ease: [0.25, 0.1, 0.25, 1] as const,
+        duration: 0.25,
+        ease: "easeOut",
       },
     },
   };
@@ -162,7 +162,7 @@ export function ScrollReveal({
   children,
   className = "",
   width = "fit",
-  once = false,
+  once = true,
 }: ScrollRevealProps) {
   const ref = useRef(null);
   const isInView = useInView(ref, { once, amount: 0.2 });
@@ -170,9 +170,9 @@ export function ScrollReveal({
   return (
     <div ref={ref} className={className} style={{ width: width === "fit" ? "fit-content" : "100%" }}>
       <motion.div
-        initial={{ opacity: 0, x: -100 }}
-        animate={isInView ? { opacity: 1, x: 0 } : { opacity: 0, x: -100 }}
-        transition={{ duration: 0.4, ease: [0.25, 0.1, 0.25, 1] as const }}
+        initial={{ opacity: 0, x: -40 }}
+        animate={isInView ? { opacity: 1, x: 0 } : { opacity: 0, x: -40 }}
+        transition={{ duration: 0.25, ease: "easeOut" }}
         style={{ willChange: 'transform, opacity' }}
       >
         {children}
