@@ -109,7 +109,14 @@ export default function Header() {
           </nav>
 
           {/* Desktop CTA */}
-          <div className="hidden md:flex">
+          <div className="hidden md:flex items-center space-x-5 lg:space-x-8">
+            <Link
+              href="https://entrabuild.com/"
+              target="_blank"
+              className="font-bold text-[15px] sm:text-base text-blue-600 hover:text-blue-800 transition-colors whitespace-nowrap"
+            >
+              Build Wing
+            </Link>
             <Magnetic strength={0.15}>
               <GlowEffect color="#6366f1" intensity={0}>
                 <Button
@@ -155,7 +162,14 @@ export default function Header() {
                   {item.name}
                 </Link>
               ))}
-              <div className="pt-1">
+              <div className="pt-1 space-y-2">
+                <Link
+                  href="https://entrabuild.com/"
+                  target="_blank"
+                  className="block w-full text-center py-2 font-bold text-blue-600 hover:text-blue-800 transition-colors"
+                >
+                  Build Wing
+                </Link>
                 <Button
                   size="sm"
                   asChild

@@ -64,7 +64,7 @@ export default function Hero() {
                   <span className="text-foreground"> Decisions.</span>
                 </h1>
 
-                <p className="hero-support-line max-w-2xl mx-auto lg:mx-0 text-center lg:text-left text-base sm:text-lg md:text-xl font-medium leading-relaxed tracking-[0.08em] text-white/75">
+                <p className="hero-support-line max-w-2xl mx-auto lg:mx-0 text-center lg:text-left text-lg sm:text-xl md:text-2xl font-bold leading-relaxed tracking-[0.05em] text-foreground/90">
                   We deliver AI and IoT solutions that transform businesses.
                 </p>
                 

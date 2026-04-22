@@ -548,7 +548,7 @@ export default function Chatbot() {
   const launcherLabel = open ? "Close assistant" : "Open assistant";
   const chatWindowClass = expanded
     ? "fixed inset-3 sm:inset-6 md:inset-10 z-50"
-    : "fixed right-4 bottom-[5.5rem] sm:right-6 sm:bottom-[6.5rem] z-50 w-[calc(100vw-2rem)] sm:w-[400px] h-[min(82vh,700px)]";
+    : "fixed right-4 bottom-32 sm:right-6 sm:bottom-36 z-50 w-[calc(100vw-2rem)] sm:w-[380px] h-[min(70vh,580px)]";
 
   return (
     <>
@@ -632,6 +632,14 @@ export default function Chatbot() {
                       ) : (
                         <Maximize2 className="h-4 w-4" />
                       )}
+                    </button>
+                    <button
+                      type="button"
+                      onClick={() => setOpen(false)}
+                      aria-label="Close chat"
+                      className="rounded-lg border border-white/25 bg-white/20 p-1.5 transition hover:bg-white/30"
+                    >
+                      <X className="h-4 w-4" />
                     </button>
                   </div>
                 </div>
@@ -844,7 +852,7 @@ export default function Chatbot() {
                     onChange={(event) => setInput(event.target.value)}
                     onKeyDown={onKeyDown}
                     disabled={loading || showLeadForm}
-                    placeholder={showLeadForm ? "Please complete the form..." : "Ask anything about Entraiot&apos;s AI + IoT solutions..."}
+                    placeholder={showLeadForm ? "Please complete the form..." : "Ask anything about Entraiot's AI + IoT solutions..."}
                     className="min-h-11 max-h-32 flex-1 resize-y rounded-xl border border-indigo-200 bg-white px-3 py-2 text-sm outline-none ring-indigo-300 focus:ring-2 disabled:bg-slate-50 disabled:text-slate-400"
                   />
                   <button

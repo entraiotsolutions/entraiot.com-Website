@@ -123,7 +123,7 @@ export default function Footer() {
     target="_blank"
     rel="noopener noreferrer"
     aria-label="Entraiot external site"
-    className="text-sm font-semibold text-muted-foreground hover:text-blue-600 transition-colors cursor-pointer"
+    className="text-[20px] font-bold text-muted-foreground hover:text-foreground transition-colors flex items-center justify-center leading-none h-5 w-5 -mt-1"
   >
     e
   </a>
