@@ -85,7 +85,7 @@ Precision farming through AI-powered sensors boosts yield, conserves water, and 
 **Contact Form:** Send Message (available on website)
 
 ## Footer
-© 2025 Entraiot Solutions. All rights reserved.
+© 2026 Entraiot Solutions. All rights reserved.
 
 ## Website Features
 - Company logo/branding
