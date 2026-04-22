@@ -1,10 +1,40 @@
+"use client";
+
 import Link from "next/link";
-import { ArrowRight, Play, Users, Star, CheckCircle } from "lucide-react";
+import { ArrowRight, Play, Users, Star, CheckCircle, Cpu, Cloud, Shield, Zap, Database, Wifi, Activity, Lock, Server } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { ScrollAnimation, ScrollCounter } from "@/components/ui/scroll-animations";
 import { ParticleField, FloatingElement,  Magnetic, CursorConnector } from "@/components/ui/particle-effects";
 import { Logo } from "@/components/ui/optimized-image";
+import { motion } from "framer-motion";
+
+const Orbit = ({ size, duration, nodeContent, color = "bg-primary/20", iconColor = "text-primary", reverse = false }: any) => {
+  return (
+    <div
+      className="absolute top-1/2 left-1/2 rounded-full border border-primary/20 border-dashed hidden md:block" // Hidden on mobile to prevent overflow
+      style={{
+        width: size,
+        height: size,
+        marginTop: -size / 2,
+        marginLeft: -size / 2,
+        pointerEvents: "none",
+        zIndex: 0,
+        animation: `spin ${duration}s linear infinite ${reverse ? 'reverse' : 'normal'}`,
+      }}
+    >
+      <div 
+        className={`absolute w-12 h-12 -top-6 left-1/2 -ml-6 rounded-2xl ${color} shadow-[0_0_15px_rgba(255,255,255,0.1)] flex items-center justify-center backdrop-blur-md border border-white/10`}
+        style={{
+          animation: `spin ${duration}s linear infinite ${reverse ? 'normal' : 'reverse'}`,
+        }}
+      >
+        {nodeContent}
+      </div>
+    </div>
+  );
+};
+
 
 // Removed unused teamAvatars to satisfy eslint no-unused-vars
 
@@ -157,99 +187,33 @@ export default function Hero() {
             </ScrollAnimation>
           </div>
 
-          {/* Enhanced Visual/Dashboard */}
+          {/* Massive AI/IoT Solar System Visual */}
           <ScrollAnimation direction="right" delay={0.4}>
-            <div className="relative mt-8 lg:mt-0">
-              <FloatingElement intensity={8} speed={6}>
-                  <div className="glass backdrop-blur-xl rounded-2xl p-4 md:p-6 shadow-lg border border-border/20 max-w-lg mx-auto lg:max-w-none">
-                    <div className="space-y-6">
-                      <div className="flex items-center justify-between">
-                        <div className="flex items-center space-x-3">
-                          <div className="w-12 h-12 rounded-2xl flex items-center justify-center">
-                            <Logo
-                              src="/logobg.webp"
-                              alt="Entraiot Solutions"
-                              width={20}
-                              height={20}
-                              className="h-20 w-20 object-contain"
-                            />
-                          </div>
-                          <div>
-                            <h3 className="text-lg font-semibold text-foreground">IoT Solutions Dashboard</h3>
-                            <p className="text-sm text-muted-foreground">Real-time AI solutions monitoring</p>
-                          </div>
-                        </div>
-                        <Badge variant="secondary" className="bg-green-500/20 text-green-700 border-green-500/30">
-                          <div className="w-2 h-2 bg-green-500 rounded-full mr-2 animate-pulse"></div>
-                          Live
-                        </Badge>
-                      </div>
-                      
-                      {/* Enhanced Mock Dashboard Elements */}
-                      <div className="space-y-6">
-                        <div className="flex items-center justify-between">
-                          <span className="text-sm font-medium text-muted-foreground">Connected Devices</span>
-                          <span className="text-3xl font-bold bg-gradient-to-r from-primary to-blue-600 bg-clip-text text-transparent">
-                            <ScrollCounter from={0} to={2847} />
-                          </span>
-                        </div>
-                        
-                        <div className="space-y-2">
-                          <div className="flex justify-between text-sm">
-                            <span className="text-muted-foreground">System Performance</span>
-                            <span className="text-foreground font-medium">
-                              <ScrollCounter from={0} to={94} suffix="%" />
-                            </span>
-                          </div>
-                          <div className="w-full bg-muted rounded-full h-2">
-                            <div className="bg-gradient-to-r from-primary to-blue-600 h-2 rounded-full w-[94%] animate-pulse"></div>
-                          </div>
-                        </div>
-                        
-                        <div className="grid grid-cols-2 gap-4">
-                            <div className="bg-gradient-to-br from-green-500/10 to-green-600/10 rounded-2xl p-4 border border-green-500/20 hover:border-green-500/40 transition-colors">
-                              <div className="text-xs text-green-700 font-medium">Energy Saved</div>
-                              <div className="text-2xl font-bold text-green-600">
-                                <ScrollCounter from={0} to={23} suffix="%" />
-                              </div>
-                              <div className="text-xs text-green-600">↑ 12% this month</div>
-                            </div>
-                            <div className="bg-gradient-to-br from-blue-500/10 to-blue-600/10 rounded-2xl p-4 border border-blue-500/20 hover:border-blue-500/40 transition-colors">
-                              <div className="text-xs text-blue-700 font-medium">Efficiency</div>
-                              <div className="text-2xl font-bold text-blue-600">
-                                <ScrollCounter from={0} to={90} suffix="%" />
-                              </div>
-                              <div className="text-xs text-blue-600">↑ 8% this month</div>
-                            </div>
-                        </div>
+            <div className="relative mt-12 lg:mt-0 flex items-center justify-center min-h-[500px] md:min-h-[700px] w-full max-w-[700px] mx-auto">
+              {/* 9 Orbitting rings */}
+              <Orbit size={200} duration={15} color="bg-blue-500/10" nodeContent={<Wifi className="w-5 h-5 text-blue-500" />} />
+              <Orbit size={280} duration={20} reverse color="bg-purple-500/10" nodeContent={<Zap className="w-5 h-5 text-purple-500" />} />
+              <Orbit size={360} duration={25} color="bg-green-500/10" nodeContent={<Database className="w-5 h-5 text-green-500" />} />
+              <Orbit size={440} duration={30} reverse color="bg-indigo-500/10" nodeContent={<Cloud className="w-6 h-6 text-indigo-500" />} />
+              <Orbit size={520} duration={35} color="bg-rose-500/10" nodeContent={<Activity className="w-6 h-6 text-rose-500" />} />
+              <Orbit size={600} duration={40} reverse color="bg-teal-500/10" nodeContent={<Cpu className="w-6 h-6 text-teal-500" />} />
+              <Orbit size={680} duration={45} color="bg-amber-500/10" nodeContent={<Shield className="w-6 h-6 text-amber-500" />} />
+              <Orbit size={760} duration={50} reverse color="bg-cyan-500/10" nodeContent={<Server className="w-6 h-6 text-cyan-500" />} />
+              <Orbit size={840} duration={55} color="bg-pink-500/10" nodeContent={<Lock className="w-6 h-6 text-pink-500" />} />
 
-                        {/* Enhanced Team Section */}
-                        {/* <div className="pt-4 border-t border-border/50">
-                          <div className="flex items-center justify-between mb-3">
-                            <span className="text-sm font-medium text-foreground">Expert Team</span>
-                            <Users className="h-4 w-4 text-primary" />
-                          </div>
-                          <div className="flex items-center space-x-2">
-                            {teamAvatars.map((avatar, index) => (
-                              <Avatar
-                                key={index}
-                                src={avatar.src}
-                                alt={avatar.alt}
-                                size={40}
-                                online={true}
-                                hoverEffect={true}
-                                className="transition-transform duration-300"
-                              />
-                            ))}
-                            <div className="ml-3 text-xs text-muted-foreground">
-                              <span className="font-medium text-foreground">4+ experts</span> online
-                            </div>
-                          </div>
-                        </div> */}
-                      </div>
-                    </div>
+              {/* Central Sun/Logo Hub */}
+              <FloatingElement intensity={4} speed={4} className="relative z-10">
+                <div className="w-32 h-32 md:w-40 md:h-40 rounded-full glass bg-white/5 border border-white/40 flex items-center justify-center shadow-[0_0_80px_rgba(255,255,255,0.4)] backdrop-blur-3xl animate-pulse-slow">
+                  <div className="w-24 h-24 md:w-32 md:h-32 rounded-full bg-gradient-to-br from-white/30 to-white/10 flex items-center justify-center backdrop-blur-xl shadow-[inset_0_0_20px_rgba(255,255,255,0.5)]">
+                    <Logo
+                      src="/logobg.webp"
+                      alt="Entraiot Central Hub"
+                      width={60}
+                      height={60}
+                      className="w-16 h-16 md:w-20 md:h-20 object-contain drop-shadow-[0_0_25px_rgba(255,255,255,0.8)] hover:scale-110 transition-transform duration-500"
+                    />
                   </div>
-                
+                </div>
               </FloatingElement>
             </div>
           </ScrollAnimation>
