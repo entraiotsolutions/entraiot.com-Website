@@ -1,0 +1,107 @@
+[
+  {
+    "userId": "s_1777679852558_ya4ao9p",
+    "userMessage": "I want more leads",
+    "botReply": "Great choice 🚀\nWe help businesses generate leads using AI automation.\n👉 What’s your business?",
+    "intent": "LEADS",
+    "timestamp": "2026-05-01T23:59:18.845Z"
+  },
+  {
+    "userId": "s_1777679852558_ya4ao9p",
+    "userMessage": "IT Services",
+    "botReply": "Perfect 🚀 For IT Services, we automate lead capture and qualification to ensure high conversion rates.",
+    "intent": "LEADS",
+    "timestamp": "2026-05-01T23:59:20.250Z"
+  },
+  {
+    "userId": "s_1777679852558_ya4ao9p",
+    "userMessage": "Next",
+    "botReply": "Are you currently getting enough property enquiries?",
+    "intent": "LEADS",
+    "timestamp": "2026-05-01T23:59:21.748Z"
+  },
+  {
+    "userId": "s_1777679852558_ya4ao9p",
+    "userMessage": "No",
+    "botReply": "That means your funnel is missing automation.\n👉 Want to see how we fix it?",
+    "intent": "LEADS",
+    "timestamp": "2026-05-01T23:59:22.814Z"
+  },
+  {
+    "userId": "s_1777679852558_ya4ao9p",
+    "userMessage": "Create plan",
+    "botReply": "Hi 👋 I'm Entraiot's AI assistant. What are you looking for today?",
+    "intent": "DEMO",
+    "timestamp": "2026-05-01T23:59:24.003Z"
+  },
+  {
+    "userId": "s_1777679852558_ya4ao9p",
+    "userMessage": "Support",
+    "botReply": "Great 👍 What’s your main goal for your business?",
+    "intent": "DEMO",
+    "timestamp": "2026-05-01T23:59:25.713Z"
+  },
+  {
+    "userId": "s_1777679852558_ya4ao9p",
+    "userMessage": "Reduce Cost",
+    "botReply": "Smart move 💰\nMost businesses overspend due to manual processes.",
+    "intent": "COST",
+    "timestamp": "2026-05-01T23:59:27.064Z"
+  },
+  {
+    "userId": "s_1777679852558_ya4ao9p",
+    "userMessage": "Next",
+    "botReply": "Where do you spend most?",
+    "intent": "COST",
+    "timestamp": "2026-05-01T23:59:28.157Z"
+  },
+  {
+    "userId": "s_1777679852558_ya4ao9p",
+    "userMessage": "Operations",
+    "botReply": "Automation can reduce dependency on manpower.",
+    "intent": "COST",
+    "timestamp": "2026-05-01T23:59:33.956Z"
+  },
+  {
+    "userId": "s_1777679852558_ya4ao9p",
+    "userMessage": "Next",
+    "botReply": "💡 You can save 20–40% monthly costs",
+    "intent": "COST",
+    "timestamp": "2026-05-01T23:59:35.834Z"
+  },
+  {
+    "userId": "s_1777679852558_ya4ao9p",
+    "userMessage": "Next",
+    "botReply": "Want exact savings for your business?",
+    "intent": "COST",
+    "timestamp": "2026-05-01T23:59:36.916Z"
+  },
+  {
+    "userId": "s_1777679852558_ya4ao9p",
+    "userMessage": "Yes",
+    "botReply": "Enter average monthly salary:",
+    "intent": "COST",
+    "timestamp": "2026-05-01T23:59:38.047Z"
+  },
+  {
+    "userId": "s_1777679852558_ya4ao9p",
+    "userMessage": "570000000",
+    "botReply": "You can save ₹171000000/month using automation",
+    "intent": "COST",
+    "timestamp": "2026-05-01T23:59:46.968Z"
+  },
+  {
+    "userId": "s_1777679852558_ya4ao9p",
+    "userMessage": "Next",
+    "botReply": "Want a detailed plan?",
+    "intent": "COST",
+    "timestamp": "2026-05-01T23:59:53.569Z"
+  },
+  {
+    "userId": "s_1777679852558_ya4ao9p",
+    "userMessage": "I submitted my details.",
+    "botReply": "I can help you with leads, automation, or cost reduction. What’s your priority?",
+    "intent": "COST",
+    "timestamp": "2026-05-01T23:59:58.654Z"
+  }
+]
