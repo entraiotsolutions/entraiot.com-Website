@@ -56,19 +56,19 @@ export class ChatbotSystem {
     // Update memory intent if something new detected, but preserve flow if active
     if (detectedIntent && detectedIntent !== "FALLBACK" && detectedIntent !== "GREETING") {
       if (memory.intent !== detectedIntent) {
-        memory.intent = detectedIntent;
+        (memory as any).intent = detectedIntent;
         memory.step = 0; // Reset for new flow
       }
     }
 
     // 2. Try Flow Engine
-    let response = runFlowEngine(memory, message);
+    let response = runFlowEngine(memory as any, message);
 
     // 3. Anti-Repeat Logic
     if (response && response.reply === memory.last_reply) {
       // Move to next step automatically if it's a repeat
       memory.step += 1;
-      response = runFlowEngine(memory, message);
+      response = runFlowEngine(memory as any, message);
     }
 
     if (response) {

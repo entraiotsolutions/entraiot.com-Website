@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import { usePathname } from "next/navigation";
-import { motion, AnimatePresence } from "framer-motion";
+import { motion, AnimatePresence, Variants } from "framer-motion";
 
 // ─── Rolling Top Progress Bar ───────────────────────────────────────────────
 function TopProgressBar() {
@@ -101,12 +101,12 @@ function TopProgressBar() {
 }
 
 // ─── Page Fade-In Wrapper ────────────────────────────────────────────────────
-const pageVariants = {
+const pageVariants: Variants = {
   hidden: { opacity: 0, y: 16 },
   visible: {
     opacity: 1,
     y: 0,
-    transition: { duration: 0.4, ease: [0.22, 1, 0.36, 1] as number[] },
+    transition: { duration: 0.4, ease: [0.22, 1, 0.36, 1] },
   },
   exit: {
     opacity: 0,

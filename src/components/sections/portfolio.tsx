@@ -176,7 +176,7 @@ const flowSteps = [
 
 // --- Components ---
 
-const Card = ({ item, index, type }) => {
+const Card = ({ item, index, type }: { item: any; index: number; type: "iot" | "it" }) => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: "-50px" });
 
@@ -242,7 +242,7 @@ const Card = ({ item, index, type }) => {
 
         {/* Tags Row */}
         <div className="flex flex-wrap gap-2 mb-4">
-          {item.tags.map((tag, i) => (
+          {item.tags.map((tag: string, i: number) => (
             <span key={i} className="text-[10px] px-2.5 py-1 rounded-full bg-blue-50 text-blue-700 border border-blue-100 font-medium">
               {tag}
             </span>
@@ -272,7 +272,7 @@ export default function PortfolioSection() {
   // Intersection Observer for Tab Highlighting
   useEffect(() => {
     const options = { threshold: 0.3 };
-    const callback = (entries) => {
+    const callback: IntersectionObserverCallback = (entries) => {
       entries.forEach(entry => {
         if (entry.isIntersecting) {
           setActiveTab(entry.target.id === "iot-section" ? "iot" : "it");
@@ -286,7 +286,7 @@ export default function PortfolioSection() {
     return () => observer.disconnect();
   }, []);
 
-  const scrollToSection = (id) => {
+  const scrollToSection = (id: string) => {
     const element = document.getElementById(id);
     if (element) {
       element.scrollIntoView({ behavior: "smooth" });

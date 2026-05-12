@@ -10,7 +10,8 @@ import {
   MoreVertical,
   ChevronLeft,
   Loader2,
-  TrendingUp
+  TrendingUp,
+  MessageSquare
 } from "lucide-react";
 import Link from "next/link";
 
@@ -26,6 +27,8 @@ interface UserSession {
   name?: string;
   intent?: string;
   businessType?: string;
+  score: number;
+  leadLabel: "Cold" | "Warm" | "Hot";
   lastActive: string;
   messages: ChatMessage[];
 }

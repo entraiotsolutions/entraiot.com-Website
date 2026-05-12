@@ -1,7 +1,7 @@
 "use client";
 
 import * as React from "react";
-import { motion, useInView, useAnimation, animate } from "framer-motion";
+import { motion, useInView, useAnimation, animate, Variants } from "framer-motion";
 import { useEffect, useRef, useState } from "react";
 
 // Performance optimization: Only run heavy animations on desktop
@@ -55,7 +55,7 @@ export function ScrollAnimation({
     }
   }, [isInView, controls]);
 
-  const variants = {
+  const variants: Variants = {
     hidden: {
       opacity: shouldReduceMotion ? 1 : 0,
       y: shouldReduceMotion ? 0 : (direction === "up" ? distance : direction === "down" ? -distance : 0),
@@ -107,7 +107,7 @@ export function ScrollStagger({
   const ref = useRef(null);
   const isInView = useInView(ref, { once, amount: 0.2 });
 
-  const containerVariants = {
+  const containerVariants: Variants = {
     hidden: { opacity: 0 },
     visible: {
       opacity: 1,
@@ -118,7 +118,7 @@ export function ScrollStagger({
     },
   };
 
-  const childVariants = {
+  const childVariants: Variants = {
     hidden: { opacity: 0, y: 20 },
     visible: {
       opacity: 1,

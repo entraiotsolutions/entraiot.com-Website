@@ -10,6 +10,7 @@ export interface ChatMemory {
   business_type: string | null;
   last_reply: string | null;
   trigger_lead_capture?: boolean;
+  lead_captured?: boolean;
 }
 
 const memoryStore = new Map<string, ChatMemory>();

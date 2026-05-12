@@ -81,15 +81,13 @@ export default function ParticlesBg() {
             value: 90,
           },
           opacity: {
-            value: 0.5,
-            random: true,
+            value: { min: 0.1, max: 0.5 },
           },
           shape: {
             type: "circle",
           },
           size: {
             value: { min: 1, max: 2.5 },
-            random: true,
           },
         },
         detectRetina: true,

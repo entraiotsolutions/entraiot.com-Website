@@ -224,7 +224,7 @@ export function runFlowEngine(memory: ConversationMemory, userMessage: string): 
 
   // ─── RULE 3: LEADS intent WITH business type ─────────────
   if (intent === "LEADS" && business_type) {
-    const pitchCtx = buildIndustryPitchContext(business_type);
+    const pitchCtx = buildIndustryPitchContext(business_type as BusinessType);
     return {
       context:
         `${pitchCtx}\n\n` +
@@ -239,7 +239,7 @@ export function runFlowEngine(memory: ConversationMemory, userMessage: string): 
 
   // ─── RULE 4: Business type identified (any intent) ───────
   if (business_type && stage === "qualification") {
-    const pitchCtx = buildIndustryPitchContext(business_type);
+    const pitchCtx = buildIndustryPitchContext(business_type as BusinessType);
     return {
       context:
         `${pitchCtx}\n\n` +
@@ -333,7 +333,7 @@ export function runFlowEngine(memory: ConversationMemory, userMessage: string): 
   }
 
   // ─── RULE 10: In pitch stage → push to CTA ────────────────
-  if (stage === "pitch" && lead_score >= 15) {
+  if (stage === "pitch" && (lead_score || 0) >= 15) {
     return {
       context:
         "The user has shown strong interest. Push them toward conversion. Ask if they " +
