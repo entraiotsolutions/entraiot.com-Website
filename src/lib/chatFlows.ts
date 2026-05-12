@@ -572,4 +572,3 @@ const flows: Record<string, ChatNode> = {
 };
 
 export default flows;
-export type { ChatNode, ChatButton };

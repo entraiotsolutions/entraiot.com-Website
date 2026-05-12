@@ -44,7 +44,7 @@ export function getBotResponse(state: ChatState, message: string): BotResponse {
     step = 0;
   }
 
-  const currentFlow = flows[intent] || flows.EXPLORE;
+  const currentFlow = (intent ? flows[intent] : null) || flows.EXPLORE;
   
   // 2. Handle data capture from previous step
   if (step > 0) {

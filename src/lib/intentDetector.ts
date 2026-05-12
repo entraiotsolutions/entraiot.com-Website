@@ -5,6 +5,16 @@
 
 export type Intent = "LEADS" | "AUTOMATION" | "COST" | "EXPLORE" | null;
 
+export type BusinessType = 
+  | "real_estate" 
+  | "healthcare" 
+  | "it_services" 
+  | "retail" 
+  | "manufacturing" 
+  | "logistics" 
+  | "other";
+
+
 const KEYWORDS: Record<string, string[]> = {
   LEADS: ["lead", "customer", "sale", "growth", "client", "enquiry", "visitor", "marketing", "get more leads"],
   AUTOMATION: ["automate", "automation", "workflow", "manual", "efficiency", "process", "iot", "sensor", "automation ⚙️"],
