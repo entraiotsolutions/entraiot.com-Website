@@ -99,10 +99,10 @@ const solutions = [
 ];
 
 export default function Solutions() {
-  const [activeCard, setActiveCard] = useState<number | null>(0);
+  const [openId, setOpenId] = useState<string | null>(null);
 
-  const toggleCard = (index: number) => {
-    setActiveCard(activeCard === index ? null : index);
+  const toggleCard = (id: string) => {
+    setOpenId(openId === id ? null : id);
   };
 
   return (
@@ -147,16 +147,16 @@ export default function Solutions() {
         </div>
 
         {/* Solutions Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-24">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-24 items-start">
           {solutions.map((solution, index) => {
             const Icon = solution.icon;
-            const isActive = activeCard === index;
+            const isActive = openId === solution.id;
 
             return (
               <div 
-                key={index}
-                onClick={() => toggleCard(index)}
-                className={`group relative rounded-2xl border transition-all duration-300 cursor-pointer overflow-hidden ${
+                key={solution.id}
+                onClick={() => toggleCard(solution.id)}
+                className={`group relative rounded-2xl border transition-all duration-300 cursor-pointer overflow-hidden self-start ${
                   isActive 
                     ? "border-2 border-opacity-100 ring-0" 
                     : "border-opacity-100 hover:shadow-xl"

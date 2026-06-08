@@ -59,21 +59,30 @@ export function logInteraction(userId: string, userMessage: string, botReply: st
   writeSessions(sessions);
 }
 
-export function updateUserInfo(userId: string, data: { email?: string; name?: string; intent?: string; businessType?: string; score?: number }) {
+export function updateUserInfo(userId: string, data: { email?: string; name?: string; intent?: string; businessType?: string; score?: number; leadLabel?: "Cold" | "Warm" | "Hot" }) {
   const sessions = readSessions();
   if (sessions[userId]) {
     const session = sessions[userId];
-    if (data.email) session.email = data.email;
-    if (data.name) session.name = data.name;
-    if (data.intent) session.intent = data.intent;
-    if (data.businessType) session.businessType = data.businessType;
-    if (data.score !== undefined) {
-      session.score = (session.score || 0) + data.score;
-      // Update label based on score
+    if (data.email !== undefined) session.email = data.email;
+    if (data.name !== undefined) session.name = data.name;
+    if (data.intent !== undefined) session.intent = data.intent;
+    if (data.businessType !== undefined) session.businessType = data.businessType;
+    if (data.score !== undefined) session.score = data.score;
+    if (data.leadLabel !== undefined) {
+      session.leadLabel = data.leadLabel;
+    } else if (data.score !== undefined) {
       if (session.score >= 70) session.leadLabel = "Hot";
       else if (session.score >= 40) session.leadLabel = "Warm";
       else session.leadLabel = "Cold";
     }
+    writeSessions(sessions);
+  }
+}
+
+export function deleteSession(userId: string) {
+  const sessions = readSessions();
+  if (sessions[userId]) {
+    delete sessions[userId];
     writeSessions(sessions);
   }
 }

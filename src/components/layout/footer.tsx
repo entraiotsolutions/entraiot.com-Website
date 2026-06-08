@@ -191,20 +191,12 @@ export default function Footer() {
               &copy; {new Date().getFullYear()} Entraiot Solutions Private Limited. All rights reserved.
             </div>
             <div className="flex items-center space-x-6 mr-16 md:mr-20">
-              <span
-                aria-disabled="true"
-                title="Coming soon"
-                className="text-sm text-muted-foreground cursor-default"
-              >
+              <Link href="/privacy-policy" className="text-sm text-[#475569] hover:text-[#2563eb] transition-colors">
                 Privacy Policy
-              </span>
-              <span
-                aria-disabled="true"
-                title="Coming soon"
-                className="text-sm text-muted-foreground cursor-default"
-              >
+              </Link>
+              <Link href="/terms-of-service" className="text-sm text-[#475569] hover:text-[#2563eb] transition-colors">
                 Terms of Service
-              </span>
+              </Link>
             </div>
           </div>
         </div>

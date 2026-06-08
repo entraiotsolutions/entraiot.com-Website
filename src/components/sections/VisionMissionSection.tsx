@@ -12,6 +12,7 @@ import {
 import { ScrollCounter } from "@/components/ui/scroll-animations";
 import { OptimizedImage } from "@/components/ui/optimized-image";
 import { GlowEffect, FloatingElement } from "@/components/ui/particle-effects";
+import { motion, AnimatePresence } from "framer-motion";
 
 const visionPillars = [
     {
@@ -48,8 +49,33 @@ const visionPillars = [
     }
 ];
 
+const founderAchievements = [
+    {
+        title: "Engineering Foundation",
+        description: "B.E. in Electronics & Communication Engineering from St. Joseph’s College of Engineering",
+        icon: "🎓",
+        position: "top-[-20%] right-[-15%]",
+        delay: 0.1
+    },
+    {
+        title: "Technical Excellence",
+        description: "Former Embedded Engineer at Nissi Software Systems with hands-on IoT and embedded expertise",
+        icon: "⚙️",
+        position: "left-[-25%] top-[25%]",
+        delay: 0.2
+    },
+    {
+        title: "Entrepreneurship",
+        description: "Founded Entraiot Solutions in 2025 to build AI-powered IoT ecosystems and scalable automation solutions",
+        icon: "🚀",
+        position: "bottom-[30%] right-[-20%]",
+        delay: 0.3
+    }
+];
+
 export default function VisionMissionSection() {
     const [activeIndex, setActiveIndex] = useState(0);
+    const [isHovered, setIsHovered] = useState(false);
 
     return (
         <div className="grid lg:grid-cols-2 gap-8 md:gap-12 items-start">
@@ -150,20 +176,90 @@ export default function VisionMissionSection() {
             
             {/* Right Column: Founder Image and Vision Pillars */}
             <div className="relative">
-                <div className="relative">
+                <div 
+                    className="relative"
+                    onMouseEnter={() => setIsHovered(true)}
+                    onMouseLeave={() => setIsHovered(false)}
+                >
                     <FloatingElement intensity={6} speed={4}>
                         <div className="relative">
-                            <div className="w-full max-w-md mx-auto glass backdrop-blur-sm rounded-3xl p-6 border border-border/20">
-                                <OptimizedImage
-                                    src="/CEO.jpg"
-                                    alt="Salvin Jones - Founder & CEO"
-                                    width={320}
-                                    height={400}
-                                    className="rounded-2xl object-cover w-full h-80 md:h-96"
-                                    hoverEffect={true}
-                                />
-                            </div>
-                            <div className="absolute -bottom-6 left-1/2 transform -translate-x-1/2 w-full max-w-xs">
+                            <motion.div 
+                                className="relative z-10"
+                                animate={{
+                                    boxShadow: isHovered 
+                                        ? "0 0 40px rgba(99, 102, 241, 0.4), 0 0 80px rgba(124, 58, 237, 0.2)" 
+                                        : "0 0 0px rgba(99, 102, 241, 0)"
+                                }}
+                                transition={{ duration: 0.5 }}
+                            >
+                                <div className="w-full max-w-md mx-auto glass backdrop-blur-sm rounded-3xl p-6 border border-border/20">
+                                    <OptimizedImage
+                                        src="/CEO.jpg"
+                                        alt="Salvin Jones - Founder & CEO"
+                                        width={320}
+                                        height={400}
+                                        className="rounded-2xl object-cover w-full h-80 md:h-96"
+                                        hoverEffect={true}
+                                    />
+                                </div>
+                            </motion.div>
+
+                            {/* Floating Achievement Cards (Desktop Only) */}
+                            <AnimatePresence>
+                                {isHovered && (
+                                    <div className="hidden lg:block absolute inset-0 z-20 pointer-events-none">
+                                        {founderAchievements.map((achievement, idx) => (
+                                            <motion.div
+                                                key={idx}
+                                                className={`absolute ${achievement.position} w-64 p-4 rounded-2xl bg-white/10 backdrop-blur-md border border-white/20 shadow-2xl overflow-hidden pointer-events-auto`}
+                                                initial={{ opacity: 0, scale: 0.8, y: 20 }}
+                                                animate={{ 
+                                                    opacity: 1, 
+                                                    scale: 1, 
+                                                    y: 0,
+                                                    transition: { 
+                                                        delay: achievement.delay,
+                                                        duration: 0.5,
+                                                        ease: "easeOut"
+                                                    }
+                                                }}
+                                                exit={{ opacity: 0, scale: 0.8, y: 10, transition: { duration: 0.2 } }}
+                                                whileHover={{ scale: 1.05, transition: { duration: 0.2 } }}
+                                            >
+                                                {/* Idle Floating Animation Wrapper */}
+                                                <motion.div
+                                                    className="relative z-10"
+                                                    animate={{
+                                                        y: [0, -8, 0],
+                                                    }}
+                                                    transition={{
+                                                        duration: 4,
+                                                        repeat: Infinity,
+                                                        ease: "easeInOut",
+                                                        delay: idx * 0.7
+                                                    }}
+                                                >
+                                                    {/* Ambient Background Glow */}
+                                                    <div className="absolute -top-10 -right-10 w-24 h-24 bg-blue-500/20 rounded-full blur-2xl" />
+                                                    <div className="absolute -bottom-10 -left-10 w-24 h-24 bg-purple-500/20 rounded-full blur-2xl" />
+                                                    
+                                                    <div className="relative z-10">
+                                                        <div className="flex items-center gap-2 mb-2">
+                                                            <span className="text-xl">{achievement.icon}</span>
+                                                            <h5 className="font-bold text-slate-900 text-sm">{achievement.title}</h5>
+                                                        </div>
+                                                        <p className="text-xs text-slate-800 font-medium leading-relaxed">
+                                                            {achievement.description}
+                                                        </p>
+                                                    </div>
+                                                </motion.div>
+                                            </motion.div>
+                                        ))}
+                                    </div>
+                                )}
+                            </AnimatePresence>
+
+                            <div className="absolute -bottom-6 left-1/2 transform -translate-x-1/2 w-full max-w-xs z-30">
                                 <GlowEffect color="#6366f1" intensity={0}>
                                     <div className="glass backdrop-blur-sm rounded-2xl p-4 border border-border/20 shadow-lg cursor-pointer transition-all duration-200 ease-out hover:scale-105 hover:-translate-y-2">
                                         <div className="text-center space-y-2">
@@ -179,6 +275,30 @@ export default function VisionMissionSection() {
                             </div>
                         </div>
                     </FloatingElement>
+                </div>
+
+                {/* Mobile Achievement Cards (Stacked) */}
+                <div className="mt-12 lg:hidden space-y-4">
+                    {founderAchievements.map((achievement, idx) => (
+                        <motion.div
+                            key={idx}
+                            initial={{ opacity: 0, y: 20 }}
+                            whileInView={{ opacity: 1, y: 0 }}
+                            viewport={{ once: true }}
+                            transition={{ delay: idx * 0.1 }}
+                            className="p-4 rounded-2xl bg-white border border-slate-200 shadow-sm flex gap-4 items-start"
+                        >
+                            <div className="w-10 h-10 rounded-xl bg-blue-50 flex items-center justify-center text-xl shrink-0">
+                                {achievement.icon}
+                            </div>
+                            <div>
+                                <h5 className="font-bold text-slate-900 text-sm mb-1">{achievement.title}</h5>
+                                <p className="text-xs text-slate-700 leading-relaxed">
+                                    {achievement.description}
+                                </p>
+                            </div>
+                        </motion.div>
+                    ))}
                 </div>
                 
                 {/* Professional Stats */}
