@@ -241,11 +241,11 @@ export default function Chatbot() {
 
   const chatWindowClass = expanded
     ? "fixed inset-3 sm:inset-6 md:inset-10 z-50"
-    : "fixed right-4 bottom-24 sm:right-6 sm:bottom-28 z-50 w-[calc(100vw-2rem)] sm:w-[400px] h-[min(75vh,650px)]";
+    : "fixed right-4 bottom-40 sm:right-6 sm:bottom-44 z-50 w-[calc(100vw-2rem)] sm:w-[400px] h-[min(75vh,650px)]";
 
   return (
     <>
-      <div className="fixed right-4 bottom-6 z-50 sm:right-6 sm:bottom-6">
+      <div className="fixed right-4 bottom-24 z-50 sm:right-6 sm:bottom-24">
         <motion.button
           onClick={() => setOpen(!open)}
           whileTap={{ scale: 0.95 }}

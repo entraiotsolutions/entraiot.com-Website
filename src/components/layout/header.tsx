@@ -1,9 +1,9 @@
 "use client";
 
 import Link from "next/link";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { usePathname } from "next/navigation";
-import { Menu, X } from "lucide-react";
+import { Menu, Moon, Sun, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Logo } from "@/components/ui/optimized-image";
 import { GlowEffect, Magnetic } from "@/components/ui/particle-effects";
@@ -23,8 +23,20 @@ const navigation = [
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isAnimating, setIsAnimating] = useState(false);
+  const [isDarkMode, setIsDarkMode] = useState(false);
   const pathname = usePathname();
   const isHomePage = pathname === "/";
+
+  useEffect(() => {
+    document.documentElement.classList.remove("dark");
+    setIsDarkMode(false);
+  }, []);
+
+  const toggleTheme = () => {
+    const nextMode = !isDarkMode;
+    document.documentElement.classList.toggle("dark", nextMode);
+    setIsDarkMode(nextMode);
+  };
 
   const handleHomeClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
     if (isHomePage) {
@@ -51,7 +63,7 @@ export default function Header() {
 
   return (
     <header 
-      className="sticky top-0 z-50 w-full bg-white/95 backdrop-blur-sm border-b border-slate-200 shadow-sm"
+      className="sticky top-0 z-50 w-full bg-white/95 backdrop-blur-sm border-b border-slate-200 shadow-sm transition-colors dark:border-slate-800 dark:bg-slate-950/95"
       style={isAnimating ? {
         animation: "headerSlideFromTop 0.6s ease-out",
         willChange: "transform"
@@ -74,7 +86,7 @@ export default function Header() {
                   className="w-full h-full object-contain"
                 />
               </div>
-              <span className="font-bold text-lg text-slate-900 whitespace-nowrap">
+              <span className="font-bold text-lg text-slate-900 whitespace-nowrap dark:text-white">
                 Entraiot Solutions
               </span>
             </Link>
@@ -94,7 +106,7 @@ export default function Header() {
                 className={`text-sm font-medium px-3 py-2 rounded-lg whitespace-nowrap transition-colors duration-150 ${
                   pathname === item.href 
                     ? "text-blue-600 font-semibold" 
-                    : "text-slate-600 hover:bg-slate-50 hover:text-slate-900"
+                    : "text-slate-600 hover:bg-slate-50 hover:text-slate-900 dark:text-slate-300 dark:hover:bg-slate-800 dark:hover:text-white"
                 }`}
               >
                 {item.name}
@@ -118,6 +130,15 @@ export default function Header() {
               >
                 Get Started
               </Link>
+              <button
+                type="button"
+                onClick={toggleTheme}
+                className="flex h-10 w-10 items-center justify-center rounded-full border border-slate-200 bg-white text-slate-700 shadow-sm transition-colors hover:bg-slate-50 dark:border-slate-700 dark:bg-slate-900 dark:text-yellow-300 dark:hover:bg-slate-800"
+                aria-label={isDarkMode ? "Switch to light mode" : "Switch to dark mode"}
+                title={isDarkMode ? "Light mode" : "Dark mode"}
+              >
+                {isDarkMode ? <Sun className="h-4 w-4" /> : <Moon className="h-4 w-4" />}
+              </button>
             </div>
 
             {/* Mobile Menu Button */}
@@ -137,7 +158,7 @@ export default function Header() {
 
         {/* Mobile Navigation */}
         {isMenuOpen && (
-          <div className="md:hidden border-t border-slate-100 pb-4">
+          <div className="md:hidden border-t border-slate-100 pb-4 dark:border-slate-800">
             <div className="px-2 pt-2 pb-3 space-y-1">
               {navigation.map((item) => (
                 <Link
@@ -152,7 +173,7 @@ export default function Header() {
                   className={`block px-3 py-2 rounded-md text-base font-medium transition-colors ${
                     pathname === item.href
                       ? "text-blue-600 bg-blue-50"
-                      : "text-slate-600 hover:text-slate-900 hover:bg-slate-50"
+                      : "text-slate-600 hover:text-slate-900 hover:bg-slate-50 dark:text-slate-300 dark:hover:bg-slate-800 dark:hover:text-white"
                   }`}
                 >
                   {item.name}
@@ -172,6 +193,15 @@ export default function Header() {
                 >
                   Get Started
                 </Link>
+                <button
+                  type="button"
+                  onClick={toggleTheme}
+                  className="mt-3 flex w-full items-center justify-center gap-2 rounded-lg border border-slate-200 bg-white px-3 py-2 text-base font-semibold text-slate-700 shadow-sm transition-colors hover:bg-slate-50 dark:border-slate-700 dark:bg-slate-900 dark:text-yellow-300 dark:hover:bg-slate-800"
+                  aria-label={isDarkMode ? "Switch to light mode" : "Switch to dark mode"}
+                >
+                  {isDarkMode ? <Sun className="h-5 w-5" /> : <Moon className="h-5 w-5" />}
+                  {isDarkMode ? "Light Mode" : "Dark Mode"}
+                </button>
               </div>
             </div>
           </div>

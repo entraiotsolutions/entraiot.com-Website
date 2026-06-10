@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
 import Script from "next/script";
 import "./globals.css";
 import Header from "@/components/layout/header";
@@ -9,20 +8,6 @@ import { ScrollToTop } from "@/components/ui/scroll-to-top";
 import LandingIntroHost from "@/components/intro/landing-intro-host";
 import { organizationStructuredData } from "@/lib/structured-data";
 import { PageTransition } from "@/components/ui/page-transition";
-
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-  display: "swap",
-  preload: true,
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-  display: "swap",
-  preload: false,
-});
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://entraiot.com'),
@@ -106,7 +91,7 @@ export default function RootLayout({
         />
       </head>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className="antialiased"
       >
         {/* Google Analytics - Optimized for performance */}
         <Script

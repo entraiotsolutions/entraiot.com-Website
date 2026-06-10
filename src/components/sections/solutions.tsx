@@ -106,7 +106,7 @@ export default function Solutions() {
   };
 
   return (
-    <section className="relative section-padding bg-[#f8fafc] overflow-visible">
+    <section className="relative section-padding bg-[#f8fafc] overflow-visible transition-colors dark:bg-slate-950">
       {/* Background Effects */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         <ParticleField count={40} colors={["#6366f1", "#8b5cf6", "#3b82f6", "#10b981", "#f97316"]} size={6} speed={4} opacity={0.6} />
@@ -133,14 +133,14 @@ export default function Solutions() {
           </ScrollAnimation>
 
           <ScrollAnimation direction="up" delay={0.4}>
-            <h2 className="text-4xl md:text-5xl font-[900] text-slate-900 mb-6">
+            <h2 className="text-4xl md:text-5xl font-[900] text-slate-900 mb-6 dark:text-slate-50">
               Comprehensive <span className="bg-gradient-to-r from-[#2563eb] to-[#7c3aed] bg-clip-text text-transparent">IoT & AI</span> Solutions
             </h2>
             <div className="w-[100px] h-1 bg-gradient-to-r from-[#2563eb] via-[#7c3aed] to-[#ec4899] rounded-full mx-auto" />
           </ScrollAnimation>
 
           <ScrollAnimation direction="up" delay={0.6}>
-            <p className="text-lg text-[#475569] max-w-2xl mx-auto leading-relaxed mt-6">
+            <p className="text-lg text-[#475569] max-w-2xl mx-auto leading-relaxed mt-6 dark:text-slate-300">
               We provide complete IoT solutions from start to finish. We help you set up and improve your systems for real results.
             </p>
           </ScrollAnimation>
@@ -151,28 +151,35 @@ export default function Solutions() {
           {solutions.map((solution, index) => {
             const Icon = solution.icon;
             const isActive = openId === solution.id;
+            const tabTone = [
+              "bg-blue-50/80 dark:bg-slate-900/90",
+              "bg-emerald-50/80 dark:bg-slate-900/90",
+              "bg-violet-50/80 dark:bg-slate-900/90",
+              "bg-amber-50/80 dark:bg-slate-900/90",
+              "bg-sky-50/80 dark:bg-slate-900/90",
+              "bg-pink-50/80 dark:bg-slate-900/90",
+            ][index];
 
             return (
               <div 
                 key={solution.id}
                 onClick={() => toggleCard(solution.id)}
-                className={`group relative rounded-2xl border transition-all duration-300 cursor-pointer overflow-hidden self-start ${
+                className={`group relative rounded-2xl border transition-all duration-300 cursor-pointer overflow-hidden ${tabTone} ${
                   isActive 
-                    ? "border-2 border-opacity-100 ring-0" 
+                    ? "border-2 border-opacity-100 ring-0 md:col-span-2" 
                     : "border-opacity-100 hover:shadow-xl"
                 }`}
                 style={{ 
-                  backgroundColor: solution.ultraLightTint,
                   borderColor: isActive ? solution.vividAccent : solution.lightBorder,
                   borderLeft: isActive ? `5px solid ${solution.vividAccent}` : `1px solid ${solution.lightBorder}`,
-                  boxShadow: isActive ? `0 16px 48px ${solution.shadowColor}` : "",
+                  boxShadow: isActive ? `0 14px 36px ${solution.shadowColor}` : "",
                   transform: !isActive ? "translateY(0px)" : "",
                   // Using inline style for hover translate because of dynamic colors, but tailwind is fine for basic hover
                 }}
               >
-                <div className="p-6">
+                <div className={`p-6 ${isActive ? "md:grid md:grid-cols-[minmax(260px,0.8fr),1.2fr] md:items-center md:gap-8" : ""}`}>
                   {/* Card Header (Icon + Title + Chevron) */}
-                  <div className="flex items-center justify-between gap-4">
+                  <div className="flex w-full items-center justify-between gap-4">
                     <div className="flex items-center gap-5">
                       <div 
                         className="w-[52px] h-[52px] flex-shrink-0 rounded-full flex items-center justify-center shadow-lg transition-transform duration-500 group-hover:scale-110"
@@ -183,7 +190,7 @@ export default function Solutions() {
                       >
                         <Icon className="h-6 w-6 text-white" />
                       </div>
-                      <h3 className="text-lg font-bold text-[#0f172a]">
+                      <h3 className="dark-readable text-lg font-bold text-[#0f172a] dark:text-slate-50">
                         {solution.title}
                       </h3>
                     </div>
@@ -196,7 +203,7 @@ export default function Solutions() {
                   </div>
 
                   {/* Expanded Content */}
-                  <div className={`transition-all duration-300 overflow-hidden ${isActive ? "max-h-[500px] opacity-100 mt-4" : "max-h-0 opacity-0"}`}>
+                  <div className={`transition-all duration-300 overflow-hidden ${isActive ? "max-h-[500px] opacity-100 mt-4 md:mt-0" : "max-h-0 opacity-0"}`}>
                     <div 
                       className="transition-all duration-300 transform"
                       style={{ 
@@ -205,7 +212,7 @@ export default function Solutions() {
                         transitionDelay: isActive ? "0.1s" : "0s"
                       }}
                     >
-                      <p className="text-sm text-[#475569] leading-[1.75]">
+                      <p className="dark-muted-readable text-sm text-[#475569] leading-[1.75] dark:text-slate-200">
                         {solution.description}
                       </p>
 
@@ -213,7 +220,7 @@ export default function Solutions() {
                         {solution.features.map((feature, fIdx) => (
                           <div 
                             key={fIdx}
-                            className="flex items-center gap-1.5 px-3 py-1.5 bg-white border rounded-full text-xs font-semibold"
+                            className="flex items-center gap-1.5 px-3 py-1.5 bg-white dark:bg-slate-800 border rounded-full text-xs font-semibold"
                             style={{ borderColor: solution.lightBorder, color: solution.darkAccentText }}
                           >
                             <div 
@@ -228,7 +235,7 @@ export default function Solutions() {
                       <Link 
                         href="/contact"
                         onClick={(e) => e.stopPropagation()}
-                        className="block mt-6 w-full py-3 rounded-xl text-white font-bold text-sm text-center shadow-lg transition-all hover:-translate-y-0.5"
+                        className="block mt-6 w-full md:w-[220px] py-3 rounded-xl text-white font-bold text-sm text-center shadow-lg transition-all hover:-translate-y-0.5"
                         style={{ 
                           background: solution.gradient,
                           boxShadow: `0 4px 20px ${solution.shadowColor}`
@@ -255,7 +262,11 @@ export default function Solutions() {
             <div className="absolute top-0 right-0 w-[250px] h-[250px] bg-[#7c3aed] opacity-15 blur-3xl rounded-full translate-x-1/2 -translate-y-1/2 pointer-events-none" />
             <div className="absolute bottom-0 left-1/2 w-[200px] h-[200px] bg-[#ec4899] opacity-10 blur-3xl rounded-full -translate-x-1/2 translate-y-1/2 pointer-events-none" />
 
-            <h3 className="relative z-10 text-center text-blue-200 font-bold mb-12 text-xs tracking-widest uppercase">Proven Results & Performance</h3>
+            <div className="relative z-10 mb-12 text-center">
+              <h3 className="inline-block border-b-2 border-blue-200 pb-2 text-blue-100 font-bold text-xs tracking-widest uppercase">
+                Proven Results & Performance
+              </h3>
+            </div>
             <div className="relative z-10 grid grid-cols-1 md:grid-cols-3 gap-8 relative">
               {/* Stat 1 */}
               <div className="text-center px-4 md:border-r border-white/10">

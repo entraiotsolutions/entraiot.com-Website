@@ -67,7 +67,7 @@ const disabledHrefs = new Set<string>([
 
 export default function Footer() {
   return (
-    <footer className="bg-slate-50 border-t border-slate-200">
+    <footer className="bg-slate-50 border-t border-slate-200 dark:bg-slate-950 dark:border-slate-800">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="py-12 lg:py-16">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-7 gap-8 lg:gap-12">
@@ -81,11 +81,11 @@ export default function Footer() {
                   height={32}
                   className="h-8 w-8 object-contain"
                 />
-                <span className="text-xl font-[800] text-[#0f172a]">
+                <span className="text-xl font-[800] text-[#0f172a] dark:text-slate-50">
                   Entraiot Solutions
                 </span>
               </Link>
-              <p className="text-sm text-[#475569] leading-relaxed mb-4 max-w-md">
+              <p className="text-sm text-[#475569] leading-relaxed mb-4 max-w-md dark:text-slate-300">
                 Empowering industries with real-time IoT solutions that optimize operations, 
                 improve sustainability & bring intelligence to businesses & communities.
               </p>
@@ -134,7 +134,7 @@ export default function Footer() {
             {/* Footer Links */}
             {Object.entries(footerSections).map(([key, section]) => (
               <div key={key}>
-                <h3 className="text-sm font-bold text-[#0f172a] mb-3">
+                <h3 className="text-sm font-bold text-[#0f172a] mb-3 dark:text-slate-100">
                   {section.title}
                 </h3>
                 <ul className="space-y-2">
@@ -171,7 +171,7 @@ export default function Footer() {
                       <li key={link.name}>
                         <Link
                           href={link.href}
-                          className="text-sm text-[#475569] hover:text-[#2563eb] transition-colors"
+                          className="text-sm text-[#475569] hover:text-[#2563eb] transition-colors dark:text-slate-300 dark:hover:text-blue-300"
                         >
                           {link.name}
                         </Link>
@@ -188,13 +188,13 @@ export default function Footer() {
         <div className="py-6 border-t border-border">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <div className="text-sm text-muted-foreground">
-              &copy; {new Date().getFullYear()} Entraiot Solutions Private Limited. All rights reserved.
+              &copy; 2025 Entraiot Solutions Private Limited. All rights reserved.
             </div>
             <div className="flex items-center space-x-6 mr-16 md:mr-20">
-              <Link href="/privacy-policy" className="text-sm text-[#475569] hover:text-[#2563eb] transition-colors">
+              <Link href="/privacy-policy" className="text-sm text-[#475569] hover:text-[#2563eb] transition-colors dark:text-slate-300 dark:hover:text-blue-300">
                 Privacy Policy
               </Link>
-              <Link href="/terms-of-service" className="text-sm text-[#475569] hover:text-[#2563eb] transition-colors">
+              <Link href="/terms-of-service" className="text-sm text-[#475569] hover:text-[#2563eb] transition-colors dark:text-slate-300 dark:hover:text-blue-300">
                 Terms of Service
               </Link>
             </div>

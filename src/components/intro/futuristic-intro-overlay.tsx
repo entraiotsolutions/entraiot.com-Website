@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 export default function FuturisticIntroOverlay({ onDismiss }: { onDismiss?: () => void }) {
   return (
-    <div className="fixed inset-0 z-[999] flex items-center justify-center bg-black/60">
+    <div className="fixed inset-0 z-[999] flex items-center justify-center bg-black/60 p-3 md:p-0">
 
       {/* Modal */}
       <motion.div
@@ -23,24 +23,24 @@ export default function FuturisticIntroOverlay({ onDismiss }: { onDismiss?: () =
             ease: "easeInOut",
           },
         }}
-        className="relative w-[95%] md:w-[85%] lg:w-[75%] max-w-6xl rounded-2xl overflow-hidden shadow-2xl bg-white"
+        className="relative w-full max-w-[min(94vw,420px)] md:w-[85%] md:max-w-6xl lg:w-[75%] rounded-2xl overflow-hidden shadow-2xl bg-white"
       >
 
         {/* CLOSE BUTTON */}
         <button
           onClick={onDismiss}
-          className="absolute top-4 right-4 z-50 bg-white rounded-full px-3 py-1 shadow"
+          className="absolute right-3 top-3 z-50 flex h-10 w-10 items-center justify-center rounded-full bg-white text-xl leading-none shadow md:right-4 md:top-4 md:h-auto md:w-auto md:px-3 md:py-1 md:text-base"
         >
           ✕
         </button>
 
         {/* IMAGE WRAPPER (IMPORTANT) */}
-        <div className="relative w-full h-[400px] md:h-[500px] lg:h-[600px]">
+        <div className="relative w-full aspect-[3/2] md:aspect-auto md:h-[500px] lg:h-[600px]">
 
           <motion.img
             src="/landing.png"
             alt="Landing"
-            className="w-full h-full object-cover"
+            className="w-full h-full object-contain md:object-cover"
             animate={{ y: [0, -6, 0] }}
             transition={{
               duration: 6,
@@ -57,6 +57,7 @@ export default function FuturisticIntroOverlay({ onDismiss }: { onDismiss?: () =
         <a
           href="https://rytzuforms.web.app/org/dzeId1Bzx6Vdy4n2m8aq7YzFIz03/form/BW4JNqTuRr26ssQbcn5y"
           target="_blank"
+          rel="noopener noreferrer"
           className="absolute left-[6%] bottom-[18%] w-[22%] h-[10%] z-40"
         />
 
@@ -64,6 +65,7 @@ export default function FuturisticIntroOverlay({ onDismiss }: { onDismiss?: () =
         <a
           href="https://wa.me/919944442061"
           target="_blank"
+          rel="noopener noreferrer"
           className="absolute left-[6%] bottom-[6%] w-[22%] h-[10%] z-40"
         />
 

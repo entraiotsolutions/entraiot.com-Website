@@ -538,15 +538,15 @@ export default function ProductsPage() {
                 Ready to Deploy?
               </div>
               
-              <h2 className="text-3xl md:text-4xl lg:text-5xl font-[900] bg-gradient-to-r from-[#0f172a] via-[#1e293b] to-[#334155] bg-clip-text text-transparent mb-6 leading-tight">
+              <h2 className="text-3xl md:text-4xl lg:text-5xl font-[900] bg-gradient-to-r from-[#0f172a] via-[#1e293b] to-[#334155] dark:from-white dark:via-slate-100 dark:to-slate-300 bg-clip-text text-transparent mb-6 leading-tight">
                 Start Your IoT Hardware Journey
               </h2>
               
               <div className="max-w-3xl mx-auto space-y-4 mb-8">
-                <p className="text-lg md:text-xl text-[#475569] leading-relaxed font-bold">
+                <p className="text-lg md:text-xl text-[#475569] dark:text-slate-200 leading-relaxed font-bold">
                   Need help selecting the right hardware for your IoT project?
                 </p>
-                <p className="text-base md:text-lg text-slate-500 leading-relaxed font-medium">
+                <p className="text-base md:text-lg text-slate-500 dark:text-slate-300 leading-relaxed font-medium">
                   Our experts can help you choose the perfect combination of RFID, NFC and BLE devices 
                   for your specific application requirements.
                 </p>
@@ -579,4 +579,3 @@ export default function ProductsPage() {
     </>
   );
 }
-

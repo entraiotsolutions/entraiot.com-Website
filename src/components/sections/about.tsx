@@ -168,12 +168,12 @@ export default function About({ backgroundClass = "gradient-secondary", breadcru
                         </Badge>
                     </ScrollAnimation>
                     <ScrollAnimation direction="up" delay={0.4}>
-                        <h2 className="text-3xl sm:text-4xl md:text-5xl font-[800] text-[#0f172a] mb-4 md:mb-8 leading-tight">
+                        <h2 className="dark-readable text-3xl sm:text-4xl md:text-5xl font-[800] text-[#0f172a] mb-4 md:mb-8 leading-tight">
                             Meet the <span className="bg-gradient-to-r from-[#2563eb] to-[#7c3aed] bg-clip-text text-transparent">Founder</span> Driving Innovation
                         </h2>
                     </ScrollAnimation>
                     <ScrollAnimation direction="up" delay={0.6}>
-                        <p className="text-lg md:text-xl text-[#475569] max-w-4xl mx-auto leading-relaxed">
+                        <p className="dark-muted-readable text-lg md:text-xl text-[#475569] max-w-4xl mx-auto leading-relaxed">
                             Entraiot Solutions is led by a hands-on founder. We combine <span className="text-[#2563eb] font-semibold">IoT, embedded systems and AI</span> to solve real problems. Our work helps businesses succeed.
                         </p>
                     </ScrollAnimation>
@@ -182,7 +182,7 @@ export default function About({ backgroundClass = "gradient-secondary", breadcru
                 {/* Enhanced Founder Section */}
                 <ScrollAnimation direction="up" delay={0.8}>
                     <div id="team" className="mb-12 md:mb-20 scroll-mt-20">
-                        <div className="bg-white rounded-2xl md:rounded-3xl p-6 md:p-12 shadow-2xl border border-slate-200">
+                        <div className="bg-white dark:bg-slate-900 rounded-2xl md:rounded-3xl p-6 md:p-12 shadow-2xl border border-slate-200 dark:border-slate-700">
 
 
                             <VisionMissionSection />
@@ -202,35 +202,35 @@ export default function About({ backgroundClass = "gradient-secondary", breadcru
                                     </div>
                                     
                                     <div className="flex-1 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-8">
-                                        <div className="flex items-start gap-3 p-4 rounded-xl bg-background/50 border border-border/20 hover:bg-background/80 transition-colors duration-300">
+                                        <div className="flex min-h-[84px] items-start gap-3 rounded-2xl border border-blue-100 bg-blue-50/70 dark:bg-slate-800/80 dark:border-slate-700 p-4 shadow-sm transition-all duration-300 hover:-translate-y-0.5 hover:border-blue-200 hover:shadow-md">
                                             <div className="w-2.5 h-2.5 mt-1.5 rounded-full flex-shrink-0 bg-gradient-to-r from-blue-500 to-blue-600 animate-pulse"></div>
                                             <span className="text-sm md:text-base text-foreground leading-relaxed font-medium">IoT-Based Asset & Condition Tracking</span>
                                         </div>
-                                        <div className="flex items-start gap-3 p-4 rounded-xl bg-background/50 border border-border/20 hover:bg-background/80 transition-colors duration-300">
+                                        <div className="flex min-h-[84px] items-start gap-3 rounded-2xl border border-cyan-100 bg-cyan-50/70 dark:bg-slate-800/80 dark:border-slate-700 p-4 shadow-sm transition-all duration-300 hover:-translate-y-0.5 hover:border-cyan-200 hover:shadow-md">
                                             <div className="w-2.5 h-2.5 mt-1.5 rounded-full flex-shrink-0 bg-gradient-to-r from-cyan-500 to-blue-500 animate-pulse" style={{ animationDelay: '0.2s' }}></div>
                                             <span className="text-sm md:text-base text-foreground leading-relaxed font-medium">Embedded System Design & Sensor Integration</span>
                                         </div>
-                                        <div className="flex items-start gap-3 p-4 rounded-xl bg-background/50 border border-border/20 hover:bg-background/80 transition-colors duration-300">
+                                        <div className="flex min-h-[84px] items-start gap-3 rounded-2xl border border-violet-100 bg-violet-50/70 dark:bg-slate-800/80 dark:border-slate-700 p-4 shadow-sm transition-all duration-300 hover:-translate-y-0.5 hover:border-violet-200 hover:shadow-md">
                                             <div className="w-2.5 h-2.5 mt-1.5 rounded-full flex-shrink-0 bg-gradient-to-r from-indigo-500 to-purple-500 animate-pulse" style={{ animationDelay: '0.4s' }}></div>
                                             <span className="text-sm md:text-base text-foreground leading-relaxed font-medium">AI-Driven Automation & Predictive Analytics</span>
                                         </div>
-                                        <div className="flex items-start gap-3 p-4 rounded-xl bg-background/50 border border-border/20 hover:bg-background/80 transition-colors duration-300">
+                                        <div className="flex min-h-[84px] items-start gap-3 rounded-2xl border border-fuchsia-100 bg-fuchsia-50/70 dark:bg-slate-800/80 dark:border-slate-700 p-4 shadow-sm transition-all duration-300 hover:-translate-y-0.5 hover:border-fuchsia-200 hover:shadow-md">
                                             <div className="w-2.5 h-2.5 mt-1.5 rounded-full flex-shrink-0 bg-gradient-to-r from-purple-500 to-violet-500 animate-pulse" style={{ animationDelay: '0.6s' }}></div>
                                             <span className="text-sm md:text-base text-foreground leading-relaxed font-medium">Custom Hardware Prototyping & R&D</span>
                                         </div>
-                                        <div className="flex items-start gap-3 p-4 rounded-xl bg-background/50 border border-border/20 hover:bg-background/80 transition-colors duration-300">
+                                        <div className="flex min-h-[84px] items-start gap-3 rounded-2xl border border-indigo-100 bg-indigo-50/70 dark:bg-slate-800/80 dark:border-slate-700 p-4 shadow-sm transition-all duration-300 hover:-translate-y-0.5 hover:border-indigo-200 hover:shadow-md">
                                             <div className="w-2.5 h-2.5 mt-1.5 rounded-full flex-shrink-0 bg-gradient-to-r from-blue-600 to-indigo-600 animate-pulse" style={{ animationDelay: '0.8s' }}></div>
                                             <span className="text-sm md:text-base text-foreground leading-relaxed font-medium">Cloud & Real-Time Data Sync</span>
                                         </div>
-                                        <div className="flex items-start gap-3 p-4 rounded-xl bg-background/50 border border-border/20 hover:bg-background/80 transition-colors duration-300">
+                                        <div className="flex min-h-[84px] items-start gap-3 rounded-2xl border border-sky-100 bg-sky-50/70 dark:bg-slate-800/80 dark:border-slate-700 p-4 shadow-sm transition-all duration-300 hover:-translate-y-0.5 hover:border-sky-200 hover:shadow-md">
                                             <div className="w-2.5 h-2.5 mt-1.5 rounded-full flex-shrink-0 bg-gradient-to-r from-cyan-600 to-blue-600 animate-pulse" style={{ animationDelay: '1s' }}></div>
                                             <span className="text-sm md:text-base text-foreground leading-relaxed font-medium">Web & Mobile Dashboard Development</span>
                                         </div>
-                                        <div className="flex items-start gap-3 p-4 rounded-xl bg-background/50 border border-border/20 hover:bg-background/80 transition-colors duration-300">
+                                        <div className="flex min-h-[84px] items-start gap-3 rounded-2xl border border-emerald-100 bg-emerald-50/70 dark:bg-slate-800/80 dark:border-slate-700 p-4 shadow-sm transition-all duration-300 hover:-translate-y-0.5 hover:border-emerald-200 hover:shadow-md">
                                             <div className="w-2.5 h-2.5 mt-1.5 rounded-full flex-shrink-0 bg-gradient-to-r from-indigo-600 to-purple-600 animate-pulse" style={{ animationDelay: '1.2s' }}></div>
                                             <span className="text-sm md:text-base text-foreground leading-relaxed font-medium">Smart Factory & Industry 4.0 Solutions</span>
                                         </div>
-                                        <div className="flex items-start gap-3 p-4 rounded-xl bg-background/50 border border-border/20 hover:bg-background/80 transition-colors duration-300">
+                                        <div className="flex min-h-[84px] items-start gap-3 rounded-2xl border border-rose-100 bg-rose-50/70 dark:bg-slate-800/80 dark:border-slate-700 p-4 shadow-sm transition-all duration-300 hover:-translate-y-0.5 hover:border-rose-200 hover:shadow-md">
                                             <div className="w-2.5 h-2.5 mt-1.5 rounded-full flex-shrink-0 bg-gradient-to-r from-violet-500 to-purple-600 animate-pulse" style={{ animationDelay: '1.4s' }}></div>
                                             <span className="text-sm md:text-base text-foreground leading-relaxed font-medium">Custom Client Solutions & Consulting</span>
                                         </div>
@@ -346,9 +346,9 @@ export default function About({ backgroundClass = "gradient-secondary", breadcru
                 <ScrollAnimation direction="up" delay={1.6}>
                     <div className="text-center">
                         <GlowEffect color="#6366f1" intensity={0}>
-                            <div className="glass p-6 md:p-12 border border-border/20 rounded-2xl md:rounded-3xl shadow-2xl max-w-4xl mx-auto space-y-6 md:space-y-8">
-                                <h2 className="text-3xl sm:text-4xl font-[800] text-[#0f172a] leading-tight">Ready to Work with <span className="bg-gradient-to-r from-[#2563eb] to-[#7c3aed] bg-clip-text text-transparent">Us?</span></h2>
-                                <p className="text-base sm:text-lg text-[#475569] max-w-2xl mx-auto leading-relaxed">Join our growing list of satisfied clients and experience the difference.</p>
+                            <div className="glass dark:bg-slate-900/90 p-6 md:p-12 border border-border/20 dark:border-slate-700 rounded-2xl md:rounded-3xl shadow-2xl max-w-4xl mx-auto space-y-6 md:space-y-8">
+                                <h2 className="dark-readable text-3xl sm:text-4xl font-[800] text-[#0f172a] dark:text-slate-50 leading-tight">Ready to Work with <span className="bg-gradient-to-r from-[#2563eb] to-[#7c3aed] bg-clip-text text-transparent">Us?</span></h2>
+                                <p className="dark-muted-readable text-base sm:text-lg text-[#475569] dark:text-slate-300 max-w-2xl mx-auto leading-relaxed">Join our growing list of satisfied clients and experience the difference.</p>
                                 <div className="flex flex-col sm:flex-row justify-center gap-4">
                                     <Magnetic>
                                         <GlowEffect color="#6366f1" intensity={0}>
@@ -360,7 +360,7 @@ export default function About({ backgroundClass = "gradient-secondary", breadcru
                                         </GlowEffect>
                                     </Magnetic>
                                     <Magnetic>
-                                        <Button size="lg" variant="outline" asChild className="w-full sm:w-auto group bg-white border-2 border-blue-800 text-blue-800 hover:bg-blue-50 rounded-lg px-8 py-6 text-lg">
+                                        <Button size="lg" variant="outline" asChild className="w-full sm:w-auto group bg-white dark:bg-slate-800 border-2 border-blue-800 dark:border-blue-400 text-blue-800 dark:text-blue-100 hover:bg-blue-50 dark:hover:bg-slate-700 rounded-lg px-8 py-6 text-lg">
                                             <Link href="/solutions" className="flex items-center justify-center">
                                                 View Our Solutions <Zap className="ml-2 h-5 w-5 group-hover:scale-110 transition-transform" />
                                             </Link>

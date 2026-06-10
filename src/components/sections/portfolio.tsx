@@ -345,7 +345,7 @@ export default function PortfolioSection() {
                 className={`px-8 py-3 rounded-full text-sm font-bold transition-all duration-300 border ${
                   activeTab === "iot" 
                     ? "bg-blue-600 text-white border-transparent shadow-lg shadow-blue-200" 
-                    : "bg-white/80 backdrop-blur-sm border-slate-200 text-slate-600 hover:border-blue-300"
+                    : "bg-white/80 dark:bg-slate-800/90 backdrop-blur-sm border-slate-200 dark:border-slate-600 text-slate-600 dark:text-slate-100 hover:border-blue-300"
                 }`}
               >
                 ⚡ IoT Services
@@ -355,7 +355,7 @@ export default function PortfolioSection() {
                 className={`px-8 py-3 rounded-full text-sm font-bold transition-all duration-300 border ${
                   activeTab === "it" 
                     ? "bg-blue-600 text-white border-transparent shadow-lg shadow-blue-200" 
-                    : "bg-white/80 backdrop-blur-sm border-slate-200 text-slate-600 hover:border-blue-300"
+                    : "bg-white/80 dark:bg-slate-800/90 backdrop-blur-sm border-slate-200 dark:border-slate-600 text-slate-600 dark:text-slate-100 hover:border-blue-300"
                 }`}
               >
                 💻 IT Services

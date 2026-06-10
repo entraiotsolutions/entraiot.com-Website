@@ -300,13 +300,13 @@ export default function Industries() {
 
         {/* CTA Section */}
         <div className="text-center">
-          <div className="glass backdrop-blur-xl rounded-3xl p-8 md:p-12 border border-border/20 shadow-2xl animate-fade-in">
+          <div className="glass dark:bg-slate-900/90 backdrop-blur-xl rounded-3xl p-8 md:p-12 border border-border/20 dark:border-slate-700 shadow-2xl animate-fade-in">
             <div className="max-w-3xl mx-auto space-y-8">
               <div className="space-y-4">
-                <h3 className="text-3xl md:text-4xl font-[800] text-[#0f172a]">
+                <h3 className="dark-readable text-3xl md:text-4xl font-[800] text-[#0f172a]">
                   Ready to <span className="bg-gradient-to-r from-[#2563eb] to-[#10b981] bg-clip-text text-transparent">Revolutionize</span> Your Industry?
                 </h3>
-                <p className="text-xl text-[#475569] leading-relaxed">
+                <p className="dark-muted-readable text-xl text-[#475569] leading-relaxed">
                   Let&apos;s discuss how our IoT solutions can address your specific industry
                   challenges and unlock new opportunities for growth.
                 </p>
@@ -319,7 +319,7 @@ export default function Industries() {
                     <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
                   </Link>
                 </Button>
-                <Button size="lg" variant="outline" className="bg-white border-2 border-blue-800 text-blue-800 hover:bg-blue-50 rounded-lg">
+                <Button size="lg" variant="outline" className="bg-white dark:bg-slate-800 border-2 border-blue-800 dark:border-blue-400 text-blue-800 dark:text-blue-100 hover:bg-blue-50 dark:hover:bg-slate-700 rounded-lg">
                   <Link href="/solutions" className="flex items-center">
                     Explore Solutions
                   </Link>
@@ -327,7 +327,7 @@ export default function Industries() {
               </div>
 
               <div className="text-center">
-                <p className="text-sm text-muted-foreground mb-4">
+                <p className="dark-muted-readable text-sm text-muted-foreground mb-4">
                   See how we&apos;ve helped companies in your industry succeed
                 </p>
                 <Button variant="ghost" asChild>

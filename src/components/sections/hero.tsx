@@ -47,7 +47,7 @@ const highlights = [
 
 export default function Hero() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center gradient-accent overflow-hidden">
+    <section className="relative min-h-screen flex items-center justify-center gradient-accent overflow-hidden dark:bg-slate-950">
       {/* Enhanced Background Effects */}
       <div className="absolute inset-0 overflow-hidden">
         <ParticleField 
@@ -87,18 +87,18 @@ export default function Hero() {
                 </Badge> */}
                 
                 <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-[900] tracking-tight text-center lg:text-left leading-[1.1]">
-                  <span className="text-[#0f172a]">Smarter</span>
+                  <span className="text-[#0f172a] dark:text-slate-50">Smarter</span>
                   <span className="bg-gradient-to-r from-[#2563eb] to-[#3b82f6] bg-clip-text text-transparent"> Spaces.</span>
                   <br />
                   <span className="bg-gradient-to-r from-[#2563eb] to-[#7c3aed] bg-clip-text text-transparent">Smarter</span>
-                  <span className="text-[#0f172a]"> Decisions.</span>
+                  <span className="text-[#0f172a] dark:text-slate-50"> Decisions.</span>
                 </h1>
 
-                <p className="hero-support-line max-w-2xl mx-auto lg:mx-0 text-center lg:text-left text-lg sm:text-xl md:text-2xl font-bold leading-relaxed tracking-[0.05em] text-[#0f172a]">
+                <p className="hero-support-line max-w-2xl mx-auto lg:mx-0 text-center lg:text-left text-lg sm:text-xl md:text-2xl font-bold leading-relaxed tracking-[0.05em] text-[#0f172a] dark:text-slate-100">
                   We deliver AI and IoT solutions that transform businesses.
                 </p>
                 
-                <p className="text-sm sm:text-base md:text-lg text-[#475569] max-w-2xl mx-auto lg:mx-0 text-center lg:text-left leading-relaxed">
+                <p className="text-sm sm:text-base md:text-lg text-[#475569] max-w-2xl mx-auto lg:mx-0 text-center lg:text-left leading-relaxed dark:text-slate-300">
                   We help businesses with <span className="text-[#2563eb] font-semibold">real-time IoT solutions</span> and <span className="text-[#2563eb] font-semibold">AI solutions</span>. 
                   Our tools make work easier. They save money and help the environment. 
                   We bring <span className="text-[#2563eb] font-semibold">smart automation</span> to companies and communities.
@@ -112,9 +112,9 @@ export default function Hero() {
                       direction="scale"
                       delay={0.4 + index * 0.1}
                     >
-                      <div className="flex items-center space-x-2 bg-white/80 backdrop-blur-sm rounded-full px-4 py-2 border border-blue-100 hover:border-[#2563eb]/50 transition-colors">
+                      <div className="flex items-center space-x-2 bg-white/80 backdrop-blur-sm rounded-full px-4 py-2 border border-blue-100 hover:border-[#2563eb]/50 transition-colors dark:border-slate-700 dark:bg-slate-900/80">
                         <CheckCircle className="h-4 w-4 text-[#2563eb]" />
-                        <span className="text-sm font-bold text-[#0f172a]">{highlight}</span>
+                        <span className="text-sm font-bold text-[#0f172a] dark:text-slate-100">{highlight}</span>
                       </div>
                     </ScrollAnimation>
                   ))}
@@ -157,7 +157,7 @@ export default function Hero() {
                 </div>
                 <div className="flex items-center space-x-2">
                   <Users className="h-4 w-4 text-[#2563eb]" />
-                  <span className="text-sm text-slate-500 font-medium whitespace-nowrap">3.5K+ LinkedIn Followers</span>
+                  <span className="text-sm text-slate-500 font-medium whitespace-nowrap dark:text-slate-300">3,500+ LinkedIn Followers</span>
                 </div>
               </div>
             </ScrollAnimation>
@@ -169,19 +169,19 @@ export default function Hero() {
                   <div className="text-3xl lg:text-4xl font-[900] bg-gradient-to-r from-[#2563eb] to-[#3b82f6] bg-clip-text text-transparent">
                     <ScrollCounter from={0} to={8} suffix="+" />
                   </div>
-                  <div className="text-sm text-slate-500 font-bold uppercase tracking-wider">Industries Served</div>
+                  <div className="text-sm text-slate-500 font-bold uppercase tracking-wider dark:text-slate-300">Industries Served</div>
                 </div>
                 <div className="text-center sm:text-left">
                   <div className="text-3xl lg:text-4xl font-[900] bg-gradient-to-r from-[#3b82f6] to-[#7c3aed] bg-clip-text text-transparent">
                     <ScrollCounter from={0} to={20} />
                   </div>
-                  <div className="text-sm text-slate-500 font-bold uppercase tracking-wider">Core Solutions</div>
+                  <div className="text-sm text-slate-500 font-bold uppercase tracking-wider dark:text-slate-300">Core Solutions</div>
                 </div>
                 <div className="text-center sm:text-left">
                   <div className="text-3xl lg:text-4xl font-[900] bg-gradient-to-r from-[#7c3aed] to-[#ec4899] bg-clip-text text-transparent">
                     24/7
                   </div>
-                  <div className="text-sm text-slate-500 font-bold uppercase tracking-wider">Support</div>
+                  <div className="text-sm text-slate-500 font-bold uppercase tracking-wider dark:text-slate-300">Support</div>
                 </div>
               </div>
             </ScrollAnimation>

@@ -149,35 +149,35 @@ export default function IndustriesPage() {
                 </div>
                 
                 <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
-                  <div className="flex items-start space-x-3 p-4 glass backdrop-blur-sm rounded-lg border border-border/20">
+                  <div className="flex items-start space-x-3 p-4 glass dark:bg-slate-900/90 backdrop-blur-sm rounded-lg border border-border/20 dark:border-slate-700">
                     <CheckCircle className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
                     <div>
-                      <h4 className="font-semibold text-foreground text-sm mb-1">Real-Time Monitoring</h4>
-                      <p className="text-xs text-muted-foreground">Track assets, processes and performance instantly</p>
+                      <h4 className="font-semibold text-foreground dark:text-slate-50 text-sm mb-1">Real-Time Monitoring</h4>
+                      <p className="text-xs text-muted-foreground dark:text-slate-300">Track assets, processes and performance instantly</p>
                     </div>
                   </div>
                   
-                  <div className="flex items-start space-x-3 p-4 glass backdrop-blur-sm rounded-lg border border-border/20">
+                  <div className="flex items-start space-x-3 p-4 glass dark:bg-slate-900/90 backdrop-blur-sm rounded-lg border border-border/20 dark:border-slate-700">
                     <CheckCircle className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
                     <div>
-                      <h4 className="font-semibold text-foreground text-sm mb-1">Cost Reduction</h4>
-                      <p className="text-xs text-muted-foreground">Reduce operational costs by 30-50%</p>
+                      <h4 className="font-semibold text-foreground dark:text-slate-50 text-sm mb-1">Cost Reduction</h4>
+                      <p className="text-xs text-muted-foreground dark:text-slate-300">Reduce operational costs by 30-50%</p>
                     </div>
                   </div>
                   
-                  <div className="flex items-start space-x-3 p-4 glass backdrop-blur-sm rounded-lg border border-border/20">
+                  <div className="flex items-start space-x-3 p-4 glass dark:bg-slate-900/90 backdrop-blur-sm rounded-lg border border-border/20 dark:border-slate-700">
                     <CheckCircle className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
                     <div>
-                      <h4 className="font-semibold text-foreground text-sm mb-1">Improved Efficiency</h4>
-                      <p className="text-xs text-muted-foreground">Optimize workflows and resource utilization</p>
+                      <h4 className="font-semibold text-foreground dark:text-slate-50 text-sm mb-1">Improved Efficiency</h4>
+                      <p className="text-xs text-muted-foreground dark:text-slate-300">Optimize workflows and resource utilization</p>
                     </div>
                   </div>
                   
-                  <div className="flex items-start space-x-3 p-4 glass backdrop-blur-sm rounded-lg border border-border/20">
+                  <div className="flex items-start space-x-3 p-4 glass dark:bg-slate-900/90 backdrop-blur-sm rounded-lg border border-border/20 dark:border-slate-700">
                     <CheckCircle className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
                     <div>
-                      <h4 className="font-semibold text-foreground text-sm mb-1">Data-Driven Decisions</h4>
-                      <p className="text-xs text-muted-foreground">Make informed decisions with actionable insights</p>
+                      <h4 className="font-semibold text-foreground dark:text-slate-50 text-sm mb-1">Data-Driven Decisions</h4>
+                      <p className="text-xs text-muted-foreground dark:text-slate-300">Make informed decisions with actionable insights</p>
                     </div>
                   </div>
                 </div>

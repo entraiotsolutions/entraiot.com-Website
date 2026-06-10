@@ -536,7 +536,7 @@ export default function Contact() {
             {features.map((feature, index) => {
               const Icon = feature.icon;
               return (
-                <div key={index} className="bg-white rounded-2xl border border-slate-100 shadow-sm px-5 py-4 flex items-center gap-3">
+                <div key={index} className="bg-white dark:bg-slate-900 rounded-2xl border border-slate-100 dark:border-slate-700 shadow-sm px-5 py-4 flex items-center gap-3">
                   <div className={`w-9 h-9 rounded-full bg-gradient-to-br ${feature.gradient} flex items-center justify-center shrink-0`}>
                     <Icon className="h-5 w-5 text-white" />
                   </div>
@@ -601,7 +601,7 @@ export default function Contact() {
             <ScrollAnimation direction="left" delay={1.0}>
               <GlowEffect color="#6366f1" intensity={0}>
                 <a href="https://g.co/kgs/pCTcZm9" target="_blank" rel="noopener noreferrer nofollow">
-                <div className="bg-white rounded-2xl p-4 border border-slate-200 shadow-sm">
+                <div className="bg-white dark:bg-slate-900 rounded-2xl p-4 border border-slate-200 dark:border-slate-700 shadow-sm">
                   <div className="flex items-center space-x-3 mb-2">
                     <Clock className="h-5 w-5 text-primary" />
                     <h4 className="text-lg font-semibold text-foreground">Business Hours</h4>
@@ -635,13 +635,13 @@ export default function Contact() {
           {/* Enhanced Contact Form */}
           <ScrollAnimation direction="right" delay={0.6}>
             <GlowEffect color="#6366f1" intensity={0}>
-              <div id="contact-form" className="bg-white rounded-3xl p-9 shadow-sm border border-slate-200">
+              <div id="contact-form" className="bg-white dark:bg-slate-900 rounded-3xl p-9 shadow-sm border border-slate-200 dark:border-slate-700">
                 <div className="space-y-6">
                   <div className="text-center space-y-4">
-                    <h2 className="text-2xl md:text-3xl font-extrabold text-[#0f172a]">
+                    <h2 className="text-2xl md:text-3xl font-extrabold text-[#0f172a] dark:text-slate-50">
                       Send us a <span className="bg-gradient-to-r from-[#2563eb] to-[#7c3aed] bg-clip-text text-transparent">Message</span>
                     </h2>
-                    <p className="text-slate-600">
+                    <p className="text-slate-600 dark:text-slate-300">
                       Fill out the form below and we&apos;ll get back to you within 24 hours
                     </p>
                   </div>

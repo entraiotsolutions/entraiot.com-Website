@@ -499,7 +499,7 @@ export default function ResourcesPage() {
               </ScrollAnimation>
               
               <ScrollAnimation direction="up" delay={0.4}>
-                <h2 className="text-3xl md:text-4xl lg:text-5xl font-[900] bg-gradient-to-r from-[#0f172a] via-[#1e293b] to-[#334155] bg-clip-text text-transparent mb-6 leading-tight">
+                <h2 className="text-3xl md:text-4xl lg:text-5xl font-[900] bg-gradient-to-r from-[#0f172a] via-[#1e293b] to-[#334155] dark:from-white dark:via-slate-100 dark:to-slate-300 bg-clip-text text-transparent mb-6 leading-tight">
                   Start Your Journey with Entraiot
                 </h2>
               </ScrollAnimation>
