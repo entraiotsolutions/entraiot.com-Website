@@ -1,0 +1,360 @@
+# Disable directory listing - MUST be first, before RewriteEngine
+Options -Indexes
+
+# HTTPS Redirect
+RewriteEngine On
+RewriteCond %{HTTPS} !=on
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# WWW to Non-WWW Redirect (301 Permanent Redirect)
+# Ensures canonical version is entraiot.com (not www.entraiot.com)
+# This prevents duplicate content issues between www and non-www versions
+RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
+RewriteRule ^(.*)$ https://%1/$1 [R=301,L]
+
+# Trailing Slash Normalization (301 Permanent Redirect)
+# Redirect URLs with trailing slashes to non-trailing slash versions
+# This prevents duplicate content between /page and /page/
+# Exclude root directory and well-known directory
+RewriteCond %{REQUEST_URI} !^/$
+RewriteCond %{REQUEST_URI} !^/\.well-known/
+RewriteCond %{REQUEST_URI} (.+)/$
+RewriteRule ^(.+)/$ /$1 [R=301,L]
+
+# Remove unnecessary query parameters that don't affect content
+# This prevents duplicate content from URLs with tracking parameters, UTM codes, etc.
+# Only apply to pages that have canonical URLs set (not to contact form submissions)
+# Note: This is commented out by default - uncomment if you want to strip all query params
+# RewriteCond %{QUERY_STRING} ^(.+)$
+# RewriteCond %{REQUEST_URI} !^/contact
+# RewriteRule ^(.*)$ /$1? [R=301,L]
+
+# URL Lowercase Redirect (301 Permanent Redirect)
+# Redirect any URLs with uppercase characters to lowercase versions
+# This must come after HTTPS, WWW, and trailing slash redirects
+#
+# IMPORTANT: The ${lowercase:} function requires RewriteMap to be configured in httpd.conf
+# If RewriteMap is not available, the manual redirects below will handle common patterns
+#
+# To enable automatic lowercase conversion for ALL URLs (recommended):
+# 1. Add this to your httpd.conf or virtual host configuration:
+#    RewriteMap lowercase int:tolower
+# 2. Then uncomment the rule below:
+#
+# RewriteCond %{REQUEST_URI} [A-Z]
+# RewriteRule ^(.*)$ ${lowercase:$1} [R=301,L]
+#
+# Manual redirects for common uppercase patterns (works on all servers without RewriteMap)
+# These handle the most common uppercase URL patterns and ensure compatibility
+# Main pages
+RewriteCond %{REQUEST_URI} ^/Products [NC]
+RewriteRule ^Products(.*)$ /products$1 [R=301,L]
+
+RewriteCond %{REQUEST_URI} ^/Services [NC]
+RewriteRule ^Services(.*)$ /services$1 [R=301,L]
+
+RewriteCond %{REQUEST_URI} ^/Industries [NC]
+RewriteRule ^Industries(.*)$ /industries$1 [R=301,L]
+
+RewriteCond %{REQUEST_URI} ^/Blog [NC]
+RewriteRule ^Blog(.*)$ /blog$1 [R=301,L]
+
+RewriteCond %{REQUEST_URI} ^/Resources [NC]
+RewriteRule ^Resources(.*)$ /resources$1 [R=301,L]
+
+RewriteCond %{REQUEST_URI} ^/About [NC]
+RewriteRule ^About(.*)$ /about$1 [R=301,L]
+
+RewriteCond %{REQUEST_URI} ^/Contact [NC]
+RewriteRule ^Contact(.*)$ /contact$1 [R=301,L]
+
+RewriteCond %{REQUEST_URI} ^/Solutions [NC]
+RewriteRule ^Solutions(.*)$ /solutions$1 [R=301,L]
+
+# Industry pages
+RewriteCond %{REQUEST_URI} ^/Industries/Logistics [NC]
+RewriteRule ^Industries/Logistics(.*)$ /industries/logistics$1 [R=301,L]
+
+RewriteCond %{REQUEST_URI} ^/Industries/Manufacturing [NC]
+RewriteRule ^Industries/Manufacturing(.*)$ /industries/manufacturing$1 [R=301,L]
+
+RewriteCond %{REQUEST_URI} ^/Industries/Healthcare [NC]
+RewriteRule ^Industries/Healthcare(.*)$ /industries/healthcare$1 [R=301,L]
+
+RewriteCond %{REQUEST_URI} ^/Industries/Smart-Cities [NC]
+RewriteRule ^Industries/Smart-Cities(.*)$ /industries/smart-cities$1 [R=301,L]
+
+RewriteCond %{REQUEST_URI} ^/Industries/Hospitality [NC]
+RewriteRule ^Industries/Hospitality(.*)$ /industries/hospitality$1 [R=301,L]
+
+RewriteCond %{REQUEST_URI} ^/Industries/Energy-Management [NC]
+RewriteRule ^Industries/Energy-Management(.*)$ /industries/energy-management$1 [R=301,L]
+
+RewriteCond %{REQUEST_URI} ^/Industries/Smart-Retail [NC]
+RewriteRule ^Industries/Smart-Retail(.*)$ /industries/smart-retail$1 [R=301,L]
+
+RewriteCond %{REQUEST_URI} ^/Industries/Agriculture [NC]
+RewriteRule ^Industries/Agriculture(.*)$ /industries/agriculture$1 [R=301,L]
+
+# Service pages
+RewriteCond %{REQUEST_URI} ^/Services/IoT-Consulting [NC]
+RewriteRule ^Services/IoT-Consulting(.*)$ /services/iot-consulting$1 [R=301,L]
+
+RewriteCond %{REQUEST_URI} ^/Services/AI-Solutions [NC]
+RewriteRule ^Services/AI-Solutions(.*)$ /services/ai-solutions$1 [R=301,L]
+
+RewriteCond %{REQUEST_URI} ^/Services/Smart-Automation [NC]
+RewriteRule ^Services/Smart-Automation(.*)$ /services/smart-automation$1 [R=301,L]
+
+# Product pages
+RewriteCond %{REQUEST_URI} ^/Products/IoT-Deployment [NC]
+RewriteRule ^Products/IoT-Deployment(.*)$ /products/iot-deployment$1 [R=301,L]
+
+RewriteCond %{REQUEST_URI} ^/Products/Predictive-Maintenance [NC]
+RewriteRule ^Products/Predictive-Maintenance(.*)$ /products/predictive-maintenance$1 [R=301,L]
+
+RewriteCond %{REQUEST_URI} ^/Products/Smart-Dashboards [NC]
+RewriteRule ^Products/Smart-Dashboards(.*)$ /products/smart-dashboards$1 [R=301,L]
+
+# Clean URL Redirects for Contact Form Parameters (301 Permanent Redirect)
+# Redirect old query parameter URLs to clean URLs for better SEO
+# Internal links already use clean URLs, these redirects handle external/bookmarked links
+
+# Contact industry parameter redirects
+RewriteCond %{QUERY_STRING} ^industry=([^&]+)(&.*)?$ [NC]
+RewriteCond %{REQUEST_URI} ^/contact$ [NC]
+RewriteRule ^contact$ /contact/industry/%1? [R=301,L]
+
+# Contact service parameter redirects (without demo)
+RewriteCond %{QUERY_STRING} ^service=([^&]+)$ [NC]
+RewriteCond %{REQUEST_URI} ^/contact$ [NC]
+RewriteRule ^contact$ /contact/service/%1? [R=301,L]
+
+# Contact service parameter redirects (with demo)
+RewriteCond %{QUERY_STRING} ^service=([^&]+)&demo=true [NC]
+RewriteCond %{REQUEST_URI} ^/contact$ [NC]
+RewriteRule ^contact$ /contact/service/%1/demo? [R=301,L]
+
+# Contact product parameter redirects
+RewriteCond %{QUERY_STRING} ^product=([^&]+)(&.*)?$ [NC]
+RewriteCond %{REQUEST_URI} ^/contact$ [NC]
+RewriteRule ^contact$ /contact/product/%1? [R=301,L]
+
+# SPA Fallback - Handle client-side routing for Next.js static export
+# This rule ensures that all routes (like /solutions, /products, etc.) serve index.html
+# so that Next.js can handle the routing client-side
+# Must come after all redirects but before cache headers
+
+# CRITICAL: Prevent directory listings by catching ALL directory requests first
+# This must come before any other directory handling to prevent listings from showing
+
+# If accessing a directory, first check if there's a matching HTML file at root level
+# Example: /products/ should serve /products.html (not files inside products/)
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteCond %{REQUEST_URI} !^/\.well-known/
+RewriteCond %{REQUEST_URI} !^/$
+RewriteCond %{REQUEST_URI} ^/([^/]+)/?$
+RewriteCond %{DOCUMENT_ROOT}/%1.html -f
+RewriteRule ^([^/]+)/?$ /$1.html [L]
+
+# If directory has index.html inside it, serve that
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteCond %{REQUEST_URI} !^/\.well-known/
+RewriteCond %{REQUEST_URI} !^/$
+RewriteCond %{REQUEST_URI} ^/(.+)/?$
+RewriteCond %{DOCUMENT_ROOT}/%1/index.html -f
+RewriteRule ^(.+)/?$ /$1/index.html [L]
+
+# If directory exists but no matching files, serve root index.html for SPA routing
+# This prevents directory listing by serving content instead
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteCond %{REQUEST_URI} !^/\.well-known/
+RewriteCond %{REQUEST_URI} !^/$
+RewriteRule . /index.html [L]
+
+# Handle requests without file extension - serve matching HTML file if it exists
+# Example: /resources should serve /resources.html
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} !^/\.well-known/
+RewriteCond %{REQUEST_URI} !^/$
+RewriteCond %{REQUEST_URI} ^/([^/]+)/?$
+RewriteCond %{DOCUMENT_ROOT}/%1.html -f
+RewriteRule ^([^/]+)/?$ /$1.html [L]
+
+# Handle non-directory, non-file requests - serve root index.html for SPA routing
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} !^/\.well-known/
+RewriteRule . /index.html [L]
+
+# Cache Control Headers for Performance
+<IfModule mod_expires.c>
+    ExpiresActive On
+    
+    # Images
+    ExpiresByType image/jpg "access plus 1 year"
+    ExpiresByType image/jpeg "access plus 1 year"
+    ExpiresByType image/gif "access plus 1 year"
+    ExpiresByType image/png "access plus 1 year"
+    ExpiresByType image/webp "access plus 1 year"
+    ExpiresByType image/svg+xml "access plus 1 year"
+    
+    # CSS and JavaScript
+    ExpiresByType text/css "access plus 1 year"
+    ExpiresByType application/javascript "access plus 1 year"
+    ExpiresByType text/javascript "access plus 1 year"
+    
+    # Fonts
+    ExpiresByType font/woff "access plus 1 year"
+    ExpiresByType font/woff2 "access plus 1 year"
+    ExpiresByType application/font-woff "access plus 1 year"
+    ExpiresByType application/font-woff2 "access plus 1 year"
+    
+    # HTML
+    ExpiresByType text/html "access plus 0 seconds"
+</IfModule>
+
+# Security Headers
+# X-Content-Type-Options: nosniff - Prevents MIME type sniffing
+# Applied to ALL responses including HTML, CSS, JS, images, fonts, and other assets
+# The "always" keyword ensures this header is set for all responses, including successful responses,
+# redirects, and error responses - this covers all file types and assets
+<IfModule mod_headers.c>
+    # Critical security header - prevents MIME type sniffing attacks
+    # The "always" keyword ensures this applies to:
+    # - HTML pages (text/html)
+    # - CSS files (text/css)
+    # - JavaScript files (application/javascript, text/javascript)
+    # - Images (image/webp, image/png, image/jpeg, image/svg+xml, etc.)
+    # - Fonts (font/woff, font/woff2, etc.)
+    # - JSON files (application/json)
+    # - All other file types and assets
+    Header always set X-Content-Type-Options nosniff
+    
+    # Additional security headers (also applied to all responses)
+    # X-Frame-Options: DENY - Prevents all framing (iframe, embed, object) to protect against clickjacking
+    # This is the most secure option and prevents the page from being embedded anywhere
+    # Note: If you need same-origin embedding, change to SAMEORIGIN instead
+    # This works alongside CSP frame-ancestors directive for comprehensive protection
+    Header always set X-Frame-Options DENY
+    Header always set X-XSS-Protection "1; mode=block"
+    Header always set Referrer-Policy "strict-origin-when-cross-origin"
+    Header always set Permissions-Policy "geolocation=(), microphone=(), camera=(), interest-cohort=()"
+    Header always set X-DNS-Prefetch-Control "on"
+    
+    # HTTP Strict Transport Security (HSTS) - HTTPS Enforcement
+    # HSTS forces browsers to only connect via HTTPS, preventing protocol downgrade attacks
+    # This header MUST be set on all HTTPS responses to ensure browsers always use HTTPS
+    #
+    # IMPORTANT PREREQUISITES:
+    # 1. Ensure your site is fully accessible over HTTPS (already configured above)
+    # 2. Verify all resources (images, CSS, JS, fonts) load over HTTPS
+    # 3. Test the site thoroughly before enabling preload
+    # 4. Once preload is submitted to hstspreload.org, it's permanent and cannot be easily removed
+    #
+    # HSTS DIRECTIVES EXPLAINED:
+    # - max-age=31536000: Browser must use HTTPS for 1 year (31536000 seconds)
+    # - includeSubDomains: Applies HSTS to all subdomains (e.g., www.entraiot.com, api.entraiot.com)
+    # - preload: Allows inclusion in browser HSTS preload lists (Chrome, Firefox, etc.)
+    #
+    # HSTS Configuration - Applied to ALL HTTPS responses
+    # Using multiple methods to ensure compatibility across different Apache versions
+    # Method 1: Using <If> directive (Apache 2.4+)
+    <If "%{HTTPS} == 'on'">
+        Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains"
+    </If>
+    
+    # Method 2: Fallback using SetEnvIf (for older Apache versions or if <If> doesn't work)
+    # This sets an environment variable when HTTPS is on, then uses it to set the header
+    SetEnvIf HTTPS "on" HTTPS_ON
+    Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains" env=HTTPS_ON
+    
+    # STEP 2: HSTS with Preload (Uncomment after thorough testing)
+    # Preload requires:
+    # 1. Valid SSL certificate for all subdomains
+    # 2. HTTPS redirect on the root domain
+    # 3. HSTS header with max-age >= 31536000 and includeSubDomains
+    # 4. All subdomains must serve valid HTTPS
+    # 5. Submit to https://hstspreload.org/ after verification
+    #
+    # WARNING: Preload is permanent. Once added to browser preload lists, it cannot be easily removed.
+    # Only enable preload if you're certain all subdomains will always support HTTPS.
+    #
+    # After enabling, submit your domain to: https://hstspreload.org/
+    #
+    # <If "%{HTTPS} == 'on'">
+    #     Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains; preload"
+    # </If>
+    # SetEnvIf HTTPS "on" HTTPS_ON
+    # Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains; preload" env=HTTPS_ON
+    
+    # Content Security Policy (CSP) - XSS Protection
+    # CSP protects against cross-site scripting (XSS) attacks by controlling which resources
+    # the browser is allowed to load and execute.
+    #
+    # IMPLEMENTATION STEPS:
+    # 1. Start with Report-Only mode (current configuration) - monitors violations without blocking
+    # 2. Check browser console and server logs for CSP violations
+    # 3. Fix any violations or add necessary sources
+    # 4. Once stable, switch to enforcement mode (see STEP 2 below)
+    #
+    # CSP DIRECTIVES EXPLAINED:
+    # - default-src 'self': Default to same-origin only (safest starting point)
+    # - script-src: Controls JavaScript execution (external scripts allowed for integrations)
+    # - style-src: Controls CSS (unsafe-inline needed for Next.js inline styles)
+    # - font-src: Controls font loading (Google Fonts and data URIs)
+    # - img-src: Controls images (https: allows all HTTPS images, blob: for dynamic images)
+    # - connect-src: Controls AJAX/fetch requests (API endpoints)
+    # - frame-src: Controls iframe embedding (Google Maps, Tawk.to chat)
+    # - object-src 'none': Blocks plugins (Flash, etc.)
+    # - base-uri 'self': Restricts base tag URLs
+    # - form-action 'self': Restricts form submissions
+    # - frame-ancestors 'self': Prevents clickjacking
+    # - upgrade-insecure-requests: Forces HTTPS
+    #
+    # Content Security Policy (CSP) - XSS Protection (ENFORCEMENT MODE)
+    # CSP actively blocks violations and provides strong XSS protection
+    # This policy allows necessary external resources while blocking malicious content
+    #
+    # ALLOWED RESOURCES:
+    # - Scripts: Self-hosted, EmailJS, Google Analytics, Google Maps, Tawk.to chat, inline scripts (required for Next.js)
+    # - Styles: Self-hosted, Google Fonts, inline styles (required for Next.js)
+    # - Fonts: Self-hosted, Google Fonts, data URIs
+    # - Images: Self-hosted, all HTTPS images, blob URIs (for dynamic images)
+    # - Connections: EmailJS API, GitHub API, Google APIs, Analytics, Tawk.to, WebSockets
+    # - Frames: Google Maps, Tawk.to chat widget
+    #
+    # SECURITY FEATURES:
+    # - object-src 'none': Blocks plugins (Flash, etc.)
+    # - base-uri 'self': Prevents base tag hijacking
+    # - form-action 'self': Restricts form submissions to same origin
+    # - frame-ancestors 'self': Prevents clickjacking
+    # - upgrade-insecure-requests: Forces HTTPS for all resources
+    #
+    # NOTE: 'unsafe-inline' is required for Next.js inline scripts (structured data, analytics)
+    # For enhanced security, consider using nonces or hashes instead of 'unsafe-inline' in the future
+    # NOTE: If you need to monitor violations, you can add report-uri directive:
+    # Add "; report-uri /csp-report-endpoint" to the end of the policy
+    Header always set Content-Security-Policy "default-src 'self'; script-src 'self' 'unsafe-inline' https://cdn.emailjs.com https://www.googletagmanager.com https://www.google-analytics.com https://maps.googleapis.com https://embed.tawk.to; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' data: https: blob:; connect-src 'self' https://api.emailjs.com https://api.github.com https://*.googleapis.com https://www.google-analytics.com https://embed.tawk.to wss:; frame-src 'self' https://www.google.com https://maps.google.com https://embed.tawk.to; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'self'; upgrade-insecure-requests"
+    
+    # Report-Only Mode (Disabled - Uncomment for testing)
+    # Use this mode to monitor CSP violations without blocking content
+    # Check browser DevTools Console for "CSP violation" messages
+    # After testing, switch to enforcement mode above
+    #
+    # Header always set Content-Security-Policy-Report-Only "default-src 'self'; script-src 'self' https://cdn.emailjs.com https://www.googletagmanager.com https://www.google-analytics.com https://maps.googleapis.com https://embed.tawk.to; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' data: https: blob:; connect-src 'self' https://api.emailjs.com https://api.github.com https://*.googleapis.com https://www.google-analytics.com https://embed.tawk.to wss:; frame-src 'self' https://www.google.com https://maps.google.com https://embed.tawk.to; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'self'; upgrade-insecure-requests; report-uri /csp-report-endpoint"
+</IfModule>
+
+# Gzip Compression
+<IfModule mod_deflate.c>
+    AddOutputFilterByType DEFLATE text/plain
+    AddOutputFilterByType DEFLATE text/html
+    AddOutputFilterByType DEFLATE text/xml
+    AddOutputFilterByType DEFLATE text/css
+    AddOutputFilterByType DEFLATE application/xml
+    AddOutputFilterByType DEFLATE application/xhtml+xml
+    AddOutputFilterByType DEFLATE application/rss+xml
+    AddOutputFilterByType DEFLATE application/javascript
+    AddOutputFilterByType DEFLATE application/x-javascript
+</IfModule>
