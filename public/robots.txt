@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+Disallow: /private/
+Disallow: /admin/
+Disallow: /cofounder.jpg
+Disallow: /developer.jpg
+Disallow: /designer.jpg
+
+Sitemap: https://entraiot.com/sitemap.xml
+
+
