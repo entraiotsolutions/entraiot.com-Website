@@ -1,0 +1,98 @@
+{
+  "LEADS": {
+    "ask_business_type": "I can definitely help you grow your business. Which industry are you in?",
+    "industries": {
+      "real_estate": {
+        "keywords": ["real estate", "property", "builder"],
+        "pitch": [
+          "Auto capture leads from Facebook & Instagram ads",
+          "Instant WhatsApp follow-ups with project brochures",
+          "AI qualification of genuine buyers vs window shoppers",
+          "Automated site visit scheduling"
+        ],
+        "cta": "Want to see how we can generate 3x more property enquiries for you?"
+      },
+      "it_services": {
+        "keywords": ["it", "software", "agency"],
+        "pitch": [
+          "AI-powered lead generation funnels",
+          "Automated LinkedIn outreach and follow-ups",
+          "Smart dashboards for sales tracking",
+          "AI chatbot to handle 24/7 client enquiries"
+        ],
+        "cta": "Want a custom AI growth plan for your agency?"
+      },
+      "healthcare": {
+        "keywords": ["healthcare", "hospital", "clinic", "medical"],
+        "pitch": [
+          "Automated patient appointment booking",
+          "AI follow-ups for lab reports and consultations",
+          "Lead capture for specialized treatments",
+          "Smart health monitoring integration"
+        ],
+        "cta": "Want to see how we automate patient acquisition?"
+      },
+      "manufacturing": {
+        "keywords": ["manufacturing", "factory", "industrial"],
+        "pitch": [
+          "B2B lead generation for industrial equipment",
+          "Automated quotation follow-ups",
+          "IoT monitoring for production efficiency",
+          "AI-driven predictive maintenance"
+        ],
+        "cta": "Ready to modernize your factory lead flow?"
+      },
+      "logistics": {
+        "keywords": ["logistics", "fleet", "shipping"],
+        "pitch": [
+          "Real-time fleet tracking and lead management",
+          "Automated delivery updates for clients",
+          "AI route optimization to save costs",
+          "Smart warehouse inventory tracking"
+        ],
+        "cta": "Want to optimize your logistics operations?"
+      },
+      "retail": {
+        "keywords": ["retail", "ecommerce", "shop"],
+        "pitch": [
+          "AI-driven customer remarketing",
+          "Smart inventory management using IoT",
+          "Automated WhatsApp loyalty programs",
+          "In-store traffic analysis and lead capture"
+        ],
+        "cta": "Want to increase your retail sales with AI?"
+      }
+    }
+  },
+
+  "AUTOMATION": {
+    "ask_goal": "Automation can save you hours of manual work. What is your biggest operational pain point?",
+    "solutions": {
+      "all": [
+        "24/7 Automated lead capture & qualification",
+        "Instant follow-ups via WhatsApp & Email",
+        "IoT-based real-time monitoring",
+        "Automated reporting and dashboards"
+      ]
+    }
+  },
+
+  "COST": {
+    "ask_area": "Where would you like to see the most cost reduction?",
+    "solutions": {
+      "marketing": "AI reduces lead acquisition cost by 30% through better qualification.",
+      "operations": "IoT monitoring reduces maintenance costs by 20%.",
+      "manpower": "Automation handles routine tasks, reducing manpower dependency."
+    }
+  },
+
+  "EXPLORE": {
+    "intro": "Entraiot Solutions specializes in AI & IoT to drive business growth. Here's how we help:",
+    "benefits": [
+      "Generate high-quality leads automatically",
+      "Automate repetitive manual workflows",
+      "Reduce operational and maintenance costs",
+      "Real-time business insights with IoT"
+    ]
+  }
+}

@@ -1,0 +1,527 @@
+[
+  {
+    "name": "Priya Dharshini",
+    "phoneNumber": "8438608657",
+    "whatsAppNumber": "8438608657",
+    "email": "pd7293209@gmail.com",
+    "sessionId": "s_1778576561029_67qx3xe",
+    "source": "chatbot-inline-form",
+    "phone": "8438608657",
+    "lead_score": 30,
+    "lead_label": "cold",
+    "updated_at": "2026-05-12T09:07:27.832Z"
+  },
+  {
+    "name": "",
+    "email": "",
+    "phoneNumber": "",
+    "whatsAppNumber": "",
+    "requirement": "Book Demo",
+    "sessionId": "1cb5183b-5df9-4bc0-be89-a12b45dfa9be",
+    "intent": "ready",
+    "language": "en",
+    "source": "chat-widget",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Services",
+        "createdAt": "2026-04-16T06:06:36.294Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Entraiot provides end-to-end AI and IoT services including sensor integration, real-time dashboards, predictive maintenance, smart automation, and custom app development tailored to business workflows.\n\nIf you want, I can arrange a quick demo with our experts so you can evaluate the fit for your business.\n\nCan I have your email to share more details?",
+        "createdAt": "2026-04-16T06:06:36.294Z"
+      },
+      {
+        "role": "user",
+        "content": "tell me about the entraiot solutions",
+        "createdAt": "2026-04-16T06:07:06.680Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Entraiot provides end-to-end AI and IoT services including sensor integration, real-time dashboards, predictive maintenance, smart automation, and custom app development tailored to business workflows.\n\nWould you like a quick walkthrough of services most relevant to your industry?",
+        "createdAt": "2026-04-16T06:07:06.680Z"
+      },
+      {
+        "role": "user",
+        "content": "Book Demo",
+        "createdAt": "2026-04-16T06:07:15.762Z"
+      },
+      {
+        "role": "assistant",
+        "content": "That's an interesting question! Let me help you with that. Could you please give a bit more detail so I can provide a more accurate answer?",
+        "createdAt": "2026-04-16T06:07:15.762Z"
+      }
+    ],
+    "id": "b1f56add-1f58-4d1b-844b-dbb403558c29",
+    "createdAt": "2026-04-16T06:07:15.764Z"
+  },
+  {
+    "name": "Priya Dharshini",
+    "phoneNumber": "8438608657",
+    "whatsAppNumber": "8438608657",
+    "email": "pd7293209@gmail.com",
+    "sessionId": "s_1778576561029_67qx3xe",
+    "source": "chatbot-inline-form",
+    "phone": "8438608657",
+    "lead_score": 30,
+    "lead_label": "cold",
+    "updated_at": "2026-05-12T09:07:27.832Z"
+  },
+  {
+    "name": "Priya Dharshini",
+    "phoneNumber": "8438608657",
+    "whatsAppNumber": "8438608657",
+    "email": "pd7293209@gmail.com",
+    "sessionId": "s_1778576561029_67qx3xe",
+    "source": "chatbot-inline-form",
+    "phone": "8438608657",
+    "lead_score": 30,
+    "lead_label": "cold",
+    "updated_at": "2026-05-12T09:07:27.832Z"
+  },
+  {
+    "intent": "demo",
+    "email": "priyadharshiniak36@gmail.com",
+    "sessionId": "74fd88f5-83c3-4a92-9bfa-683a71f36e8b",
+    "time": "2026-04-16T06:38:55.946Z"
+  },
+  {
+    "email": "priyadharshiniak36@gmail.com",
+    "intent": "curious",
+    "sessionId": "74fd88f5-83c3-4a92-9bfa-683a71f36e8b",
+    "time": "2026-04-16T06:38:56.336Z",
+    "source": "chat-widget",
+    "id": "dadf9022-e2f0-4d2d-a95d-964e73a9f0d6",
+    "createdAt": "2026-04-16T06:38:56.339Z"
+  },
+  {
+    "name": "Priya Dharshini",
+    "phoneNumber": "8438608657",
+    "whatsAppNumber": "8438608657",
+    "email": "pd7293209@gmail.com",
+    "sessionId": "s_1778576561029_67qx3xe",
+    "source": "chatbot-inline-form",
+    "phone": "8438608657",
+    "lead_score": 30,
+    "lead_label": "cold",
+    "updated_at": "2026-05-12T09:07:27.832Z"
+  },
+  {
+    "name": "",
+    "email": "",
+    "phoneNumber": "",
+    "whatsAppNumber": "",
+    "requirement": "sure arrange the demo",
+    "sessionId": "9992a298-eb63-4fe1-8fdd-fa0798da5705",
+    "intent": "ready",
+    "language": "en",
+    "source": "chat-widget",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "hi",
+        "createdAt": "2026-04-16T23:05:04.843Z"
+      },
+      {
+        "role": "assistant",
+        "content": "We work with manufacturing, logistics, healthcare, hospitality, smart retail, energy management and smart cities. Our solutions are tailored to industry-specific workflows and compliance requirements.",
+        "createdAt": "2026-04-16T23:05:04.843Z"
+      },
+      {
+        "role": "user",
+        "content": "what is you name",
+        "createdAt": "2026-04-16T23:05:16.978Z"
+      },
+      {
+        "role": "assistant",
+        "content": "I'm Entraiot AI Assistant. I help you understand our solutions and connect you with our team.",
+        "createdAt": "2026-04-16T23:05:16.978Z"
+      },
+      {
+        "role": "user",
+        "content": "tell me about entraiot solutions",
+        "createdAt": "2026-04-16T23:05:31.606Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Entraiot offers:\n• AI-based automation\n• IoT device integration\n• Real-time dashboards\n• Predictive maintenance\n• Custom software solutions\n\nThese are customized based on your business needs.",
+        "createdAt": "2026-04-16T23:05:31.606Z"
+      },
+      {
+        "role": "system",
+        "content": "userIntent:pricing",
+        "createdAt": "2026-04-16T23:06:05.392Z"
+      },
+      {
+        "role": "user",
+        "content": "Pricing",
+        "createdAt": "2026-04-16T23:06:05.392Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Our pricing depends on your needs.\nPlease share your email to get a custom quote.\n\nWould you like me to arrange a quick demo or connect you with our team?",
+        "createdAt": "2026-04-16T23:06:05.392Z"
+      },
+      {
+        "role": "user",
+        "content": "sure arrange the demo",
+        "createdAt": "2026-04-16T23:06:36.949Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Entraiot can help with AI, IoT, automation, and custom software solutions.\nShare a little more detail and I'll give you a precise answer.",
+        "createdAt": "2026-04-16T23:06:36.949Z"
+      }
+    ],
+    "id": "c734807e-c272-498e-b23c-bd7af66c3c19",
+    "createdAt": "2026-04-16T23:06:36.951Z"
+  },
+  {
+    "intent": "curious",
+    "email": "pd723902@gmail.com",
+    "sessionId": "9992a298-eb63-4fe1-8fdd-fa0798da5705",
+    "time": "2026-04-16T23:07:06.222Z"
+  },
+  {
+    "email": "pd723902@gmail.com",
+    "intent": "curious",
+    "sessionId": "9992a298-eb63-4fe1-8fdd-fa0798da5705",
+    "time": "2026-04-16T23:07:55.475Z",
+    "source": "chat-widget",
+    "id": "d0025e87-4eda-4b03-82fe-55e685991e86",
+    "createdAt": "2026-04-16T23:07:55.475Z"
+  },
+  {
+    "name": "",
+    "email": "",
+    "phoneNumber": "",
+    "whatsAppNumber": "",
+    "requirement": "give me some contacts for the book appointment",
+    "sessionId": "bf3310f9-a360-47f1-a3fd-307a6614f1c4",
+    "intent": "ready",
+    "language": "en",
+    "source": "chat-widget",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "hi",
+        "createdAt": "2026-04-16T23:42:25.869Z"
+      },
+      {
+        "role": "assistant",
+        "content": "We work with manufacturing, logistics, healthcare, hospitality, smart retail, energy management and smart cities. Our solutions are tailored to industry-specific workflows and compliance requirements.",
+        "createdAt": "2026-04-16T23:42:25.869Z"
+      },
+      {
+        "role": "user",
+        "content": "give me some contacts for the book appointment",
+        "createdAt": "2026-04-16T23:43:09.532Z"
+      },
+      {
+        "role": "assistant",
+        "content": "User asked: give me some contacts for the book appointment. Answer clearly and professionally, referencing Entraiot's services when relevant.\n\nI am a freelance writer and I have been working on a book for a few years now. I have been working on a book for a few years now. I have been working on a book for a few years now. I have been",
+        "createdAt": "2026-04-16T23:43:09.532Z"
+      }
+    ],
+    "id": "a525a567-7597-4325-b945-0bfe3aabc526",
+    "createdAt": "2026-04-16T23:43:09.533Z"
+  },
+  {
+    "email": "test.user@example.com",
+    "intent": "curious",
+    "sessionId": "38ea6727-3bdb-43eb-bee0-c42927c2f932",
+    "time": "2026-04-17T02:49:30.631Z",
+    "source": "chat-widget",
+    "id": "4e70fbc0-62cc-4eac-9c7a-c2f845c5e473",
+    "createdAt": "2026-04-17T02:49:30.631Z"
+  },
+  {
+    "email": "pd7293209@gmail.com",
+    "sessionId": "s_1778576561029_67qx3xe",
+    "time": "2026-04-17T02:55:31.059Z",
+    "source": "chatbot-inline-form",
+    "id": "3bf2ca19-6021-4a18-9edf-0cd635d09f2f",
+    "createdAt": "2026-04-17T02:55:31.078Z",
+    "name": "Priya Dharshini",
+    "phone": "8438608657",
+    "lead_score": 30,
+    "lead_label": "cold",
+    "updated_at": "2026-05-12T09:07:27.832Z"
+  },
+  {
+    "email": "priyadharshiniak36@gmail.com",
+    "intent": "curious",
+    "sessionId": "89af5803-0fbb-46e9-83be-6af258f4eca8",
+    "time": "2026-04-17T06:07:15.857Z",
+    "source": "chat-widget",
+    "id": "b6cb1fc4-2336-4585-925d-ad5bd245e2e9",
+    "createdAt": "2026-04-17T06:07:15.858Z"
+  },
+  {
+    "name": "Priyadharshini V",
+    "phoneNumber": "8438608657",
+    "whatsAppNumber": "8438608657",
+    "email": "priyadharshiniak36@gmail.com",
+    "requirement": "i want a ai solutions project",
+    "sessionId": "89af5803-0fbb-46e9-83be-6af258f4eca8",
+    "intent": "curious",
+    "source": "website-chatbot",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "hellooo",
+        "createdAt": "2026-04-17T06:05:08.598Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Hi! How can I help you today?",
+        "createdAt": "2026-04-17T06:05:08.599Z"
+      },
+      {
+        "role": "user",
+        "content": "what does your company do",
+        "createdAt": "2026-04-17T06:05:22.862Z"
+      },
+      {
+        "role": "assistant",
+        "content": "We design AI and IoT systems for automation, predictive maintenance, real-time monitoring, and custom business solutions.",
+        "createdAt": "2026-04-17T06:05:22.862Z"
+      },
+      {
+        "role": "user",
+        "content": "do you provide scalable systems",
+        "createdAt": "2026-04-17T06:05:33.803Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Can you please clarify your question? I’ll give you a clear answer.",
+        "createdAt": "2026-04-17T06:05:36.131Z"
+      },
+      {
+        "role": "user",
+        "content": "what problem does entraiot solve",
+        "createdAt": "2026-04-17T06:05:47.282Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Entraiot Solutions is an AI and IoT company that enables businesses automate operations, monitor systems in real time, and make smarter decisions using data.",
+        "createdAt": "2026-04-17T06:05:47.282Z"
+      },
+      {
+        "role": "user",
+        "content": "difference between ai and iot",
+        "createdAt": "2026-04-17T06:06:01.830Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Let me explain that differently. Can you please clarify your question? I’ll give you a clear answer.",
+        "createdAt": "2026-04-17T06:06:02.120Z"
+      },
+      {
+        "role": "user",
+        "content": "how predictive maintenance actually works",
+        "createdAt": "2026-04-17T06:06:12.189Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Predictive maintenance uses AI and sensor data to detect failures early and reduce downtime.",
+        "createdAt": "2026-04-17T06:06:12.189Z"
+      },
+      {
+        "role": "user",
+        "content": "I run a factory, how can you help me",
+        "createdAt": "2026-04-17T06:06:25.055Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Can you please clarify your question? I’ll give you a clear answer.",
+        "createdAt": "2026-04-17T06:06:25.233Z"
+      },
+      {
+        "role": "user",
+        "content": "how can I reduce machine downtime",
+        "createdAt": "2026-04-17T06:06:36.037Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Hi! How can I help you today?",
+        "createdAt": "2026-04-17T06:06:36.037Z"
+      },
+      {
+        "role": "user",
+        "content": "\"Explain AI and how entraiot uses it in manufacturing\"",
+        "createdAt": "2026-04-17T06:06:46.889Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Entraiot Solutions is an AI and IoT company that helps businesses automate operations, monitor systems in real time, and make smarter decisions using data.",
+        "createdAt": "2026-04-17T06:06:46.889Z"
+      },
+      {
+        "role": "user",
+        "content": "i want to book demo",
+        "createdAt": "2026-04-17T06:06:54.986Z"
+      },
+      {
+        "role": "assistant",
+        "content": "We can schedule a demo for you. Please share your email.",
+        "createdAt": "2026-04-17T06:06:54.987Z"
+      },
+      {
+        "role": "user",
+        "content": "priyadharshiniak36@gmail.com",
+        "createdAt": "2026-04-17T06:07:15.659Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Got it 👍 Our team will contact you shortly.",
+        "createdAt": "2026-04-17T06:07:22.999Z"
+      }
+    ]
+  },
+  {
+    "name": "Priya Dharshini",
+    "phoneNumber": "8438608657",
+    "whatsAppNumber": "8438608657",
+    "email": "pd7293209@gmail.com",
+    "sessionId": "s_1778576561029_67qx3xe",
+    "source": "chatbot-inline-form",
+    "phone": "8438608657",
+    "lead_score": 30,
+    "lead_label": "cold",
+    "updated_at": "2026-05-12T09:07:27.832Z"
+  },
+  {
+    "email": "priyadharshiniak36@gmail.com",
+    "intent": "curious",
+    "sessionId": "270f43fb-8e80-405a-8935-3614ca9ec129",
+    "time": "2026-04-19T04:54:58.744Z",
+    "source": "chat-widget",
+    "id": "8bc83197-4eaf-4be5-b7e3-21c9d0dc3f68",
+    "createdAt": "2026-04-19T04:54:58.745Z"
+  },
+  {
+    "name": "Priyadharshini V",
+    "phoneNumber": "8438608657",
+    "whatsAppNumber": "8438608657",
+    "email": "priyadharshiniak36@gmail.com",
+    "requirement": "testing",
+    "sessionId": "270f43fb-8e80-405a-8935-3614ca9ec129",
+    "intent": "curious",
+    "source": "website-chatbot",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "hi",
+        "createdAt": "2026-04-19T04:54:06.891Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Hi! How can I help you today?",
+        "createdAt": "2026-04-19T04:54:06.892Z"
+      },
+      {
+        "role": "user",
+        "content": "name of the companky",
+        "createdAt": "2026-04-19T04:54:18.900Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Can you please clarify your question? I’ll give you a clear answer.",
+        "createdAt": "2026-04-19T04:54:21.144Z"
+      },
+      {
+        "role": "user",
+        "content": "what is the solutions the entraiot give",
+        "createdAt": "2026-04-19T04:54:35.036Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Entraiot Solutions is an AI and IoT company that helps businesses automate operations, monitor systems in real time, and make smarter decisions using data.",
+        "createdAt": "2026-04-19T04:54:35.036Z"
+      },
+      {
+        "role": "user",
+        "content": "i want to book an demo",
+        "createdAt": "2026-04-19T04:54:44.796Z"
+      },
+      {
+        "role": "assistant",
+        "content": "We can easily schedule a demo for you. Please share your email.",
+        "createdAt": "2026-04-19T04:54:44.796Z"
+      },
+      {
+        "role": "user",
+        "content": "priyadharshiniak36@gmail.com",
+        "createdAt": "2026-04-19T04:54:58.538Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Got it 👍 Our team will contact you shortly.",
+        "createdAt": "2026-04-19T04:55:07.576Z"
+      }
+    ]
+  },
+  {
+    "name": "Priya Dharshini",
+    "phoneNumber": "8438608657",
+    "whatsAppNumber": "8438608657",
+    "email": "pd7293209@gmail.com",
+    "sessionId": "s_1778576561029_67qx3xe",
+    "source": "chatbot-inline-form",
+    "phone": "8438608657",
+    "lead_score": 30,
+    "lead_label": "cold",
+    "updated_at": "2026-05-12T09:07:27.832Z"
+  },
+  {
+    "email": "pd72@gmail.com",
+    "intent": "curious",
+    "sessionId": "18d7344f-88e3-4b54-9727-5f2252c8299d",
+    "time": "2026-04-19T15:34:46.772Z",
+    "source": "chat-widget",
+    "id": "52fda2fd-13cb-4191-83f7-9346beb6b595",
+    "createdAt": "2026-04-19T15:34:46.779Z"
+  },
+  {
+    "name": "Priya Dharshini",
+    "phoneNumber": "8438608657",
+    "whatsAppNumber": "8438608657",
+    "email": "pd7293209@gmail.com",
+    "sessionId": "s_1778576561029_67qx3xe",
+    "source": "chatbot-inline-form",
+    "phone": "8438608657",
+    "lead_score": 30,
+    "lead_label": "cold",
+    "updated_at": "2026-05-12T09:07:27.832Z"
+  },
+  {
+    "name": "Priya Dharshini",
+    "phoneNumber": "8438608657",
+    "whatsAppNumber": "8438608657",
+    "email": "pd7293209@gmail.com",
+    "sessionId": "s_1778576561029_67qx3xe",
+    "source": "chatbot-inline-form",
+    "phone": "8438608657",
+    "lead_score": 30,
+    "lead_label": "cold",
+    "updated_at": "2026-05-12T09:07:27.832Z"
+  },
+  {
+    "name": "Priya Dharshini",
+    "phoneNumber": "8438608657",
+    "whatsAppNumber": "8438608657",
+    "email": "pd7293209@gmail.com",
+    "sessionId": "s_1778576561029_67qx3xe",
+    "source": "chatbot-inline-form",
+    "appointment": {
+      "date": "2026-05-27",
+      "time": "16:00"
+    },
+    "phone": "8438608657",
+    "lead_score": 30,
+    "lead_label": "cold",
+    "updated_at": "2026-05-12T09:07:27.832Z"
+  }
+]

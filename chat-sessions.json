@@ -1,0 +1,854 @@
+{
+  "s_1777679852558_ya4ao9p": {
+    "userId": "s_1777679852558_ya4ao9p",
+    "lastActive": "2026-05-02T00:08:37.265Z",
+    "messages": [
+      {
+        "role": "user",
+        "text": "hi",
+        "time": "2026-05-02T00:08:08.785Z"
+      },
+      {
+        "role": "bot",
+        "text": "I can help you with leads, automation, or cost reduction. What’s your priority?",
+        "time": "2026-05-02T00:08:08.785Z"
+      },
+      {
+        "role": "user",
+        "text": "I want more leads",
+        "time": "2026-05-02T00:08:10.904Z"
+      },
+      {
+        "role": "bot",
+        "text": "Great choice 🚀\nWe help businesses generate leads using AI automation.\n👉 What’s your business?",
+        "time": "2026-05-02T00:08:10.904Z"
+      },
+      {
+        "role": "user",
+        "text": "IT Services",
+        "time": "2026-05-02T00:08:12.451Z"
+      },
+      {
+        "role": "bot",
+        "text": "Perfect 🚀 For IT Services, we automate lead capture and qualification to ensure high conversion rates.",
+        "time": "2026-05-02T00:08:12.451Z"
+      },
+      {
+        "role": "user",
+        "text": "Next",
+        "time": "2026-05-02T00:08:13.616Z"
+      },
+      {
+        "role": "bot",
+        "text": "Are you currently getting enough property enquiries?",
+        "time": "2026-05-02T00:08:13.616Z"
+      },
+      {
+        "role": "user",
+        "text": "No",
+        "time": "2026-05-02T00:08:15.107Z"
+      },
+      {
+        "role": "bot",
+        "text": "That means your funnel is missing automation.\n👉 Want to see how we fix it?",
+        "time": "2026-05-02T00:08:15.107Z"
+      },
+      {
+        "role": "user",
+        "text": "Create plan",
+        "time": "2026-05-02T00:08:15.916Z"
+      },
+      {
+        "role": "bot",
+        "text": "Hi 👋 I'm Entraiot's AI assistant. What are you looking for today?",
+        "time": "2026-05-02T00:08:15.916Z"
+      },
+      {
+        "role": "user",
+        "text": "Support",
+        "time": "2026-05-02T00:08:16.953Z"
+      },
+      {
+        "role": "bot",
+        "text": "Great 👍 What’s your main goal for your business?",
+        "time": "2026-05-02T00:08:16.953Z"
+      },
+      {
+        "role": "user",
+        "text": "Reduce Cost",
+        "time": "2026-05-02T00:08:18.233Z"
+      },
+      {
+        "role": "bot",
+        "text": "Smart move 💰\nMost businesses overspend due to manual processes.",
+        "time": "2026-05-02T00:08:18.233Z"
+      },
+      {
+        "role": "user",
+        "text": "Next",
+        "time": "2026-05-02T00:08:19.265Z"
+      },
+      {
+        "role": "bot",
+        "text": "Where do you spend most?",
+        "time": "2026-05-02T00:08:19.265Z"
+      },
+      {
+        "role": "user",
+        "text": "Salaries",
+        "time": "2026-05-02T00:08:20.602Z"
+      },
+      {
+        "role": "bot",
+        "text": "Automation can reduce dependency on manpower.",
+        "time": "2026-05-02T00:08:20.602Z"
+      },
+      {
+        "role": "user",
+        "text": "Next",
+        "time": "2026-05-02T00:08:21.799Z"
+      },
+      {
+        "role": "bot",
+        "text": "💡 You can save 20–40% monthly costs",
+        "time": "2026-05-02T00:08:21.799Z"
+      },
+      {
+        "role": "user",
+        "text": "Next",
+        "time": "2026-05-02T00:08:22.820Z"
+      },
+      {
+        "role": "bot",
+        "text": "Want exact savings for your business?",
+        "time": "2026-05-02T00:08:22.820Z"
+      },
+      {
+        "role": "user",
+        "text": "Later",
+        "time": "2026-05-02T00:08:24.895Z"
+      },
+      {
+        "role": "bot",
+        "text": "Enter average monthly salary:",
+        "time": "2026-05-02T00:08:24.895Z"
+      },
+      {
+        "role": "user",
+        "text": "57000000000",
+        "time": "2026-05-02T00:08:31.398Z"
+      },
+      {
+        "role": "bot",
+        "text": "You can save ₹17100000000/month using automation",
+        "time": "2026-05-02T00:08:31.398Z"
+      },
+      {
+        "role": "user",
+        "text": "Next",
+        "time": "2026-05-02T00:08:33.385Z"
+      },
+      {
+        "role": "bot",
+        "text": "Want a detailed plan?",
+        "time": "2026-05-02T00:08:33.385Z"
+      },
+      {
+        "role": "user",
+        "text": "I submitted my details.",
+        "time": "2026-05-02T00:08:37.265Z"
+      },
+      {
+        "role": "bot",
+        "text": "I can help you with leads, automation, or cost reduction. What’s your priority?",
+        "time": "2026-05-02T00:08:37.265Z"
+      }
+    ],
+    "intent": "COST"
+  },
+  "s_1777697958273_0ibcepb": {
+    "userId": "s_1777697958273_0ibcepb",
+    "score": 0,
+    "leadLabel": "Cold",
+    "lastActive": "2026-05-02T05:00:55.554Z",
+    "messages": [
+      {
+        "role": "user",
+        "text": "I want more leads",
+        "time": "2026-05-02T05:00:08.332Z"
+      },
+      {
+        "role": "bot",
+        "text": "Great choice 🚀\nWe help businesses generate leads using AI automation.\n👉 What’s your business?",
+        "time": "2026-05-02T05:00:08.332Z"
+      },
+      {
+        "role": "user",
+        "text": "Real Estate",
+        "time": "2026-05-02T05:00:10.061Z"
+      },
+      {
+        "role": "bot",
+        "text": "Perfect 🏠\nFor real estate, we implement:\n✅ Auto lead capture from ads & website\n✅ Instant WhatsApp follow-ups\n✅ AI qualification of buyers\n✅ Site visit scheduling\n💡 Result: Faster deal closure",
+        "time": "2026-05-02T05:00:10.061Z"
+      },
+      {
+        "role": "user",
+        "text": "Next",
+        "time": "2026-05-02T05:00:11.639Z"
+      },
+      {
+        "role": "bot",
+        "text": "Are you currently getting enough property enquiries?",
+        "time": "2026-05-02T05:00:11.639Z"
+      },
+      {
+        "role": "user",
+        "text": "No",
+        "time": "2026-05-02T05:00:13.243Z"
+      },
+      {
+        "role": "bot",
+        "text": "That means your funnel is missing automation.\n👉 Want to see how we fix it?",
+        "time": "2026-05-02T05:00:13.243Z"
+      },
+      {
+        "role": "user",
+        "text": "Create plan",
+        "time": "2026-05-02T05:00:14.744Z"
+      },
+      {
+        "role": "bot",
+        "text": "Hi 👋 I'm Entraiot's AI assistant. What are you looking for today?",
+        "time": "2026-05-02T05:00:14.744Z"
+      },
+      {
+        "role": "user",
+        "text": "Leads",
+        "time": "2026-05-02T05:00:18.406Z"
+      },
+      {
+        "role": "bot",
+        "text": "Great 👍 What’s your main goal for your business?",
+        "time": "2026-05-02T05:00:18.406Z"
+      },
+      {
+        "role": "user",
+        "text": "Increase Sales",
+        "time": "2026-05-02T05:00:35.262Z"
+      },
+      {
+        "role": "bot",
+        "text": "This is how AI interacts with customers automatically — fast, accurate, and 24/7.",
+        "time": "2026-05-02T05:00:35.262Z"
+      },
+      {
+        "role": "user",
+        "text": "Next",
+        "time": "2026-05-02T05:00:38.747Z"
+      },
+      {
+        "role": "bot",
+        "text": "Want this for your business? I can create a custom AI strategy plan for you.",
+        "time": "2026-05-02T05:00:38.747Z"
+      },
+      {
+        "role": "user",
+        "text": "Yes, Create Plan",
+        "time": "2026-05-02T05:00:43.999Z"
+      },
+      {
+        "role": "bot",
+        "text": "Awesome! Where should I send your plan?",
+        "time": "2026-05-02T05:00:43.999Z"
+      },
+      {
+        "role": "user",
+        "text": "I submitted my details.",
+        "time": "2026-05-02T05:00:55.554Z"
+      },
+      {
+        "role": "bot",
+        "text": "I can help you with leads, automation, or cost reduction. What’s your priority?",
+        "time": "2026-05-02T05:00:55.554Z"
+      }
+    ],
+    "intent": "DEMO",
+    "businessType": "Real Estate",
+    "email": "pd7293209@gmail.com",
+    "name": "Priya Dharshini"
+  },
+  "s_1777957057461_rv6sopl": {
+    "userId": "s_1777957057461_rv6sopl",
+    "score": 30,
+    "leadLabel": "Cold",
+    "lastActive": "2026-05-05T04:59:21.231Z",
+    "messages": [
+      {
+        "role": "user",
+        "text": "Just exploring",
+        "time": "2026-05-05T04:58:11.619Z"
+      },
+      {
+        "role": "bot",
+        "text": "Excellent choice. Let me demonstrate how our AI & Industrial IoT framework can optimize your specific business model.",
+        "time": "2026-05-05T04:58:11.619Z"
+      },
+      {
+        "role": "user",
+        "text": "Next",
+        "time": "2026-05-05T04:58:16.891Z"
+      },
+      {
+        "role": "bot",
+        "text": "Our enterprise solutions typically deliver measurable outcomes:\n\n📈 Automated Lead Acquisition\n⚙️ 24/7 Operational Autonomy\n📉 20–40% Direct Cost Reduction",
+        "time": "2026-05-05T04:58:16.891Z"
+      },
+      {
+        "role": "user",
+        "text": "Next",
+        "time": "2026-05-05T04:58:22.981Z"
+      },
+      {
+        "role": "bot",
+        "text": "Would you like to see how these efficiencies apply to your organization?",
+        "time": "2026-05-05T04:58:22.981Z"
+      },
+      {
+        "role": "user",
+        "text": "Maybe later",
+        "time": "2026-05-05T04:58:26.867Z"
+      },
+      {
+        "role": "bot",
+        "text": "To provide a tailored strategic roadmap, could you specify your industry sector?",
+        "time": "2026-05-05T04:58:26.867Z"
+      },
+      {
+        "role": "user",
+        "text": "Other",
+        "time": "2026-05-05T04:58:30.526Z"
+      },
+      {
+        "role": "bot",
+        "text": "Strategic choice. For the Other sector, we implement custom AI architectures and autonomous engagement layers to drive high-fidelity growth.",
+        "time": "2026-05-05T04:58:30.526Z"
+      },
+      {
+        "role": "user",
+        "text": "Next",
+        "time": "2026-05-05T04:58:33.755Z"
+      },
+      {
+        "role": "bot",
+        "text": "Most companies lose leads because they reply late.\n👉 Want to check if that’s happening in your business?",
+        "time": "2026-05-05T04:58:33.755Z"
+      },
+      {
+        "role": "user",
+        "text": "Not sure",
+        "time": "2026-05-05T04:58:37.746Z"
+      },
+      {
+        "role": "bot",
+        "text": "How quickly do you respond to leads?",
+        "time": "2026-05-05T04:58:37.746Z"
+      },
+      {
+        "role": "user",
+        "text": "Within 5 mins",
+        "time": "2026-05-05T04:58:40.736Z"
+      },
+      {
+        "role": "bot",
+        "text": "That's good, but even a 5-min delay can lose you 20% of conversions. AI does it in 1 second.",
+        "time": "2026-05-05T04:58:40.736Z"
+      },
+      {
+        "role": "user",
+        "text": "Next",
+        "time": "2026-05-05T04:58:47.524Z"
+      },
+      {
+        "role": "bot",
+        "text": "We fix this using instant AI responses + automation.\n👉 Want a custom plan?",
+        "time": "2026-05-05T04:58:47.524Z"
+      },
+      {
+        "role": "user",
+        "text": "Show demo",
+        "time": "2026-05-05T04:58:51.548Z"
+      },
+      {
+        "role": "bot",
+        "text": "Welcome. I am the Entraiot AI Concierge. Which operational efficiency domain shall we explore today?",
+        "time": "2026-05-05T04:58:51.548Z"
+      },
+      {
+        "role": "user",
+        "text": "Leads",
+        "time": "2026-05-05T04:58:59.192Z"
+      },
+      {
+        "role": "bot",
+        "text": "Understood. What is the primary performance metric you aim to optimize for your organization?",
+        "time": "2026-05-05T04:58:59.192Z"
+      },
+      {
+        "role": "user",
+        "text": "Increase Sales",
+        "time": "2026-05-05T04:59:03.989Z"
+      },
+      {
+        "role": "bot",
+        "text": "As you can see, our AI interacts with millisecond precision — providing accurate, 24/7 engagement that scales seamlessly with your business needs.",
+        "time": "2026-05-05T04:59:03.989Z"
+      },
+      {
+        "role": "user",
+        "text": "Next",
+        "time": "2026-05-05T04:59:12.509Z"
+      },
+      {
+        "role": "bot",
+        "text": "Shall I architect a similar AI-driven framework for your organization? I can prepare a custom strategy roadmap for you now.",
+        "time": "2026-05-05T04:59:12.509Z"
+      },
+      {
+        "role": "user",
+        "text": "Yes, Create Plan",
+        "time": "2026-05-05T04:59:16.672Z"
+      },
+      {
+        "role": "bot",
+        "text": "Excellent. Where should I deliver your custom strategy roadmap?",
+        "time": "2026-05-05T04:59:16.672Z"
+      },
+      {
+        "role": "user",
+        "text": "I submitted my details.",
+        "time": "2026-05-05T04:59:21.231Z"
+      },
+      {
+        "role": "bot",
+        "text": "I can help you with leads, automation, or cost reduction. What’s your priority?",
+        "time": "2026-05-05T04:59:21.231Z"
+      }
+    ],
+    "intent": "DEMO",
+    "businessType": "Other",
+    "email": "pd7293209@gmail.com",
+    "name": "Priya Dharshini"
+  },
+  "s_1778481721022_v69ib02": {
+    "userId": "s_1778481721022_v69ib02",
+    "score": 20,
+    "leadLabel": "Cold",
+    "lastActive": "2026-05-11T06:43:06.336Z",
+    "messages": [
+      {
+        "role": "user",
+        "text": "I want more leads",
+        "time": "2026-05-11T06:42:11.870Z"
+      },
+      {
+        "role": "bot",
+        "text": "A high-fidelity growth strategy. 🚀\n\nWe specialize in high-conversion lead acquisition through AI-driven engagement. \n\nWhat industry are you operating in?",
+        "time": "2026-05-11T06:42:11.870Z"
+      },
+      {
+        "role": "user",
+        "text": "Healthcare",
+        "time": "2026-05-11T06:42:14.307Z"
+      },
+      {
+        "role": "bot",
+        "text": "Strategic focus. For Healthcare, we architect autonomous lead management systems to ensure peak conversion performance.",
+        "time": "2026-05-11T06:42:14.307Z"
+      },
+      {
+        "role": "user",
+        "text": "Next",
+        "time": "2026-05-11T06:42:16.672Z"
+      },
+      {
+        "role": "bot",
+        "text": "Are you currently getting enough property enquiries?",
+        "time": "2026-05-11T06:42:16.672Z"
+      },
+      {
+        "role": "user",
+        "text": "No",
+        "time": "2026-05-11T06:42:18.910Z"
+      },
+      {
+        "role": "bot",
+        "text": "That means your funnel is missing automation.\n👉 Want to see how we fix it?",
+        "time": "2026-05-11T06:42:18.910Z"
+      },
+      {
+        "role": "user",
+        "text": "Create plan",
+        "time": "2026-05-11T06:42:21.158Z"
+      },
+      {
+        "role": "bot",
+        "text": "Welcome. I am the Entraiot AI Concierge. Which operational efficiency domain shall we explore today?",
+        "time": "2026-05-11T06:42:21.158Z"
+      },
+      {
+        "role": "user",
+        "text": "Leads",
+        "time": "2026-05-11T06:42:23.546Z"
+      },
+      {
+        "role": "bot",
+        "text": "Understood. What is the primary performance metric you aim to optimize for your organization?",
+        "time": "2026-05-11T06:42:23.546Z"
+      },
+      {
+        "role": "user",
+        "text": "Reduce Cost",
+        "time": "2026-05-11T06:42:26.172Z"
+      },
+      {
+        "role": "bot",
+        "text": "An intelligent financial priority. Manual workflows are often the primary source of hidden operational leakage.",
+        "time": "2026-05-11T06:42:26.172Z"
+      },
+      {
+        "role": "user",
+        "text": "Next",
+        "time": "2026-05-11T06:42:28.534Z"
+      },
+      {
+        "role": "bot",
+        "text": "Where do you spend most?",
+        "time": "2026-05-11T06:42:28.534Z"
+      },
+      {
+        "role": "user",
+        "text": "Marketing",
+        "time": "2026-05-11T06:42:31.305Z"
+      },
+      {
+        "role": "bot",
+        "text": "Automation can reduce dependency on manpower.",
+        "time": "2026-05-11T06:42:31.305Z"
+      },
+      {
+        "role": "user",
+        "text": "stope",
+        "time": "2026-05-11T06:42:36.462Z"
+      },
+      {
+        "role": "bot",
+        "text": "💡 You can save 20–40% monthly costs",
+        "time": "2026-05-11T06:42:36.462Z"
+      },
+      {
+        "role": "user",
+        "text": "Next",
+        "time": "2026-05-11T06:42:43.259Z"
+      },
+      {
+        "role": "bot",
+        "text": "Want exact savings for your business?",
+        "time": "2026-05-11T06:42:43.259Z"
+      },
+      {
+        "role": "user",
+        "text": "Later",
+        "time": "2026-05-11T06:42:47.732Z"
+      },
+      {
+        "role": "bot",
+        "text": "Enter average monthly salary:",
+        "time": "2026-05-11T06:42:47.732Z"
+      },
+      {
+        "role": "user",
+        "text": "500000",
+        "time": "2026-05-11T06:43:02.401Z"
+      },
+      {
+        "role": "bot",
+        "text": "You can save ₹150000/month using automation",
+        "time": "2026-05-11T06:43:02.401Z"
+      },
+      {
+        "role": "user",
+        "text": "Next",
+        "time": "2026-05-11T06:43:06.336Z"
+      },
+      {
+        "role": "bot",
+        "text": "Want a detailed plan?",
+        "time": "2026-05-11T06:43:06.336Z"
+      }
+    ],
+    "intent": "COST",
+    "businessType": "Healthcare"
+  },
+  "s_1778512085633_ctjy52i": {
+    "userId": "s_1778512085633_ctjy52i",
+    "score": 0,
+    "leadLabel": "Cold",
+    "lastActive": "2026-05-11T15:09:52.316Z",
+    "messages": [
+      {
+        "role": "user",
+        "text": "I want more leads",
+        "time": "2026-05-11T15:08:25.777Z"
+      },
+      {
+        "role": "bot",
+        "text": "A high-fidelity growth strategy. 🚀\n\nWe specialize in high-conversion lead acquisition through AI-driven engagement. \n\nWhat industry are you operating in?",
+        "time": "2026-05-11T15:08:25.777Z"
+      },
+      {
+        "role": "user",
+        "text": "Healthcare",
+        "time": "2026-05-11T15:08:32.413Z"
+      },
+      {
+        "role": "bot",
+        "text": "Strategic focus. For Healthcare, we architect autonomous lead management systems to ensure peak conversion performance.",
+        "time": "2026-05-11T15:08:32.413Z"
+      },
+      {
+        "role": "user",
+        "text": "Next",
+        "time": "2026-05-11T15:08:34.472Z"
+      },
+      {
+        "role": "bot",
+        "text": "Are you currently getting enough property enquiries?",
+        "time": "2026-05-11T15:08:34.472Z"
+      },
+      {
+        "role": "user",
+        "text": "No",
+        "time": "2026-05-11T15:08:36.699Z"
+      },
+      {
+        "role": "bot",
+        "text": "That means your funnel is missing automation.\n👉 Want to see how we fix it?",
+        "time": "2026-05-11T15:08:36.699Z"
+      },
+      {
+        "role": "user",
+        "text": "tell me about entraiot",
+        "time": "2026-05-11T15:08:45.792Z"
+      },
+      {
+        "role": "bot",
+        "text": "Welcome. I am the Entraiot AI Concierge. Which operational efficiency domain shall we explore today?",
+        "time": "2026-05-11T15:08:45.792Z"
+      },
+      {
+        "role": "user",
+        "text": "i want automation",
+        "time": "2026-05-11T15:09:03.485Z"
+      },
+      {
+        "role": "bot",
+        "text": "An insightful objective. Automation is the key to decoupling business growth from labor overhead.",
+        "time": "2026-05-11T15:09:03.485Z"
+      },
+      {
+        "role": "user",
+        "text": "next",
+        "time": "2026-05-11T15:09:12.876Z"
+      },
+      {
+        "role": "bot",
+        "text": "Which operational domain would you like to prioritize for optimization?",
+        "time": "2026-05-11T15:09:12.876Z"
+      },
+      {
+        "role": "user",
+        "text": "all",
+        "time": "2026-05-11T15:09:19.982Z"
+      },
+      {
+        "role": "bot",
+        "text": "A comprehensive choice. Our automation framework typically integrates:\n✅ Autonomous Lead Management\n✅ Proactive Engagement Protocols\n✅ Real-time Operational Insights\n✅ Seamless Workflow Synchronization",
+        "time": "2026-05-11T15:09:19.982Z"
+      },
+      {
+        "role": "user",
+        "text": "not this",
+        "time": "2026-05-11T15:09:29.315Z"
+      },
+      {
+        "role": "bot",
+        "text": "💡 Most businesses save 30–40% time after automation.",
+        "time": "2026-05-11T15:09:29.315Z"
+      },
+      {
+        "role": "user",
+        "text": "later",
+        "time": "2026-05-11T15:09:38.218Z"
+      },
+      {
+        "role": "bot",
+        "text": "Want to calculate your savings?",
+        "time": "2026-05-11T15:09:38.218Z"
+      },
+      {
+        "role": "user",
+        "text": "skip",
+        "time": "2026-05-11T15:09:44.542Z"
+      },
+      {
+        "role": "bot",
+        "text": "How many employees do you have?",
+        "time": "2026-05-11T15:09:44.542Z"
+      },
+      {
+        "role": "user",
+        "text": "not like that",
+        "time": "2026-05-11T15:09:52.316Z"
+      },
+      {
+        "role": "bot",
+        "text": "Approx savings:\n👉 ₹40,000–₹80,000/month 💰",
+        "time": "2026-05-11T15:09:52.316Z"
+      }
+    ],
+    "intent": "AUTOMATION",
+    "businessType": "Healthcare"
+  },
+  "s_1778550000668_m5wa0o6": {
+    "userId": "s_1778550000668_m5wa0o6",
+    "score": 0,
+    "leadLabel": "Cold",
+    "lastActive": "2026-05-12T01:40:30.487Z",
+    "messages": [
+      {
+        "role": "user",
+        "text": "I want more leads",
+        "time": "2026-05-12T01:40:30.487Z"
+      },
+      {
+        "role": "bot",
+        "text": "A high-fidelity growth strategy. 🚀\n\nWe specialize in high-conversion lead acquisition through AI-driven engagement. \n\nWhat industry are you operating in?",
+        "time": "2026-05-12T01:40:30.487Z"
+      }
+    ],
+    "intent": "LEADS"
+  },
+  "s_1778576561029_67qx3xe": {
+    "userId": "s_1778576561029_67qx3xe",
+    "score": 30,
+    "leadLabel": "Cold",
+    "lastActive": "2026-05-12T09:07:28.043Z",
+    "messages": [
+      {
+        "role": "user",
+        "text": "I want more leads",
+        "time": "2026-05-12T09:03:02.862Z"
+      },
+      {
+        "role": "bot",
+        "text": "A high-fidelity growth strategy. 🚀\n\nWe specialize in high-conversion lead acquisition through AI-driven engagement. \n\nWhat industry are you operating in?",
+        "time": "2026-05-12T09:03:02.862Z"
+      },
+      {
+        "role": "user",
+        "text": "Healthcare",
+        "time": "2026-05-12T09:03:32.059Z"
+      },
+      {
+        "role": "bot",
+        "text": "Strategic focus. For Healthcare, we architect autonomous lead management systems to ensure peak conversion performance.",
+        "time": "2026-05-12T09:03:32.059Z"
+      },
+      {
+        "role": "user",
+        "text": "Next",
+        "time": "2026-05-12T09:03:58.003Z"
+      },
+      {
+        "role": "bot",
+        "text": "Are you currently getting enough property enquiries?",
+        "time": "2026-05-12T09:03:58.003Z"
+      },
+      {
+        "role": "user",
+        "text": "No",
+        "time": "2026-05-12T09:04:20.381Z"
+      },
+      {
+        "role": "bot",
+        "text": "That means your funnel is missing automation.\n👉 Want to see how we fix it?",
+        "time": "2026-05-12T09:04:20.381Z"
+      },
+      {
+        "role": "user",
+        "text": "Show demo",
+        "time": "2026-05-12T09:05:07.776Z"
+      },
+      {
+        "role": "bot",
+        "text": "Welcome. I am the Entraiot AI Concierge. Which operational efficiency domain shall we explore today?",
+        "time": "2026-05-12T09:05:07.776Z"
+      },
+      {
+        "role": "user",
+        "text": "Leads",
+        "time": "2026-05-12T09:05:43.741Z"
+      },
+      {
+        "role": "bot",
+        "text": "Understood. What is the primary performance metric you aim to optimize for your organization?",
+        "time": "2026-05-12T09:05:43.741Z"
+      },
+      {
+        "role": "user",
+        "text": "Increase Sales",
+        "time": "2026-05-12T09:06:09.849Z"
+      },
+      {
+        "role": "bot",
+        "text": "As you can see, our AI interacts with millisecond precision — providing accurate, 24/7 engagement that scales seamlessly with your business needs.",
+        "time": "2026-05-12T09:06:09.849Z"
+      },
+      {
+        "role": "user",
+        "text": "Next",
+        "time": "2026-05-12T09:06:41.152Z"
+      },
+      {
+        "role": "bot",
+        "text": "Shall I architect a similar AI-driven framework for your organization? I can prepare a custom strategy roadmap for you now.",
+        "time": "2026-05-12T09:06:41.152Z"
+      },
+      {
+        "role": "user",
+        "text": "Yes, Create Plan",
+        "time": "2026-05-12T09:07:07.049Z"
+      },
+      {
+        "role": "bot",
+        "text": "Excellent. Where should I deliver your custom strategy roadmap?",
+        "time": "2026-05-12T09:07:07.049Z"
+      },
+      {
+        "role": "user",
+        "text": "I submitted my details.",
+        "time": "2026-05-12T09:07:28.043Z"
+      },
+      {
+        "role": "bot",
+        "text": "I can help you with leads, automation, or cost reduction. What’s your priority?",
+        "time": "2026-05-12T09:07:28.043Z"
+      }
+    ],
+    "intent": "DEMO",
+    "businessType": "Healthcare",
+    "email": "pd7293209@gmail.com",
+    "name": "Priya Dharshini"
+  }
+}
