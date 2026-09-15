@@ -1,4 +1,4 @@
-A---
+---
 alwaysApply: true
 ---
     Don't run "npx run dev" in agent mode , because i am already running the dev server in the terminal.
