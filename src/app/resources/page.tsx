@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Script from "next/script";
 import Link from "next/link";
 import { resourcesStructuredData, breadcrumbStructuredData } from "@/lib/structured-data";
 import Breadcrumbs from "@/components/ui/breadcrumbs";
@@ -17,7 +16,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     type: "website",
-    locale: "en_US",
+    locale: "en_IN",
     url: "https://entraiot.com/resources",
     title: "IoT AI Knowledge Base - Case Studies & Guides | Entraiot",
     description: "IoT case studies, AI whitepapers, technical docs and implementation guides. Free resources for smart automation solutions.",
@@ -42,14 +41,14 @@ export const metadata: Metadata = {
 export default function ResourcesPage() {
   return (
     <>
-      <Script
+      <script
         id="resources-schema"
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify(resourcesStructuredData),
         }}
       />
-      <Script
+      <script
         id="breadcrumb-schema"
         type="application/ld+json"
         dangerouslySetInnerHTML={{

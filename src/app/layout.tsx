@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import Script from "next/script";
 import "./globals.css";
 import Header from "@/components/layout/header";
@@ -8,6 +8,7 @@ import { ScrollToTop } from "@/components/ui/scroll-to-top";
 import LandingIntroHost from "@/components/intro/landing-intro-host";
 import { organizationStructuredData } from "@/lib/structured-data";
 import { PageTransition } from "@/components/ui/page-transition";
+import { SITE } from "@/lib/seo";
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://entraiot.com'),
@@ -15,16 +16,20 @@ export const metadata: Metadata = {
   // This title is distinct from homepage to avoid duplicates
   title: {
     default: "Entraiot Solutions - Enterprise IoT & AI Solutions Provider",
-    template: "%s | Entraiot Solutions",
+    // Page titles already include the brand, so the template must not add it again
+    template: "%s",
   },
   description: "Leading IoT & AI solutions provider. Expert deployment, predictive maintenance and smart automation for industries. Get started today.",
-  keywords: ["IoT solutions", "AI solutions", "smart automation", "Entraiot Solutions", "predictive maintenance", "smart cities", "industrial IoT", "Chennai IoT company", "IoT deployment", "AI automation"],
-  authors: [{ name: "Entraiot Solutions" }],
+  keywords: ["IoT solutions", "AI solutions", "smart automation", "Entraiot Solutions", "predictive maintenance", "smart cities", "industrial IoT", "Chennai IoT company", "IoT company in Chennai", "IoT solutions India", "IoT deployment", "AI automation", "RFID solutions", "NFC solutions"],
+  applicationName: "Entraiot Solutions",
+  category: "technology",
+  alternates: { canonical: "/" },
+  authors: [{ name: "Entraiot Solutions", url: "https://entraiot.com" }],
   creator: "Entraiot Solutions",
   publisher: "Entraiot Solutions",
   openGraph: {
     type: "website",
-    locale: "en_US",
+    locale: "en_IN",
     url: "https://entraiot.com",
     // Default OG title - pages should override this
     title: "Entraiot Solutions - Enterprise IoT & AI Solutions Provider",
@@ -32,7 +37,7 @@ export const metadata: Metadata = {
     siteName: "Entraiot Solutions",
     images: [
       {
-        url: "https://entraiot.com/images/og-image.jpg",
+        url: "https://entraiot.com/og-image.jpg",
         width: 1200,
         height: 630,
         alt: "Entraiot Solutions - IoT & AI Solutions",
@@ -44,7 +49,7 @@ export const metadata: Metadata = {
     // Default Twitter title - pages should override this
     title: "Entraiot Solutions - Enterprise IoT & AI Solutions Provider",
     description: "Leading IoT & AI solutions provider. Expert deployment, predictive maintenance and smart automation for industries.",
-    images: ["https://entraiot.com/images/og-image.jpg"],
+    images: ["https://entraiot.com/og-image.jpg"],
   },
   icons: {
     icon: [
@@ -68,7 +73,23 @@ export const metadata: Metadata = {
   },
   verification: {
     google: "dmJcQrza58NFvrLnAJm9ltmSCFylnrft_Y42T2XExVo",
+    // Bing Webmaster Tools: paste the code from Bing here (see SEO_GUIDE.md)
+    // other: { "msvalidate.01": "YOUR_BING_CODE" },
   },
+  // GEO: tells search engines where the business is located
+  other: {
+    "geo.region": "IN-TN",
+    "geo.placename": "Chennai",
+    "geo.position": `${SITE.geo.latitude};${SITE.geo.longitude}`,
+    "ICBM": `${SITE.geo.latitude}, ${SITE.geo.longitude}`,
+    "content-language": "en-IN",
+  },
+};
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  themeColor: "#6366f1",
 };
 
 export default function RootLayout({
@@ -77,8 +98,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en-IN">
       <head>
+        <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
         {/* Preload critical resources */}
         <link rel="preload" href="/logo.webp" as="image" type="image/webp" />
         <link rel="preload" href="/logobg.webp" as="image" type="image/webp" />

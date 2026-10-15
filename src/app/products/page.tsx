@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Script from "next/script";
 import { 
   Download,
   MessageCircle,
@@ -27,7 +26,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     type: "website",
-    locale: "en_US",
+    locale: "en_IN",
     url: "https://entraiot.com/products",
     title: "Enterprise IoT Devices - UHF RFID, NFC & BLE | Entraiot",
     description: "Enterprise-grade IoT hardware: UHF RFID, NFC modules, BLE devices. Proven reliability, 24/7 support. Trusted by businesses worldwide.",
@@ -330,14 +329,14 @@ const productCategories = [
 export default function ProductsPage() {
   return (
     <>
-      <Script
+      <script
         id="products-schema"
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify(productsStructuredData),
         }}
       />
-      <Script
+      <script
         id="breadcrumb-schema"
         type="application/ld+json"
         dangerouslySetInnerHTML={{

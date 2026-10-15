@@ -1,63 +1,129 @@
+import { SITE, INDUSTRIES } from "@/lib/seo";
+
+const SERVICE_NAMES = [
+  "End-to-End IoT Deployment",
+  "Real-Time Dashboards",
+  "Predictive Maintenance",
+  "Secure Network Integration",
+  "Application Development",
+  "Custom UI/UX Interfaces",
+];
+
+// Organization + local business (GEO) entity. Rendered site-wide from layout.tsx.
 export const organizationStructuredData = {
   "@context": "https://schema.org",
-  "@type": "Organization",
-  "name": "Entraiot Solutions Private Limited",
-  "url": "https://entraiot.com",
-  "logo": "https://entraiot.com/logo.webp",
-  "image": "https://entraiot.com/logo.webp",
-  "description": "Empowering industries with real-time IoT solutions that optimize operations, improve sustainability and bring intelligence to businesses and communities.",
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "W-126, 3rd Floor, 3rd Ave, Anna Nagar",
-    "addressLocality": "Chennai",
-    "addressRegion": "Tamil Nadu",
-    "postalCode": "600040",
-    "addressCountry": "IN"
-  },
-  "contactPoint": [
+  "@graph": [
     {
-      "@type": "ContactPoint",
-      "telephone": "+91-99444-42061",
-      "contactType": "customer service",
-      "areaServed": "IN",
-      "availableLanguage": "English"
+      "@type": ["Organization", "ProfessionalService"],
+      "@id": `${SITE.url}/#organization`,
+      "name": SITE.legalName,
+      "alternateName": [SITE.name, "Entraiot", "Entra IoT"],
+      "url": SITE.url,
+      "logo": { "@type": "ImageObject", "url": SITE.logo, "width": 1024, "height": 1024 },
+      "image": [SITE.logo, SITE.ogImage],
+      "description": "Entraiot Solutions is a Chennai-based IoT and AI solutions company delivering end-to-end IoT deployment, real-time dashboards, predictive maintenance, RFID/NFC solutions and smart automation for industries across India.",
+      "telephone": SITE.phones[0],
+      "email": SITE.email,
+      "address": { "@type": "PostalAddress", ...SITE.address },
+      "geo": { "@type": "GeoCoordinates", ...SITE.geo },
+      "hasMap": SITE.mapUrl,
+      "areaServed": [
+        { "@type": "City", "name": "Chennai" },
+        { "@type": "State", "name": "Tamil Nadu" },
+        { "@type": "Country", "name": "India" },
+      ],
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        "opens": "09:00",
+        "closes": "18:00",
+      },
+      "contactPoint": [
+        ...SITE.phones.map((telephone) => ({
+          "@type": "ContactPoint",
+          telephone,
+          "contactType": "customer service",
+          "areaServed": "IN",
+          "availableLanguage": ["English", "Tamil"],
+        })),
+        {
+          "@type": "ContactPoint",
+          "email": SITE.email,
+          "contactType": "sales",
+          "areaServed": "IN",
+          "availableLanguage": ["English", "Tamil"],
+        },
+      ],
+      "sameAs": [...SITE.sameAs, "https://lnkd.in/gJiVD6Pr"],
+      "founder": { "@id": `${SITE.url}/#founder` },
+      "foundingDate": "2025",
+      "industry": "IoT & AI Solutions",
+      "knowsAbout": [
+        "Internet of Things (IoT)",
+        "Artificial Intelligence",
+        "Predictive Maintenance",
+        "RFID",
+        "NFC",
+        "Smart Automation",
+        "Industrial IoT",
+        "Smart Cities",
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "IoT & AI Solutions",
+        "itemListElement": SERVICE_NAMES.map((name) => ({
+          "@type": "Offer",
+          "itemOffered": { "@type": "Service", name },
+        })),
+      },
+      "services": SERVICE_NAMES,
     },
     {
-      "@type": "ContactPoint",
-      "email": "info@entraiot.com",
-      "contactType": "customer service",
-      "areaServed": "IN",
-      "availableLanguage": "English"
-    }
-  ],
-  "sameAs": [
-    "https://lnkd.in/gJiVD6Pr"
-  ],
-  "founder": {
-    "@type": "Person",
-    "name": "Salvin Jones",
-    "jobTitle": "Founder & CEO",
-    "image": "https://entraiot.com/founder.jpg",
-    "sameAs": "https://lnkd.in/gJiVD6Pr"
-  },
-  "foundingDate": "2025",
-  "industry": "IoT & AI Solutions",
-  "services": [
-    "End-to-End IoT Deployment",
-    "Real-Time Dashboards",
-    "Predictive Maintenance",
-    "Secure Network Integration",
-    "Application Development",
-    "Custom UI/UX Interfaces"
-  ],
-  "employees": [
-    {
       "@type": "Person",
+      "@id": `${SITE.url}/#founder`,
       "name": "Salvin Jones",
       "jobTitle": "Founder & CEO",
-      "image": "https://entraiot.com/founder.jpg"
-    }
-  ]
+      "image": "https://entraiot.com/founder.jpg",
+      "worksFor": { "@id": `${SITE.url}/#organization` },
+      "sameAs": [
+        "https://lnkd.in/gJiVD6Pr",
+        "https://www.linkedin.com/in/salvin-jones-3238899a",
+      ],
+    },
+  ],
+};
+
+// Per-industry Service + Breadcrumb schema (used by src/app/industries/*/layout.tsx)
+export const industryStructuredData = (slug: string) => {
+  const industry = INDUSTRIES.find((i) => i.slug === slug);
+  if (!industry) return null;
+  const url = `${SITE.url}/industries/${slug}`;
+  return {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Service",
+        "@id": `${url}#service`,
+        "name": `${industry.name} IoT Solutions`,
+        "serviceType": `${industry.name} IoT & AI Solutions`,
+        "description": industry.description,
+        "url": url,
+        "provider": { "@id": `${SITE.url}/#organization` },
+        "areaServed": [
+          { "@type": "City", "name": "Chennai" },
+          { "@type": "Country", "name": "India" },
+        ],
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": SITE.url },
+          { "@type": "ListItem", "position": 2, "name": "Industries", "item": `${SITE.url}/industries` },
+          { "@type": "ListItem", "position": 3, "name": industry.name, "item": url },
+        ],
+      },
+    ],
+  };
 };
 
 export const servicesStructuredData = {
@@ -110,20 +176,12 @@ export const breadcrumbStructuredData = (items: Array<{ name: string; url: strin
 export const homepageStructuredData = {
   "@context": "https://schema.org",
   "@type": "WebSite",
+  "@id": `${SITE.url}/#website`,
+  "inLanguage": "en-IN",
   "name": "Entraiot Solutions",
   "url": "https://entraiot.com",
   "description": "Empowering industries with real-time IoT solutions and AI solutions. Expert IoT deployment, predictive maintenance and smart automation.",
-  "publisher": {
-    "@type": "Organization",
-    "name": "Entraiot Solutions Private Limited",
-    "url": "https://entraiot.com",
-    "logo": "https://entraiot.com/logo.webp"
-  },
-  "potentialAction": {
-    "@type": "SearchAction",
-    "target": "https://entraiot.com/search?q={search_term_string}",
-    "query-input": "required name=search_term_string"
-  }
+  "publisher": { "@id": `${SITE.url}/#organization` }
 };
 
 // About Page Schema
@@ -423,6 +481,22 @@ export const faqStructuredData = {
   "mainEntity": [
     {
       "@type": "Question",
+      "name": "What is Entraiot Solutions?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Entraiot Solutions is a Chennai-based IoT and AI solutions company that delivers end-to-end IoT deployment, real-time dashboards, predictive maintenance, secure network integration, RFID and NFC solutions, and custom application development for industries across India."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is Entraiot Solutions an IoT company in Chennai?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Entraiot Solutions is based at W-126, 3rd Floor, 3rd Ave, Anna Nagar, Chennai, Tamil Nadu 600040, and delivers IoT and AI projects for businesses in Chennai, across Tamil Nadu and throughout India."
+      }
+    },
+    {
+      "@type": "Question",
       "name": "What IoT solutions does Entraiot Solutions provide?",
       "acceptedAnswer": {
         "@type": "Answer",
@@ -442,7 +516,7 @@ export const faqStructuredData = {
       "name": "How can I contact Entraiot Solutions?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "You can contact us via phone at +91-99444-42061 or +91-81245-45524, email at bde@entraiot.com, or visit our office at 1&1A, UR Nagar Extn, Anna Nagar W Ext St, Chennai, Tamil Nadu 600101."
+        "text": "You can contact us via phone at +91-99444-42061 or +91-81245-45524, email at bde@entraiot.com, or visit our office at W-126, 3rd Floor, 3rd Ave, Anna Nagar, Chennai, Tamil Nadu 600040."
       }
     },
     {

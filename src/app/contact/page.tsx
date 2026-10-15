@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Script from "next/script";
 import { Suspense } from "react";
 import Contact from "@/components/sections/contact";
 import { contactPageStructuredData, breadcrumbStructuredData } from "@/lib/structured-data";
@@ -27,14 +26,14 @@ export const metadata: Metadata = {
 export default function ContactPage() {
   return (
     <>
-      <Script
+      <script
         id="contact-page-schema"
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify(contactPageStructuredData),
         }}
       />
-      <Script
+      <script
         id="breadcrumb-schema"
         type="application/ld+json"
         dangerouslySetInnerHTML={{

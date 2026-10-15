@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import Script from "next/script";
 import Link from "next/link";
 import { 
   ArrowLeft,
@@ -197,7 +196,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
 
   return (
     <>
-      <Script
+      <script
         id="product-schema"
         type="application/ld+json"
         dangerouslySetInnerHTML={{

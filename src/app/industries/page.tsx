@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Script from "next/script";
 import Industries from "@/components/sections/industries";
 import { industriesPageStructuredData, breadcrumbStructuredData } from "@/lib/structured-data";
 import { Card, CardContent } from "@/components/ui/card";
@@ -26,14 +25,14 @@ export const metadata: Metadata = {
 export default function IndustriesPage() {
   return (
     <>
-      <Script
+      <script
         id="industries-page-schema"
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify(industriesPageStructuredData),
         }}
       />
-      <Script
+      <script
         id="breadcrumb-schema"
         type="application/ld+json"
         dangerouslySetInnerHTML={{

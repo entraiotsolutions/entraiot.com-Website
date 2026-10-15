@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Script from "next/script";
 import { Suspense } from "react";
 import Hero from "@/components/sections/hero";
 import Solutions from "@/components/sections/solutions";
@@ -10,22 +9,22 @@ import Contact from "@/components/sections/contact";
 import { homepageStructuredData, faqStructuredData } from "@/lib/structured-data";
 
 export const metadata: Metadata = {
-  title: "Entraiot Solutions - Enterprise IoT & AI Solutions",
-  description: "Trusted IoT & AI solutions for 8+ industries. Proven 150-300% ROI, 40% cost reduction. Expert deployment, 24/7 support. Get free consultation today.",
+  title: "IoT & AI Solutions Company in Chennai, India | Entraiot Solutions",
+  description: "Chennai-based IoT & AI solutions company serving 8+ industries across India. Proven 150-300% ROI, 40% cost reduction. Expert deployment, 24/7 support. Get free consultation today.",
   keywords: ["IoT solutions", "AI solutions", "smart automation", "Entraiot Solutions", "predictive maintenance", "smart cities", "industrial IoT", "Chennai IoT company", "IoT deployment", "AI automation"],
   alternates: {
     canonical: "https://entraiot.com",
   },
   openGraph: {
     type: "website",
-    locale: "en_US",
+    locale: "en_IN",
     url: "https://entraiot.com",
-    title: "Entraiot Solutions - Enterprise IoT & AI Solutions",
-    description: "Trusted IoT & AI solutions for 8+ industries. Proven 150-300% ROI, 40% cost reduction. Expert deployment, 24/7 support.",
+    title: "IoT & AI Solutions Company in Chennai, India | Entraiot Solutions",
+    description: "Chennai-based IoT & AI solutions company serving 8+ industries across India. Proven 150-300% ROI, 40% cost reduction. Expert deployment, 24/7 support.",
     siteName: "Entraiot Solutions",
     images: [
       {
-        url: "https://entraiot.com/logo.webp",
+        url: "https://entraiot.com/og-image.jpg",
         width: 1200,
         height: 630,
         alt: "Entraiot Solutions - IoT & AI Solutions",
@@ -34,23 +33,23 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Entraiot Solutions - Enterprise IoT & AI Solutions",
-    description: "Trusted IoT & AI solutions for 8+ industries. Proven 150-300% ROI, 40% cost reduction. Expert deployment, 24/7 support.",
-    images: ["https://entraiot.com/logo.webp"],
+    title: "IoT & AI Solutions Company in Chennai, India | Entraiot Solutions",
+    description: "Chennai-based IoT & AI solutions company serving 8+ industries across India. Proven 150-300% ROI, 40% cost reduction. Expert deployment, 24/7 support.",
+    images: ["https://entraiot.com/og-image.jpg"],
   },
 };
 
 export default function Home() {
   return (
     <>
-      <Script
+      <script
         id="homepage-schema"
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify(homepageStructuredData),
         }}
       />
-      <Script
+      <script
         id="faq-schema"
         type="application/ld+json"
         dangerouslySetInnerHTML={{

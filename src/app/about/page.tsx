@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Script from "next/script";
 import About from "@/components/sections/about";
 import { aboutPageStructuredData, breadcrumbStructuredData } from "@/lib/structured-data";
 import Breadcrumbs from "@/components/ui/breadcrumbs";
@@ -21,14 +20,14 @@ export const metadata: Metadata = {
 export default function AboutPage() {
   return (
     <>
-      <Script
+      <script
         id="about-page-schema"
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify(aboutPageStructuredData),
         }}
       />
-      <Script
+      <script
         id="breadcrumb-schema"
         type="application/ld+json"
         dangerouslySetInnerHTML={{

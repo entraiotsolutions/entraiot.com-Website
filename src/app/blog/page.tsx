@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Script from "next/script";
 import BlogSection from "../../components/sections/blog";
 import Breadcrumbs from "@/components/ui/breadcrumbs";
 import { blogPageStructuredData } from "@/lib/structured-data";
@@ -21,7 +20,7 @@ export const metadata: Metadata = {
 export default function BlogPage() {
   return (
     <>
-      <Script
+      <script
         id="blog-page-schema"
         type="application/ld+json"
         dangerouslySetInnerHTML={{

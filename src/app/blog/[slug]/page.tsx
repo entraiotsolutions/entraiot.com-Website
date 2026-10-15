@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import Script from "next/script";
 import Link from "next/link";
 import { 
   Calendar, 
@@ -316,7 +315,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
 
   return (
     <>
-      <Script
+      <script
         id="blog-post-structured-data"
         type="application/ld+json"
         dangerouslySetInnerHTML={{

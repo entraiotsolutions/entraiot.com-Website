@@ -1,0 +1,38 @@
+# Entraiot Solutions
+
+> Entraiot Solutions (Entraiot Solutions Private Limited) is a Chennai, India based IoT and AI solutions company. It delivers end-to-end IoT deployment, real-time dashboards, predictive maintenance, secure network integration, RFID/NFC solutions and custom application development for industries across India.
+
+## Company facts
+- Name: Entraiot Solutions Private Limited
+- Website: https://entraiot.com
+- Location: W-126, 3rd Floor, 3rd Ave, Anna Nagar, Chennai, Tamil Nadu 600040, India
+- Service area: Chennai, Tamil Nadu and all of India
+- Founder & CEO: Salvin Jones
+- Email: bde@entraiot.com
+- Phone: +91 99444 42061, +91 81245 45524
+- Business hours: Monday to Friday, 09:00-18:00 IST
+
+## Services
+- End-to-End IoT Deployment: sensor integration to cloud analytics
+- Real-Time Dashboards: instant insight from connected devices
+- Predictive Maintenance: AI that forecasts equipment issues before they happen
+- Secure Network Integration: encrypted, protected data flow across IoT nodes
+- Application Development: custom apps powered by IoT and AI
+- Custom UI/UX Interfaces for IoT devices
+
+## Industries served
+Logistics, Manufacturing, Hospitality, Energy Management, Smart Cities, Healthcare, Smart Retail, Agriculture.
+
+## Key pages
+- [Home](https://entraiot.com/): overview of IoT & AI solutions
+- [Solutions](https://entraiot.com/solutions): the six core service offerings
+- [Industries](https://entraiot.com/industries): industry-specific IoT solutions
+- [Products](https://entraiot.com/products): UHF RFID, NFC and BLE devices
+- [Portfolio](https://entraiot.com/portfolio): delivered projects
+- [About](https://entraiot.com/about): company, mission, vision and team
+- [Blog](https://entraiot.com/blog): articles on RFID, NFC, IoT and AI
+- [Resources](https://entraiot.com/resources): guides and case studies
+- [Contact](https://entraiot.com/contact): free consultation and appointment booking
+
+## Optional
+- [Sitemap](https://entraiot.com/sitemap.xml)
